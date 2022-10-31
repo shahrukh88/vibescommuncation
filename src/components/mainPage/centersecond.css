@@ -1,0 +1,240 @@
+.centersecond{
+
+}
+.logodarkblue{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 55%;
+    width: 7.5%;
+}
+.skylogo{
+    float: right;
+    width: 30%;
+}
+.technologytext1{
+    float: left;
+margin-top: 10%;
+margin-left: 6%;
+font-family: 'Oswald';
+font-weight: 400;
+font-size: 2.5vw;
+color: #0E5673;
+}
+.technologytext2{
+    float: left;
+    margin-top: 12.6%;
+margin-left: -19%;
+font-family: 'Oswald';
+font-weight: 400;
+font-size: 3.3vw;
+color: #104D73;}
+.loretext2{
+    float: left;
+    margin-top: 17.5%;
+margin-left: -27.5%;
+font-family: 'Oswald';
+font-weight: 300;
+font-size: 1.2vw;
+color: #104D73;
+}
+.seetext{
+    float: left;
+    margin-top: 21.5%;
+margin-left: -39.8%;
+font-family: 'Oswald';
+font-weight: 500;
+font-size: 1.4vw;
+color: #173649;
+}
+.linemain1{
+    float: left;
+    width: 9%;
+    margin-top: 24%;
+    margin-left: -39.8%;
+    border: 2px solid #88F2E8;
+
+}
+.circleblue{
+    clear: both;  display: block; position: relative; 
+ margin-left: 39%;
+ width: 10%;
+}
+.skylogo2{
+    width: 30%;
+}
+.phone1{
+    position: absolute;
+    width: 25%;
+    margin-left: -29%;
+    margin-top: 4.8%;
+}
+.geartext{
+    float: right;
+    margin-right: 31.3%;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 2.7vw;
+    margin-top: 6%;
+    color: #104D73;
+}
+.loretext3{
+    float: right;
+    margin-top: -23.3%;
+margin-right:12%;
+font-family: 'Oswald';
+font-weight: 300;
+font-size: 1.2vw;
+color: #104D73;
+}
+.dealtext{
+    float: right;
+    margin-top: -19.3%;
+margin-right:37.4%;
+font-family: 'Oswald';
+font-weight: 500;
+font-size: 1.6vw;
+color: #173649;
+cursor: pointer;
+}
+.arrow1{
+    color: #0E5673;
+    font-size: 1.8vw;
+    
+}
+.linemain2{
+    float: right;
+    width: 9%;
+    margin-top: -16.2%;
+    margin-right: 38.1%;
+    border: 2px solid #88F2E8;
+
+}
+.logodarkblue2{
+    width: 6%;
+    margin-top: 23%;
+    margin-left: 3%;
+}
+.paragraphs{
+    float: left;
+    width: 70%;
+}
+.context1{
+    margin-top: 10%;
+    margin-left: 14%;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 2.8vw;
+    color: #104D73;
+
+}
+.lorecon{
+margin-top: -2%;    
+margin-left:14%;
+font-family: 'Oswald';
+font-weight: 300;
+font-size: 1.2vw;
+color: #104D73;
+}
+.startedbutton{
+    font-family: 'Oswald';
+    width: 14%;
+    margin-left: 14%;
+    font-weight: 400;
+    font-size: 1.2vw;
+    text-align: center;
+    color: #173649;
+    background: #88F2E8;
+    border-radius: 8px;
+
+}
+.phone2{
+    float: right;
+    width: 30%;
+}
+.logodarkblue3{
+    position: absolute;
+    width: 6%;
+    margin-top: 35%;
+    margin-left: 28%;
+}
+.circleblue2{
+    width: 12%;
+    margin-top: 5%;
+    margin-left: 50%;
+}
+.clearfloat{
+    clear: both;  display: block; position: relative; 
+
+}
+.taketext{
+
+    margin-top: 7%;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.2vw;
+    color: #173649;
+    text-align: center;
+
+}
+.bxlast{
+    float: left;
+    width: 38%;
+    margin-top: 2%;
+}
+.bxtxt1{
+    margin-left: 22%;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-size: 1.9vw;
+    font-weight: 400;
+    color: #104D73;
+}
+.bxtxt2{
+    margin-top: -3.4%;
+    margin-left: 22%;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-size: 1.2vw;
+    font-weight: 300;
+    color: #104D73;
+}
+.bxlast2{
+    float: left;
+    width: 30%;
+    margin-top: 2%;
+}
+.bxtxt1a{
+    margin-left: 2.5%;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-size: 1.9vw;
+    font-weight: 400;
+    color: #104D73;
+}
+.bxtxt2b{
+    margin-top: -3.4%;
+    margin-left: 2.5%;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-size: 1.2vw;
+    font-weight: 300;
+    color: #104D73;
+}
+.bxtxt1c{
+    margin-left: -2%;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-size: 1.9vw;
+    font-weight: 400;
+    color: #104D73;
+}
+.bxtxt2d{
+    margin-top: -3.4%;
+    margin-left: -2%;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-size: 1.2vw;
+    font-weight: 300;
+    color: #104D73;
+}

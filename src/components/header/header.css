@@ -1,0 +1,39 @@
+.headermain{
+    box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.12);
+      width: 100%;
+  float: left;
+padding-bottom: 1%;
+  color: white;
+  
+  
+}
+.headerlogo{
+    float: left;
+    width: 8.5%;
+margin-left: 8%;
+margin-top: 2%;
+}
+.loginbtn{
+float: left;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 1.2vw;
+    color: #104E71;
+    margin-top: 4.6%;
+    margin-left: 54%;
+}
+.gstartbtn{
+    float: left;
+    width: 10%;
+    font-family: 'Oswald';
+    font-weight: 500;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    margin-top: 4.2%;
+    margin-left: 5%;
+    background-color: #104D73;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: .5%;
+}

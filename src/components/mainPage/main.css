@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+.main{
+margin-top: 0%;
+float: left;
+width: 100%;
+}
+  
+  .nbartext{
+    margin-top: 1.5%;
+float: left;
+margin-left: 3%;
+color: #104E71;
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 1.5vw;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+.nbartext2{
+    float: left;
+    margin-top: 1.5%;
+    margin-left: 8%;
+    color: #104E71;
+            text-align: center;
+        font-family: 'Oswald';
+        font-size: 1.5vw;
+        font-weight: 500;
+        cursor: pointer;
+        text-decoration: none !important;
+    }  
+
+.circle1{
+    width: 10%;
+    margin-left: 1%;
+ float: left;
+}
+.circle2{
+float: right;
+    width:8%;
+
+
+}
+.main2{
+    clear: both;  display: block; position: relative; 
+}
+.allonetext{
+    font-family: 'Oswald';
+    font-weight: 400;
+    color: #104D73;
+    font-size: 4.5vw;
+    margin-left: 8%;
+}
+.phonetext{
+    font-family: 'Oswald';
+    font-weight: 400;
+    color: #88F2E8;
+    font-size: 7.8vw;
+    margin-left: 8%;
+    margin-top: -4%;
+}
+.prgtext{
+    font-family: 'Oswald';
+    font-weight: 300;
+    color: #104D73;
+    font-size: 1.5vw;
+    margin-left: 8%;
+    margin-top: -2%;
+}
+.mainimage{
+    float: right;
+    width: 38%;
+    margin-right: 2%;
+    margin-top: -27%;
+}

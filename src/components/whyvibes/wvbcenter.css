@@ -1,0 +1,33 @@
+.wvbctxt1
+{
+    margin-top: 8%;
+    margin-left: 30%;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 3vw;
+    text-transform: uppercase;
+    color: #104E71;
+}
+.wvbctxt2
+{
+    margin-top: -2.5%;
+    margin-left: 30%;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 1.3vw;
+    text-transform: uppercase;
+    color: black;
+}
+.wvbcircle1{
+    position: absolute;
+    margin-top: -1%;
+    width: 15.3%;
+    margin-left: 8%;
+}
+.wvbbs1{
+    position: absolute;
+    margin-top: -.25%;
+    width: 13.8%;
+    margin-left: 8.74%;
+    border-radius: 50%;
+}

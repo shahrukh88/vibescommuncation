@@ -1,0 +1,44 @@
+.wvbtext1{
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 3vw;
+    text-transform: uppercase;
+    color: #104E71;
+    margin-left: 8%;
+    margin-top: 8%;
+
+}
+.wvbtext2{
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 6vw;
+    text-transform: uppercase;
+    color: #104E71;
+    margin-left: 8%;
+    margin-top: -5%;
+
+}
+.wvbtext3{
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 3vw;
+    text-transform: uppercase;
+    color: #104E71;
+    margin-left: 8%;
+    margin-top: -7.8%;
+
+}
+.wvbtext4{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 1.2vw;
+    color: #000000;
+    margin-left: 8%;
+    margin-top: -2.9%;
+
+}
+.line1wvb{
+    margin-top: 10%;
+    border: 1px solid #077F8D;
+    width: 90%;
+}

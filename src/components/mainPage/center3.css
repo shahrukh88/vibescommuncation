@@ -1,0 +1,54 @@
+.center3{
+margin-top: 37%;
+}
+
+.center3text1{
+    float: left;
+    margin-left: 9%;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5vw;
+    color: #104D73;
+}
+.box1{
+    margin-left: 5%;
+    float: left;
+    border: 3px solid #104D73;
+    border-radius: 20px;
+    width: 18%;
+}
+.box1text1{
+    margin-top: 6%;
+    margin-left: 10%;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    color: #104D73;
+}
+.box1text2{
+    margin-top: -14%;
+    margin-left: 10%;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 5vw;
+    color: #104D73;
+}
+.box1text3{
+    margin-top: -12%;
+    margin-left: 10%;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.7vw;
+    color: #104D73;
+}
+.box2{
+    margin-left: 1.5%;
+    float: left;
+    border: 3px solid #104D73;
+    border-radius: 20px;
+    width: 18%;
+}

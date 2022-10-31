@@ -1,0 +1,39 @@
+.pmc2txt1{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 5vw;
+    color: #104E71;
+    text-align: center; 
+}
+.sms{
+    margin-left: 18.5%;
+    width: 9.5%;
+}
+.pmc2txt2{
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size:  1.4vw;
+    color: #104E71;
+    text-transform: uppercase;
+    margin-left: 20.5%;
+    margin-top: .7%;
+
+}
+.pmc2txt3{
+    margin-top: -1%;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size:  1.2vw;
+    color: #000000;
+   text-transform: uppercase;
+  text-align: center;
+  margin-right: 52%;
+}
+hr.pmc2line1{
+   position: absolute;
+    width: 40.2%;
+    border: 1px dashed  #104E71;
+    margin-top: 9%;
+    margin-left: 28.1%;
+
+}

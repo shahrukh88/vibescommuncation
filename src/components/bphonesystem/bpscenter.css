@@ -1,0 +1,67 @@
+.bpstxtc1{
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 4.5vw;
+    text-transform: uppercase;
+    color: #104E71;
+    margin-left: 55%;
+}
+.bpstxtc2{
+    margin-top: -.1%;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 1.1vw;
+    text-transform: uppercase;
+    color: #104E71;
+    margin-left: 62%;
+}
+.bpscircle2{
+    position: absolute;
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.bpsskylogoc1{
+    position: absolute;
+    width: 27%;
+    margin-top: 6.5%;
+    margin-left: 11.6%;
+}
+.bpsman1{
+    position: absolute;
+    width: 25.5%;
+    margin-top: 3.40%;
+    margin-left: 12.3%;
+    border-bottom-right-radius:45% ;
+    border-bottom-left-radius:45% ;
+}
+.bpsm{
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 11.2%;
+    width: 5%;
+}
+.bpslineh{
+    position: absolute;
+    margin-left: 57.5%;
+    margin-top: 16%;
+    width: .1%;
+}
+.bpsp{
+    position: absolute;
+    margin-left: 55.3%;
+    margin-top: 19%;
+    width: 4.7%;
+}
+.bpslineh2{
+    position: absolute;
+    margin-left: 57.5%;
+    margin-top: 23.9%;
+    width: .12%;
+}
+.bpsmsg{
+    position: absolute;
+    margin-left: 55.3%;
+    margin-top: 27.5%;
+    width: 4.7%;
+}

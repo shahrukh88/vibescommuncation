@@ -1,0 +1,49 @@
+.startupc2tex1{
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 2.3vw;
+    text-align: center;
+    text-transform: uppercase;
+    color: #104E71;
+}
+.startupc2tex2{
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 1vw;
+    text-align: center;
+    text-transform: uppercase;
+    color: #104E71;
+    margin-top: -1.5%;
+}
+.startupc2tex3{
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 1.4vw;
+   margin-left: 8%;
+    text-transform: uppercase;
+    color: #104E71;
+    margin-top: 5%;
+}
+.startupc2tex4{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 1.1vw;
+   margin-left: 8%;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: -1%;
+}
+hr.startupc2line1{
+    position: absolute;
+     width: 24.2%;
+     border: 1px dashed #104E71;
+     margin-top: -1.5%;
+     margin-left: 54%;
+ 
+ }
+ .startupc2pic1{
+    position: absolute;
+    margin-top: -5.1%;
+    margin-left: 78.6%;
+    width: 7%;
+ }

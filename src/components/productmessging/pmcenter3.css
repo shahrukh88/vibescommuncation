@@ -1,0 +1,46 @@
+.pmcenter3{
+margin-top: 6%;
+}
+.pmcenter3tri{
+    background: #104E71;
+    text-align: center; 
+    color: white;
+    font-size: 1.4vw;
+ align-items: center;
+    font-family: 'Oswald';
+    font-weight: 500;
+    text-transform: uppercase;
+padding-top: 5%;
+padding-bottom: 5%;
+}
+.pmc3txt1{
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 2.7vw;
+    text-align: center;
+    text-transform: uppercase;
+    color: #077F8D;
+    margin-top: 5%;
+}
+.pmbox1{
+    padding: 1%;
+    margin-left: 9%;
+    margin-top: 5%;
+    border: 2px solid #104E71;
+    border-radius: 25px;
+    width: 21%;
+    align-items: center;
+text-align: center;
+}
+.handsphone{
+    width: 25%;
+}
+.pmc3txt2{
+
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 1.2vw;
+    text-align: center;
+    text-transform: uppercase;
+    color: #077F8D;
+}

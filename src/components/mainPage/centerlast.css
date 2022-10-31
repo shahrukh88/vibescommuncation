@@ -1,0 +1,193 @@
+.centerlast{
+
+}
+.centerlasttxt1{
+    margin-top: 18%;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6vw;
+    text-align: center;
+    color: #173649;
+}
+.centerlasttxt2{
+    margin-top: -2%;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.6vw;
+    text-align: center;
+    color: #173649;
+}
+.bx3{
+    margin-top: 2%;
+    float: left;
+    width: 25%;
+}
+.boxlast{
+    margin-left: 27.2%;
+    width: 80%;
+    background: #D9D9D9;
+    border-radius: 20px;
+    height: 40vh;
+    color:#D9D9D9;
+
+}
+.bx3a{
+    float: left;
+    width: 25%;
+    margin-top: 2%;
+}
+.boxlasta{
+    margin-left: 15%;
+    width: 80%;
+    background: #D9D9D9;
+    border-radius: 20px;
+    height: 40vh;
+    color:#D9D9D9;
+
+}
+.boxlastc{
+    margin-left: 2%;
+    width: 80%;
+    background: #D9D9D9;
+    border-radius: 20px;
+    height: 40vh;
+    color:#D9D9D9;
+
+}
+.boxlastd{
+    margin-left: -10%;
+    width: 80%;
+    background: #D9D9D9;
+    border-radius: 20px;
+    height: 40vh;
+color:#D9D9D9;
+}
+.bx3text1{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.2vw;
+    text-align: center;
+    color: #173649;
+    margin-left: 29%;
+    margin-top: 4%;
+}
+.bx3text2{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.2vw;
+    text-align: center;
+    color: #173649;
+    margin-left: 8%;
+    margin-top: 4%;
+}
+.bx3text3{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.2vw;
+    text-align: center;
+    color: #173649;
+    margin-left: -21%;
+    margin-top: 4%;
+}
+.bx3text4{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.2vw;
+    text-align: center;
+    color: #173649;
+    margin-left: -41%;
+    margin-top: 4%;
+}
+.signtext{
+    margin-top: 10%;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vw;
+    text-align: center;
+    color: #173649;
+}
+.lasttxtlorem{
+    margin-top: -1%;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.6vw;
+    text-align: center;
+    color: #173649;
+}
+.ticklogo{
+    float: left;
+    width: 2%;
+    margin-top: 5%;
+    margin-left: 21%;
+}
+.ticktext{
+    float: left;
+    margin-left: 1%;
+    margin-top: 4.9%;
+    font-family: 'Oswald';
+    font-weight: 300;
+    font-size: 1.3vw;
+    color: #173649;
+}
+.ticklogob{
+    float: left;
+    width: 2%;
+    margin-top: 5%;
+    margin-left: 7%;
+}
+.ticklogoc{
+    float: left;
+    width: 2%;
+    margin-top: .6%;
+    margin-left: 21%;
+}
+.ticktextc{
+    float: left;
+    margin-left: 1%;
+    margin-top: .4%;
+    font-family: 'Oswald';
+    font-weight: 300;
+    font-size: 1.3vw;
+    color: #173649;
+}
+.ticklogod{
+    float: left;
+    width: 2%;
+    margin-top: .6%;
+    margin-left: 6.1%;
+}
+.ticklogoe{
+    float: left;
+    width: 2%;
+    margin-top: .6%;
+    margin-left: 8.4%;
+}
+.signupbutton{
+    margin-top: 2%;
+    background: #104D73;
+    border-radius: 32px;
+   width: 10%;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 1.3vw;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left:45%;
+    padding: .1%;
+    cursor: pointer;
+}
+
+.bottom{
+    margin-top: 10%;
+    width: 100%;
+    height: 30vh;
+    background: #173649;
+}

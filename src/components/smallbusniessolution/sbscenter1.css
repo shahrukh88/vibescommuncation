@@ -1,0 +1,58 @@
+.sbsc1txt1{
+    margin-top: 4%;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 2.2vw;
+    color: #104E71;
+    text-align: center;
+}
+.sbscircle1c1{
+    width: 6%;
+    margin-top: 3%;
+    margin-left: 16%;
+}
+.sbsc1log1
+{  
+    position: absolute;
+    width: 3.3%;
+     margin-top: 4.2%;
+    margin-left: 17.3%;
+}
+.sbslineformid1{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 22%;
+    width: 24%;
+}
+.sbsc1txt2{
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 1.4vw;
+    color: #104E71; 
+    margin-left: 9.5%;  
+}
+.sbsc1txt3{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1vw;
+    text-align: center;
+    color: #077F8D;
+    margin-right: 61%;
+}
+.sbsc2fem1{
+    position: absolute;
+    width: 15.5%;
+    margin-top: -2.03%;
+    margin-left: 9.4%;
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%;
+}
+.sbsc2fem2{
+    position: absolute;
+    width: 19.5%;
+    margin-top: 3.2%;
+    margin-left: 66.3%;
+    border-bottom-left-radius: 46%;
+    border-bottom-right-radius: 43%;
+}

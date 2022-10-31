@@ -1,0 +1,48 @@
+.centerfirst{
+    clear: both;  display: block; position: relative; 
+    width: 100%;
+    background: #173649;
+    margin-top: 24%;
+    padding: 8%;
+    
+
+}
+.cfirsttext1{
+   margin-left: 4%;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5vw;
+    color: #88F2E8;
+}
+.cfirsttext2{
+    margin-top: -1%;
+    margin-left: 4%;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.6vw;
+    color: #FFFFFF;
+}
+.centerlogo{
+    position: absolute;
+    width: 23%;
+    margin-left: 55%;
+    margin-top: -18%;
+}
+
+.makesimple{
+margin-top: 8%;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 5vw;
+    text-align: center;
+    color: #173649;
+}
+.loretext{
+    font-family: 'Oswald';
+    font-weight: 300;
+    font-size: 1.9vw;
+    text-align: center;
+    color: #173649;
+}
