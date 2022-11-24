@@ -1,3 +1,7 @@
+.pmcenter2{
+  margin-bottom: 0%;
+margin-top: 0%;
+}
 .pmc2txt1{
     font-family: 'Oswald';
     font-weight: 400;
@@ -35,5 +39,104 @@ hr.pmc2line1{
     border: 1px dashed  #104E71;
     margin-top: 9%;
     margin-left: 28.1%;
+
+}
+
+.bpscenter3txt2amb,.bpscenter3txt2cmb,.bpscenter3txt2bmb,.bpscenter3txt2mb,.bpscenter3txt2dmb,.bpscenter3txt2emb,.bpsc3pic1amb,.bpsc3pic1bmb,.bpsc3pic1cmb,.bpsc3pic1dmb,.bpsc3pic1emb,.bpsc3pic1mb{
+    font-size: 0px;
+    }
+  .bpsc3pic1cmb,.bpsc3pic1dmb,.bpsc3pic1emb,.bpsc3pic1mb,.bpsc3pic1amb,.bpsc3pic1bmb{
+    display: none;
+  }  
+@media only screen and (max-width: 750px) {
+    .pmcenter2{
+   margin-bottom: 230%;
+    }
+    .pmc2txt1{
+        font-family: 'Oswald';
+        font-weight: 400;
+        font-size: 9.5vw;
+        color: #104E71;
+        text-align: center; 
+    }
+.sms,.pmc2txt2,.pmc2txt3{
+    display: none;
+}
+hr.pmc2line1{
+    position: absolute;
+     width: 0.2%;
+     border: 0px dashed  #104E71;
+     margin-top: 9%;
+     margin-left: 28.1%;
+ 
+ }
+ .bpscenter3txt2mb{
+    position: absolute;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 4vw;
+    text-transform: uppercase;
+    margin-left: 13.8%;
+    margin-top: 37%;
+    color: #104E71;
+    display: block;
+
+}
+.bpscenter3txt2amb{
+    position: absolute;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 4vw;
+    text-transform: uppercase;
+    color: #104E71;
+    margin-left: 71%;
+  margin-top: 37%;
+}
+
+
+.bpscenter3txt2bmb{
+    position: absolute;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 4vw;
+    text-transform: uppercase;
+    color: #104E71;
+    margin-left: 15.6%;
+  margin-top: 114.5%;
+}
+.bpscenter3txt2cmb{
+    position: absolute;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 4vw;
+    text-transform: uppercase;
+    color: #104E71;
+    margin-left: 63.5%;
+  margin-top: 114.5%;
+}
+
+.bpscenter3txt2dmb{
+    position: absolute;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 4vw;
+    text-transform: uppercase;
+    color: #104E71;
+
+    margin-left: 12.7%;
+    margin-top: 196%;
+    
+}
+.bpscenter3txt2emb{
+    position: absolute;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 4vw;
+    text-transform: uppercase;
+    color: #104E71;
+
+    margin-left: 68.3%;
+  margin-top: 195.6%;
+}
 
 }

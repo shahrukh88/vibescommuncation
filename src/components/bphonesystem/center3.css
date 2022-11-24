@@ -1,3 +1,6 @@
+.bpscenter3{
+    margin-bottom: 58%;
+}
 .bpscenter3txt1{
     font-family: 'Oswald';
     font-weight: 500;
@@ -5,29 +8,36 @@
     text-transform: uppercase;
     color: #104E71;
     text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 .bpsc3pic1{
-    width: 12%;
+    position: absolute;
+   width: 12%;
     margin-left: 10%;
 }
 .bpscenter3txt2{
+    position: absolute;
     font-family: 'Oswald';
     font-weight: 500;
     font-size: 1.4vw;
     text-transform: uppercase;
     color: #000000;
     margin-left: 11.3%;
-    
+    margin-top: 13.7%;
+
 }
 .bpscenter3txt3{
+position: absolute;
     text-align: center;
     font-family: 'Oswald';
     font-weight: 400;
     font-size: .9vw;
     text-transform: uppercase;
     color: #000000;
-    margin-right: 67%;
-    margin-top: -.5%;
+    margin-top: 16.8%;
+    margin-left: 10%;
+
 }
 .bpsc3pic1a{
     position: absolute;
@@ -111,28 +121,32 @@
 
 
 .bpsc3pic1d{
+    position: absolute;
     width: 12%;
     margin-left: 32.5%;
-    margin-top: 2%;
+    margin-top: 28%;
 }
 .bpscenter3txt2d{
+    position: absolute;
     font-family: 'Oswald';
     font-weight: 500;
     font-size: 1.4vw;
     text-transform: uppercase;
     color: #000000;
-    margin-left: 34%;
+    margin-left: 34.3%;
+    margin-top: 41.5%;
     
 }
 .bpscenter3txt3d{
+    position: absolute;
     text-align: center;
     font-family: 'Oswald';
     font-weight: 400;
     font-size: .9vw;
     text-transform: uppercase;
     color: #000000;
-    margin-right: 23%;
-    margin-top: -.5%;
+    margin-left: 32.8%;
+    margin-top: 45%;
 
 }
 
@@ -140,7 +154,7 @@
     position: absolute;
     width: 12%;
     margin-left: 55%;
-    margin-top: 2%;
+    margin-top: 28%;
 
 }
 .bpscenter3txt2e{
@@ -150,8 +164,8 @@
     font-size: 1.4vw;
     text-transform: uppercase;
     color: #000000;
-    margin-left: 56%;
-  margin-top: 15.6%;
+    margin-left: 55.5%;
+  margin-top: 41.5%;
 }
 .bpscenter3txt3e{
     position: absolute;
@@ -161,6 +175,213 @@
     font-size: .9vw;
     text-transform: uppercase;
     color: #000000;
-    margin-left:56%;
-    margin-top: 18.7%;
+    margin-left:55.2%;
+    margin-top: 45%;
+}
+.bpscenter3txt3amb,.bpscenter3txt3bmb,.bpscenter3txt3cmb,.bpscenter3txt3dmb,.bpscenter3txt3emb,.bpscenter3txt3mb,.bpsclasttxt2mb,.bpstext3mmb{
+    display: none;
+}
+@media only screen and (max-width: 750px) {
+    .bpscenter3{
+        margin-bottom: 230%;
+    }
+    .bpscenter3txt1{
+        font-family: 'Oswald';
+        font-weight: 500;
+        font-size: 8vw;
+        text-transform: uppercase;
+        color: #104E71;
+        text-align: center;
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
+    .bpsc3pic1{
+        position: absolute;
+       width: 34%;
+        margin-left: 5%;
+    }
+    .bpscenter3txt2{
+        position: absolute;
+        font-family: 'Oswald';
+        font-weight: 500;
+        font-size: 4vw;
+        text-transform: uppercase;
+        color: #000000;
+        margin-left: 8%;
+        margin-top: 37%;
+    
+    }
+    .bpscenter3txt3{
+    position: absolute;
+        text-align: center;
+        font-family: 'Oswald';
+        font-weight: 400;
+        font-size: 3vw;
+        text-transform: uppercase;
+        color: #000000;
+        margin-top: 46.8%;
+        margin-left: 10%;
+display: none;
+    }
+    .bpscenter3txt3mb{
+        position: absolute;
+        text-align: center;
+        font-family: 'Oswald';
+        font-weight: 400;
+        font-size: 3vw;
+        text-transform: uppercase;
+        color: #000000;
+        margin-top: 45%;
+        margin-left: 8%;
+        display: block;
+        }
+    .bpsc3pic1a{
+        position: absolute;
+        width: 34%;
+        margin-left: 61%;
+    }
+    .bpscenter3txt2a{
+        position: absolute;
+        font-family: 'Oswald';
+        font-weight: 500;
+        font-size: 4vw;
+        text-transform: uppercase;
+        color: #000000;
+        margin-left: 71%;
+      margin-top: 37%;
+    }
+    .bpscenter3txt3a,.bpscenter3txt3b,.bpscenter3txt3c,.bpscenter3txt3d,.bpscenter3txt3e{
+        display: none;
+    }
+    .bpscenter3txt3amb{
+        position: absolute;
+        text-align: center;
+        font-family: 'Oswald';
+        font-weight: 400;
+        font-size: 3vw;
+        text-transform: uppercase;
+        color: #000000;
+        margin-left:63.5%;
+        margin-top: 45%;
+        display: block;
+    }
+    .bpsc3pic1b{
+        position: absolute;
+        width: 34%;
+        margin-left: 5%;
+        margin-top: 78%;
+    }
+    .bpscenter3txt2b{
+        position: absolute;
+        font-family: 'Oswald';
+        font-weight: 500;
+        font-size: 4vw;
+        text-transform: uppercase;
+        color: #000000;
+        margin-left: 8.5%;
+      margin-top: 114.5%;
+    }
+    .bpscenter3txt3bmb{
+        position: absolute;
+        text-align: center;
+        font-family: 'Oswald';
+        font-weight: 400;
+        font-size: 3vw;
+        text-transform: uppercase;
+        color: #000000;
+        margin-left:9.7%;
+        margin-top: 123%;
+        display: block;
+    }
+    
+    .bpsc3pic1c{
+        position: absolute;
+        width: 34%;
+        margin-left: 61%;
+        margin-top: 78%;
+    }
+    .bpscenter3txt2c{
+        position: absolute;
+        font-family: 'Oswald';
+        font-weight: 500;
+        font-size: 4vw;
+        text-transform: uppercase;
+        color: #000000;
+        margin-left: 65.4%;
+      margin-top: 114.5%;
+    }
+    .bpscenter3txt3cmb{
+        position: absolute;
+        text-align: center;
+        font-family: 'Oswald';
+        font-weight: 400;
+        font-size: 3vw;
+        text-transform: uppercase;
+        color: #000000;
+        margin-left:63.7%;
+        margin-top: 123%;
+        display: block;
+    }
+    
+    
+    .bpsc3pic1d{
+        position: absolute;
+        width: 34%;
+        margin-left: 5%;
+        margin-top: 149.5%;
+    }
+    .bpscenter3txt2d{
+        position: absolute;
+        font-family: 'Oswald';
+        font-weight: 500;
+        font-size: 4vw;
+        text-transform: uppercase;
+        color: #000000;
+        margin-left: 10%;
+        margin-top: 187%;
+        
+    }
+    .bpscenter3txt3dmb{
+        position: absolute;
+        text-align: center;
+        font-family: 'Oswald';
+        font-weight: 400;
+        font-size: 3vw;
+        text-transform: uppercase;
+        color: #000000;
+        margin-left: 7%;
+        margin-top: 195.2%;
+    display: block;
+    }
+    
+    .bpsc3pic1e{
+        position: absolute;
+        width: 34%;
+        margin-left: 61%;
+        margin-top: 149.5%;
+    
+    }
+    .bpscenter3txt2e{
+        position: absolute;
+        font-family: 'Oswald';
+        font-weight: 500;
+        font-size: 4vw;
+        text-transform: uppercase;
+        color: #000000;
+        margin-left: 62.3%;
+      margin-top: 187%;
+    }
+    .bpscenter3txt3emb{
+        position: absolute;
+        text-align: center;
+        font-family: 'Oswald';
+        font-weight: 400;
+        font-size: 3vw;
+        text-transform: uppercase;
+        color: #000000;
+        margin-left:64.7%;
+        margin-top: 195%;
+        display: block;
+    }
+    
 }

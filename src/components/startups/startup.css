@@ -1,4 +1,40 @@
+.startmargin
+{
+    margin-top: 5%;
+}
+.startmargin2
+{
+    margin-top: 12%;
+}
+.startupmaintex1{
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 5.5vw;
+    text-transform: uppercase;
+    color: #104E71;
+    margin-left: 8%;   
+}
+.startupmaintex2{
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 3.1vw;
+    text-transform: uppercase;
+    color: #104E71;
+    margin-left: 8%;  
+    margin-top: -2%; 
+}
+.startupmaintex3{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 1.2vw;
+    color: #000000;
+    margin-left: 8%;
+    margin-top: 0%;
+
+}
+
 .startupc2tex1{
+    margin-top: 5%;
     font-family: 'Oswald';
     font-weight: 500;
     font-size: 2.3vw;
@@ -13,7 +49,7 @@
     text-align: center;
     text-transform: uppercase;
     color: #104E71;
-    margin-top: -1.5%;
+    margin-top: .5%;
 }
 .startupc2tex3{
     font-family: 'Oswald';
@@ -31,7 +67,7 @@
    margin-left: 8%;
     text-transform: uppercase;
     color: #000000;
-    margin-top: -1%;
+    margin-top: -.5%;
 }
 hr.startupc2line1{
     position: absolute;
@@ -47,3 +83,128 @@ hr.startupc2line1{
     margin-left: 78.6%;
     width: 7%;
  }
+ .startupmaintex3mb,.startupc2tex1mb,.startupc2tex2mb,.startupc2tex4mb,.esc2tx1mb,.esc2tx2mb{
+    font-size: 0px;
+ }
+ @media (max-width:750px) {
+    .startmargin
+{
+    margin-top: 3%;
+}
+.startmargin2
+{
+    margin-top: 5%;
+}
+    .startupmaintex1{
+        font-family: 'Oswald';
+        font-weight: 500;
+        font-size: 9vw;
+        text-transform: uppercase;
+        color: #104E71;
+        margin-left: 5%;   
+    }
+    .startupmaintex2{
+        font-family: 'Oswald';
+        font-weight: 500;
+        font-size: 6vw;
+        text-transform: uppercase;
+        color: #104E71;
+        margin-left: 5%;
+        margin-top: -3.4%;
+    }
+    .startupmaintex3{
+        font-family: 'Oswald';
+        font-weight: 400;
+        font-size: 0vw;
+        color: #000000;
+        margin-left: 0%;
+        margin-top: 0%;
+    display: none;
+    }
+    .startupmaintex3mb{
+        font-family: 'Oswald';
+        font-weight: 400;
+        font-size: 4vw;
+        color: #000000;
+        margin-left: 5%;
+        margin-top: -2%;
+    
+    }
+    .startupc2tex1{
+        font-family: 'Oswald';
+        font-weight: 500;
+        font-size: 0vw;
+        text-align: center;
+        text-transform: uppercase;
+        color: #104E71;
+    }
+    .startupc2tex1mb{
+        font-family: 'Oswald';
+        font-weight: 500;
+        font-size: 6.8vw;
+        text-align: center;
+        text-transform: uppercase;
+        color: #104E71;
+    }
+    .startupc2tex2{
+        font-family: 'Oswald';
+        font-weight: 500;
+        font-size: 0vw;
+        text-align: center;
+        text-transform: uppercase;
+        color: #104E71;
+        margin-top: 0%;
+        display: none;
+    }
+    .startupc2tex2mb{
+        font-family: 'Oswald';
+        font-weight: 500;
+        font-size: 3.3vw;
+        text-align: center;
+        text-transform: uppercase;
+        color: #104E71;
+
+    }
+    .startupc2tex3{
+        font-family: 'Oswald';
+        font-weight: 500;
+        font-size: 5vw;
+       margin-left: 5%;
+        text-transform: uppercase;
+        color: #104E71;
+        margin-top: 5%;
+    }
+    .startupc2tex4{
+        font-family: 'Oswald';
+        font-weight: 00;
+        font-size: 0vw;
+       margin-left: 0%;
+        text-transform: uppercase;
+        color: #000000;
+        margin-top: 0%;
+        display: none;
+    }
+    .startupc2tex4mb{
+        font-family: 'Oswald';
+        font-weight: 400;
+        font-size: 3.2vw;
+       margin-left: 5%;
+        text-transform: uppercase;
+        color: #000000;
+    margin-top: -2%;
+    }
+    hr.startupc2line1{
+        position: absolute;
+         width: 0%;
+         border: 1px dashed #104E71;
+         margin-top: -1.5%;
+         margin-left: 54%;
+     
+     }
+     .startupc2pic1{
+        position: absolute;
+        margin-top: -5.1%;
+        margin-left: 78.6%;
+        width: 0%;
+     } 
+}

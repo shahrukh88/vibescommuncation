@@ -1,0 +1,190 @@
+.arttext1{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4.6vw;
+    text-align: center;
+    text-transform: uppercase;
+    color: #104E71;
+    margin-top: 1%;
+}
+.arttext2{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3vw;
+    text-align: center;
+    color: #000000;
+    margin-top: 1%;
+}
+hr.artline1{
+  
+    border: 1px solid #077F8D;
+    width: 80%;
+    margin-top: 3%;  
+}
+.articlepic1{
+ width: 100%;
+ margin-top: 3%;   
+}
+.arttext3{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3vw;
+    color: #000000;
+    margin-top: 5%;
+    margin-left: 8%;
+}
+.arttext4{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.8vw;
+margin-left: 8%;
+    text-transform: uppercase;
+    color: #104E71;
+
+}
+.arttext5{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3vw;
+    color: #000000;
+    margin-top: 0%;
+    margin-left: 8%;
+}
+.articlepic2{
+    width: 102%;
+   }
+   .arttext6{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6vw;
+    color: #104E71;
+    margin-top: 0%;
+    margin-left: 8%;
+}
+.arttext7{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.8vw;
+margin-left: 8%;
+    text-transform: uppercase;
+    color: #104E71;
+margin-top: 4%;
+}
+.arttext7mb,.arttext2mb,.arttext3mb,.arttext4mb,.arttext5mb,.arttext6mb,.arttext7mb{
+    display: none;
+}
+@media only screen and (max-width: 750px) {
+    .arttext1{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 8vw;
+        text-align: left;
+        text-transform: uppercase;
+        color: #104E71;
+        margin-top: -2%;
+        margin-left: 5%;
+    }
+    .arttext2{
+        display: none;
+    }
+    .arttext2mb{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size:4vw;
+        text-align: left;
+        color: #000000;
+        margin-top: 1%;
+        margin-left: 5%;
+        display: block;
+    }
+    hr.artline1{
+      
+        border: 1px solid #077F8D;
+        width: 80%;
+        margin-top: 3%;  
+    }
+    .articlepic1{
+     width: 100%;
+     margin-top: 1%;   
+    }
+    .arttext3{
+   display: none;
+    }
+    .arttext3mb{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size:4vw;
+        text-align: left;
+        color: #000000;
+        margin-top: 5%;
+        margin-left: 5%;
+        display: block;
+    }
+    .arttext4{
+        display: none;
+    }
+    .arttext4mb{
+        display: block;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 9vw;
+    margin-left: 5%;
+        text-transform: uppercase;
+        color: #104E71;
+    
+    }
+    .arttext5{
+        display: none;
+    }
+    .arttext5mb{
+        display: block;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 4vw;
+        color: #000000;
+        margin-top: 0%;
+        margin-left: 5%;
+    }
+    .articlepic2{
+        width: 102%;
+        margin-top: -2%;
+       }
+       .arttext6{
+        display: none;
+       }
+       .arttext6mb{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 5vw;
+        color: #104E71;
+        margin-top: 0%;
+        margin-left: 5%;
+    }
+    .arttext7{
+        display: none;
+    }
+    .arttext7mb{
+        display: block;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 9vw;
+    margin-left: 5%;
+        text-transform: uppercase;
+        color: #104E71;
+    margin-top: 4%;
+    }
+}

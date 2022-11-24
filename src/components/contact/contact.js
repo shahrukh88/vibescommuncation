@@ -8,6 +8,7 @@ import elpseleft from '../images/contact/elpseleft.png'
 import elpseright from '../images/contact/elpseright.png'
 import Header2 from '../header/Header2';
 import Footer from '../footer/footer';
+import Headermb from '../header/Headermb';
 
 function Contact() {
   
@@ -18,7 +19,9 @@ function Contact() {
   return (
     <div>
          <Helmet>
-          <title>Contact Us</title>
+          <title>Contact Us | Vibes</title>
+           <meta name="description" content="If you have questions about Vibes, contact us today and discover more about amazing and affordable office phone services & products from anywhere!"/>
+   
      < meta name="viewport" content="width=device-width, initial-scale=1.0"/>
      <meta charset="UTF-8"/>
      <link rel="stylesheet" href="style.css"/>
@@ -31,6 +34,7 @@ function Contact() {
            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
 
        </Helmet>
+       <Headermb/>
        <Header2/>
      <div className='headercontact'>
       <img className='threephones' src={threephones} alt='threephones'/> 
@@ -42,6 +46,8 @@ function Contact() {
 
 <div className='contactcenter'>
 <div className='querytext'>LET’S ANSWER YOUR QUERIES</div>
+<div className='querytextmb'>LET’S ANSWER YOUR<br/> QUERIES</div>
+
 <div className='contactform'>
     <div className='leftsideform'>
     <label for="fname" className='formtext1'>FIRST NAME</label><br/>
@@ -53,7 +59,7 @@ function Contact() {
 
     </div>
     <div className='rightsideform'>
-    <textarea class="form-control"  placeholder='LEAVE A MESSAGE FOR US' rows="9"></textarea>
+    <textarea className="formcontrol"  placeholder='LEAVE A MESSAGE FOR US' rows="9"></textarea>
     </div>
     <div className='clearfloat'>
 </div>
@@ -67,11 +73,11 @@ function Contact() {
     <p className='conltext1'>CONTACT US</p>
     <p className='address'>11757 Katy Fwy Suite 1300<br/>
     Houston,TX 77079,USA<br/>
-  281-868-4880
+  346-500-6555
   </p>
     </div>
     <div className='conlastright'>
-    <iframe title='map' style={{marginLeft:"17%",width:"75%",height:"50vh"}} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3462.896971406914!2d-95.5901152885925!3d29.78062052211144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640db6d816ae4cf%3A0x56ac2e02e19aa2e!2s11757%20Katy%20Fwy%20%231300A%2C%20Houston%2C%20TX%2077079%2C%20USA!5e0!3m2!1sen!2s!4v1667064384020!5m2!1sen!2s"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+    <iframe title='map' className='mapcon' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3462.896971406914!2d-95.5901152885925!3d29.78062052211144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640db6d816ae4cf%3A0x56ac2e02e19aa2e!2s11757%20Katy%20Fwy%20%231300A%2C%20Houston%2C%20TX%2077079%2C%20USA!5e0!3m2!1sen!2s!4v1667064384020!5m2!1sen!2s"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
  </div>
 </div>
 <div className='clearfloat'/>

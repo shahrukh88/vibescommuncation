@@ -1,0 +1,145 @@
+.line1privacy{
+    margin-top: 7%;
+    border: 1px solid #077F8D;
+    width: 90%;
+}
+.privacyt1{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #000000;
+    margin-left: 8%;
+    font-size: 1.1vw;
+    margin-top: 4%;
+
+}
+.privacyt2{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #104E71;
+    margin-left: 8%;
+    font-size: 2.4vw;
+    margin-top: 0%;
+
+}
+.privacyt3{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #104E71;
+    margin-left: 8%;
+    font-size: 2vw;
+    margin-top: 0%;
+
+}
+.privacyt4{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #000000;
+    margin-left: 8%;
+    font-size: 1.1vw;
+    margin-top: 0%;
+    
+}
+.privacytcent1{
+    position: absolute;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin-left: 8%;
+    font-size: 1.3vw;
+    margin-top: 3%;
+    margin-left: 21%;
+    
+}
+.privacyconmb,.privacyt1mb,.privacyt2mb,.privacyt3mb,.privacyt4mb{
+    display: none;
+}
+@media only screen and (max-width: 750px) {
+    .line1privacy{
+        margin-top: -16%;
+        border: 1px solid #077F8D;
+        width: 90%;
+    }
+    .privacyt1{
+        display: none;
+    }
+    .privacyt1mb{
+        display: block;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #000000;
+        margin-left: 5%;
+        font-size: 3.6vw;
+        margin-top: 4%;
+    
+    }
+    .privacyt2{
+        display: none;
+    }
+    .privacyt2mb{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #104E71;
+        margin-left: 5%;
+        font-size: 8.4vw;
+        margin-top: 0%;
+        display: block;
+    
+    }
+    .privacyt3{
+        display: none;
+    }
+    .privacyt3mb{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #104E71;
+        margin-left: 5%;
+        font-size: 5vw;
+        margin-top: 0%;
+    display: block;
+    }
+    .privacyt4{
+        display: none;
+    }
+    .privacyt4mb{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #000000;
+        margin-left: 5%;
+        font-size: 3.6vw;
+        margin-top: 0%;
+        display: block;
+    }
+    .privacyconmb{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        font-size: 3.3vw;
+        margin-top: 0%;
+        padding-top: 10.5%;
+        color: white;
+        display: block;
+    }
+    .privacytcent1{
+ display: none;       
+    }
+}

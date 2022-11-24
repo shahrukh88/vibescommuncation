@@ -31,6 +31,22 @@
     margin-top: -18%;
 }
 
+.centerfirstmb{
+    clear: both;  display: block; position: relative; 
+    width: 0%;
+    background: #173649;
+    margin-top: 0%;
+    padding: 0%;
+    
+
+}
+.cfirsttext1mb{
+     font-size: 0vw;
+     }
+ .cfirsttext2mb{
+    font-size: 0vw;
+}
+
 .makesimple{
 margin-top: 8%;
     font-family: 'Oswald';
@@ -45,4 +61,88 @@ margin-top: 8%;
     font-size: 1.9vw;
     text-align: center;
     color: #173649;
+}
+.makesimplemb{
+
+    font-size: 0vw;
+}
+.loretextmb{
+
+    font-size: 0vw;
+}
+
+@media only screen and (max-width: 750px) {
+    .centerfirst{
+        clear: both;  display: block; position: relative; 
+        width: 0%;
+        background: #173649;
+        margin-top: 0%;
+        padding: 0%;
+        
+    
+    }
+    .cfirsttext1{
+        font-size: 0vw;
+       }
+    .cfirsttext2{
+        font-size: 0vw;
+    }
+    .centerlogo{
+        width: 0%;
+        }
+    
+    .makesimple{
+
+        font-size: 0vw;
+    }
+    .loretext{
+
+        font-size: 0vw;
+    }
+
+    .centerfirstmb{
+        clear: both;  display: block; position: relative; 
+        width: 100%;
+        background: #173649;
+        margin-top: 2%;
+        padding: 8%;
+        
+    
+    }
+    .cfirsttext1mb{
+        text-align: center;
+         font-family: 'Oswald';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 8vw;
+         color: #FFFFFF;
+     }
+     .cfirsttext2mb{
+         margin-top: -1%;
+        text-align: center;
+         font-family: 'Oswald';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 3.6vw;
+         color: #FFFFFF;
+     }
+     .makesimplemb{
+        margin-top: -6%;
+            font-family: 'Oswald';
+            font-weight: 500;
+            font-size: 8vw;
+            text-align: center;
+            color: #104E71;
+                }
+        .loretextmb{
+            font-family: 'Oswald';
+            font-weight: 400;
+            font-size: 4vw;
+            text-align: center;
+            color: #000000;
+            margin-top: -1.5%;
+
+        }
+    
+    
 }

@@ -2,6 +2,7 @@ import './header2.css';
 import React from 'react';
 import {Helmet} from"react-helmet";
 import headerlogo from '../images/mainpageimg/headerlogo.png'
+import Footer from '../footer/footer';
 
 function Header2() {
   
@@ -17,6 +18,7 @@ function Header2() {
 
 <div className='headermain'>
 <img className='headerlogo2' src={headerlogo} alt='headerlogo'/> 
+
 <a href='/main' className='linkheader2'>HOME</a>
 
 <div className="dropdown">
@@ -44,12 +46,13 @@ function Header2() {
 
 <a href='#' className='linkheader2' style={{marginLeft:"2%"}}>LOGIN</a>
 <div className='gettext'>GET STARTED</div>
+<button type="button" class="close" id='closebtn2' data-dismiss="modal">&times;</button>
 
 </div>
 </div>
-
 
     </div>
+    
   );
 }
 

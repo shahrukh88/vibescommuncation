@@ -24,6 +24,9 @@ import esfem2 from '../images/esolutiions/esfem2.png'
 import eslastv from '../images/esolutiions/eslastv.png'
 import esfem3 from '../images/esolutiions/esfem3.png'
 import Footer from '../footer/footer';
+import Headermb from '../header/Headermb';
+import Contact from '../contact/contact';
+import Contact2 from '../contact/contact2';
 
 function Esolution() {
   
@@ -34,38 +37,52 @@ function Esolution() {
   return (
     <div>
          <Helmet>
-          <title>Enterpise Solution</title>
+          <title>Cloud-Based Business Phone Solutions | Vibes</title>
+           <meta name="description" content="Cloud-Based Business Phone Solutions built for your enterprise vibes lets you connect with clients through phone, message, video, and more."/>
+   
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
           <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-       </Helmet>
+< meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     <meta charset="UTF-8"/>
+     <link rel="stylesheet" href="style.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+           <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+           <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+          </Helmet>
      
 <div>
+<Headermb/>  
     <Header/>
     <div className='main'> 
     <a href='/' className='nbartext2'>HOME</a>
-   <a href='/esolution' className='nbartext'>SOLUTIONS</a>
-   <div className="dropdown">
-  <button className="nbartext" style={{border:"none",backgroundColor:"white"}}>BY AUDIENCE&nbsp;&nbsp;
+    <div className="dropdown">
+  <div className="nbartext" style={{border:"none",backgroundColor:"white"}}>PRODUCTS&nbsp;&nbsp;
         <i className="fa fa-caret-down"></i>
-  </button>
+  </div>
+  <div className="dropdown-contentb" style={{marginLeft:"13%",marginTop:"3.38%"}}>
+  <a href="/business+phone+system" style={{color:"#104E71",fontWeight:"400"}}>BUSINESS PHONE SYSTEM</a>
+  <a href="/team+chat+system" style={{color:"#104E71",fontWeight:"400"}}>TEAM CHAT SYSTEM</a>
+  </div>
+</div>
+   <div className="dropdown">
+  <div className="nbartext" style={{border:"none",backgroundColor:"white"}}>SOLUTIONS&nbsp;&nbsp;
+        <i className="fa fa-caret-down"></i>
+  </div>
   <div className="dropdown-content">
-  <a href="#" style={{color:"#104E71",fontWeight:"400"}}>CORPORATIONS	</a>
-  <a href="/sbs" style={{color:"#104E71",fontWeight:"400"}}>SMALL BUSINESSES </a>
+  <a   style={{color:"#104E71",fontWeight:"500",marginLeft:"0%",marginTop:"4%"}}>BY AUDIENCE</a>
+  <a href="/solutions" style={{color:"#104E71",fontWeight:"400"}}>CORPORATIONS	</a>
+  <a href="/small+business+solution" style={{color:"#104E71",fontWeight:"400"}}>SMALL BUSINESSES </a>
   <a href="/startup" style={{color:"#104E71",fontWeight:"400"}}>STARTUPS</a>
   </div>
 </div>
-<a href='/contact' className='nbartext'>CONTACT US</a>
-<div className="dropdown">
-  <button className="nbartext" style={{border:"none",backgroundColor:"white"}}>PRODUCTS&nbsp;&nbsp;
-        <i className="fa fa-caret-down"></i>
-  </button>
-  <div className="dropdown-contentb">
-  <a href="/bphonesystem" style={{color:"#104E71",fontWeight:"400"}}>BUSINESS PHONE SYSTEM</a>
-  <a href="#" style={{color:"#104E71",fontWeight:"400"}}>TEAM CHAT SYSTEM</a>
-  </div>
-</div>
+
     <a href='/whyvibes' className='nbartext'>WHY VIBES &nbsp;?</a>
+    <a href='/blogs' className='nbartext'>BLOGS</a>
+    <a href='/contact' className='nbartext'>CONTACT US</a>
 
    <img className='logodarkblue' src={logodarkblue} alt='circle1'/> 
     <img className='skylogo3' src={skylogo3} alt='circle2'/> 
@@ -77,9 +94,12 @@ function Esolution() {
 <div className='esmain'>
 <img className='ecircle1' src={ecircle1} alt='ecircle1'/> 
 <img className='esmale1' src={esmale1} alt='esmale1'/> 
-<p className='esmaintx1'>VOIP<span className='esmaintx2'>Communications </span></p>
+
+<p className='esmaintx1' style={{marginTop:"5%"}}>VOIP<span className='esmaintx2'>Communications </span></p>
 <p className='esmaintx3'>Solutions for Modern<br/> Enterprises</p>
 <p className='esmaintx4'>Switch to a more dependable and secure Business VoIP system designed for 21st century’s <br/>enterprises. </p>
+<p className='esmaintx4mb'>Switch to a more dependable and secure Business VoIP <br/>system designed for 21st century’s enterprises. </p>
+
 </div>
 <hr className='esline1'/>
 <div className='escenter1'>
@@ -95,10 +115,9 @@ function Esolution() {
 <p className='esc1tx1'>WHY ENTERPRISES LOVE VIBES?</p>
 <p className='esc1tx2'>State of the art technology</p>
 <p className='esc1tx3'>Vibes Communications provides cutting edge VoIP technology that is scalable and flexible to meet the <br/>needs of any business.</p>
-<br/><br/>
+
 <p className='esc1tx2'>seamless Scalability this has to be </p>
 <p className='esc1tx3'>Vibes Communications provides VoIP Communications Solutions for Modern Enterprises. Our solutions <br/> are low total cost of ownership, State of Art Technology, Security & Backups, Scalability, and  <br/>flexibility.</p>
-<br/><br/>
 <p className='esc1tx2'>VoIP for modern enterprises</p>
 <p className='esc1tx3'>Vibes Communications provides a truly scalable VoIP platform that can grow with your business.<br/> Whether you're a small business or a large enterprise, our platform can be customized to fit your<br/> needs.</p>
 
@@ -106,11 +125,24 @@ function Esolution() {
 <div className='escenter2'>
     
     <div className='esc2box1'>
-    <img className='esright1' src={esright1} alt='ecircle2'/> 
-    <img className='esleft1' src={esleft1} alt='ecircle2'/> 
+    <img className='esright1es' src={esright1} alt='ecircle2'/> 
+    <img className='esleft1es' src={esleft1} alt='ecircle2'/> 
+
     <p className='esc2tx1'>Get tranquility of mind with Vibes</p>
+    <p className='esc2tx1mb1'>Get tranquility of<br/> mind with Vibes</p>
+
     <p className='esc2tx2'>When all teams—not just those that are customer-facing—communicate effectively, your organization is operating <br/>at its best. Use Vibes Communications, a business phone system built on a cloud platform, to reduce costs, unify <br/>technologies and increase business agility across your entire business.</p>
-    <div className='esc2btn1'>Talk to an Expert Now</div>
+    <p className='esc2tx2mb1'>When all teams—not just those that are customer-facing<br/>—communicate effectively, your organization is operating <br/>at its best. Use Vibes Communications, a business phone<br/> system built on a cloud platform, to reduce costs, unify <br/>technologies and increase business agility across your <br/>entire business.</p>
+
+    <div className='esc2btn1' style={{cursor:"pointer"}} data-toggle="modal" data-target="#myModal">Talk to an Expert Now</div>
+<div class="modal fade" id="myModal">
+    <div className="modal-dialog modal-xl" >
+      <div class="modal-content" >
+      <Contact2/> 
+      </div>
+    </div>
+  </div>
+
     </div>
 
     <div className='escenter3'>
@@ -119,24 +151,41 @@ function Esolution() {
     <img className='esfem1' src={esfem1} alt='ecircle2'/> 
 
      <p className='esc3tx1'>Vibes Communications</p>
+     <p className='esc3tx1mb'>Vibes <br/>Communications</p>
      <p className='esc3tx2'>Vibes Communications is a fast-growing company that provides VoIP Communications Solutions <br/>for Modern Enterprises. This means that regardless of the size of your company, Vibes has the<br/> right solution and package to meet your needs. Our solutions are cost-effective, efficient,<br/> flexible, and scalable.</p>
+     <p className='esc3tx2mb'>Vibes Communications is a fast-growing <br/>company that provides VoIP Communications<br/> Solutions for Modern Enterprises. This means<br/> that regardless of the size of your company,<br/> Vibes has the right solution and package to<br/> meet your needs. Our solutions are cost-<br/>effective, efficient, flexible, and scalable.</p>
      <hr className='esline2'/>
      <img className='esc3circle1f' src={ecircle1} alt='ecircle2'/> 
-    <img className='esc3circle4f' src={ecircle4} alt='ecircle2'/> 
-    <img className='esfem1f' src={esfem2} alt='ecircle2'/> 
+     <img className='esc3circle4f' src={ecircle4} alt='ecircle2'/> 
+     <img className='esfem1f' src={esfem2} alt='ecircle2'/> 
 
      <p className='esc3tx3'>Modernize your VoIP Communications Solution with Vibes</p>
+     <p className='esc3tx3mb'>Modernize your VoIP Communications Solution<br/> with Vibes</p>
+
      <p className='esc3tx4'>Innovative VoIP Solutions<br/> 
      for Modern Enterprises</p>
-
+     <p className='esc3tx4mb'>Innovative VoIP<br/>  Solutions
+     for Modern<br/>  Enterprises</p>
 <p className='esc3tx5'>Our VoIP communications solutions are reliable and scalable. Contact Vibes<br/> Communications today to get more information on our products.</p>
+<p className='esc3tx5mb'>Our VoIP communications solutions are reliable and<br/> scalable. Contact Vibes Communications today to get<br/> more information on our products.</p>
+
 <hr className='esline3'/>
 <p className='esc3tx6'>500+ Global customers</p>
 <p className='esc3tx7'>We’ve helped over 500 amazing global companies.</p>
 <hr className='esline3'/>
 <div className='escen3bx2'>
 <p className='escen3bx2tx1'>Improve your communications with Vibes</p>
-<div className='escen3btnbx'>CONTACT US NOW</div>
+<p className='escen3bx2tx1mb'>Improve your communications<br/> with Vibes</p>
+
+<div className='escen3btnbx' style={{cursor:"pointer"}} data-toggle="modal" data-target="#myModal">CONTACT US NOW</div>
+<div class="modal fade" id="myModal">
+    <div className="modal-dialog modal-xl" >
+      <div class="modal-content" >
+      <Contact2/> 
+      </div>
+    </div>
+  </div>
+ 
 <img className='eslastv' src={eslastv} alt='ecircle2'/> 
 <img className='esfem3' src={esfem3} alt='ecircle2'/> 
 

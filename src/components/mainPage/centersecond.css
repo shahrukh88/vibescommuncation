@@ -1,15 +1,46 @@
 .centersecond{
 
 }
-.logodarkblue{
+.logodarkblue1{
     position: absolute;
     margin-top: 2%;
     margin-left: 55%;
-    width: 7.5%;
+    width: 0%;
 }
 .skylogo{
     float: right;
     width: 30%;
+}
+.skylogomb{
+    float: none;
+    width: 0%;
+  margin-left: 0%;
+}
+.phonefirst{
+    position: absolute;
+    width: 0%;
+
+}
+.phonefirstmb{
+    position: absolute;
+    width: 0%;
+    margin-left: -34%;
+    margin-top: 6%;
+}
+.phonefirstmb222{
+    position: absolute;
+    width: 25%;
+    margin-left: 23%;
+    margin-top: 2%;
+}
+.technologytext1mb,.technologytext2mb,.seetextmb{
+    float: left;
+margin-top: 0%;
+margin-left: 0%;
+font-family: 'Oswald';
+font-weight: 400;
+font-size: 0vw;
+color: #0E5673;
 }
 .technologytext1{
     float: left;
@@ -37,6 +68,10 @@ font-weight: 300;
 font-size: 1.2vw;
 color: #104D73;
 }
+.loretext2mb{
+    font-size: 0px;
+}
+
 .seetext{
     float: left;
     margin-top: 21.5%;
@@ -54,6 +89,15 @@ color: #173649;
     border: 2px solid #88F2E8;
 
 }
+.linemain1mb{
+    float: left;
+    width: 0%;
+    margin-top: 0%;
+    margin-left: 0%;
+    border: 0px solid #88F2E8;
+
+}
+
 .circleblue{
     clear: both;  display: block; position: relative; 
  margin-left: 39%;
@@ -177,6 +221,17 @@ color: #104D73;
     text-align: center;
 
 }
+.taketextmb{
+
+    margin-top: 0%;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0vw;
+    color: #104E71;
+    text-align: center;
+
+}
 .bxlast{
     float: left;
     width: 38%;
@@ -190,8 +245,16 @@ color: #104D73;
     font-weight: 400;
     color: #104D73;
 }
+.bxtxt1amb{
+    margin-left: 0%;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-size: 0px;
+    margin-top: -1%;
+
+}
 .bxtxt2{
-    margin-top: -3.4%;
+    margin-top: -1%;
     margin-left: 22%;
     font-family: 'Oswald';
     font-style: normal;
@@ -213,7 +276,7 @@ color: #104D73;
     color: #104D73;
 }
 .bxtxt2b{
-    margin-top: -3.4%;
+    margin-top: -4%;
     margin-left: 2.5%;
     font-family: 'Oswald';
     font-style: normal;
@@ -230,11 +293,294 @@ color: #104D73;
     color: #104D73;
 }
 .bxtxt2d{
-    margin-top: -3.4%;
+    margin-top: -2%;
     margin-left: -2%;
     font-family: 'Oswald';
     font-style: normal;
     font-size: 1.2vw;
     font-weight: 300;
     color: #104D73;
+}
+
+@media only screen and (max-width: 750px) {
+    .logodarkblue1{
+        
+           width: 0%;
+    }
+    .skylogo{
+        float: none;
+        width: 0%;
+    }
+    .phonefirstmb{
+        position: absolute;
+        width: 30%;
+        margin-left: 34%;
+        margin-top: 6%;
+    }
+    .skylogomb{
+        float: none;
+        width: 35%;
+      margin-left: 33%;
+    }
+    .technologytext1mb{
+        float: none;
+    margin-top: 4%;
+    margin-left: 5%;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 8vw;
+    color: #0E5673;
+    }
+    .technologytext1,.technologytext2{
+        float: none;
+    margin-top: 0%;
+    margin-left: 0%;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 0vw;
+    color: #0E5673;
+    }
+        .technologytext2mb{
+        float: none;
+        margin-top: 0%;
+    margin-left: 5%;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 0vw;
+    color: #104D73;}
+    
+    .loretext2{
+        font-size: 0px;
+    }
+    .loretext2mb{
+        float: none;
+        margin-top: -7%;
+    margin-left:5%;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 3vw;
+    color: #000000;
+    }
+    .seetextmb{
+        float: none;
+        margin-top: -2.6%;
+    margin-left: 5%;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 3vw;
+    color: #173649;
+    }
+    .linemain1mb{
+        float: none;
+        width: 17%;
+        margin-top: -2%;
+        margin-left: 5%;
+        border: 2px solid #88F2E8;
+    
+    }
+    .circleblue{
+        clear: both;  display: block; position: relative; 
+     margin-left: 0%;
+     width: 0%;
+    }
+
+.skylogo2{
+    width: 0%;
+}
+.phone1{
+    position: absolute;
+    width: 0%;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+.geartext{
+    float: right;
+    margin-right: 0%;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 0vw;
+    margin-top: 0%;
+    color: #104D73;
+}
+.loretext3{
+    float: right;
+    margin-top: 0%;
+margin-right:12%;
+font-family: 'Oswald';
+font-weight: 300;
+font-size: 0vw;
+color: #104D73;
+}
+.dealtext{
+    float: right;
+    margin-top: 0%;
+margin-right:0%;
+font-family: 'Oswald';
+font-weight: 500;
+font-size: 0vw;
+color: #173649;
+cursor: pointer;
+}
+.arrow1{
+    color: #0E5673;
+    font-size: 0vw;
+    
+}
+.linemain2{
+    float: right;
+    width: 0%;
+    margin-top: 0%;
+    margin-right: 0%;
+    border: 0px solid #88F2E8;
+
+}
+.logodarkblue2{
+    width: 0%;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+.paragraphs{
+    float: left;
+    width: 0%;
+}
+.context1{
+    margin-top: 0%;
+    margin-left: 0%;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 0vw;
+    color: #104D73;
+
+}
+.lorecon{
+margin-top: 0%;    
+margin-left:0%;
+font-family: 'Oswald';
+font-weight: 300;
+font-size: 0vw;
+color: #104D73;
+}
+.startedbutton{
+    font-family: 'Oswald';
+    width: 0%;
+    margin-left: 14%;
+    font-weight: 400;
+    font-size: 0vw;
+    text-align: center;
+    color: #173649;
+    background: #88F2E8;
+    border-radius: 8px;
+  
+}
+.phone2{
+    float: right;
+    width: 0%;
+    margin-top: 0%;
+}
+.logodarkblue3{
+    position: absolute;
+    width: 0%;
+    margin-top: 0%;
+    margin-left: 0%;
+} 
+
+.taketext{
+
+    margin-top: 7%;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0vw;
+    color: #173649;
+    text-align: center;
+
+}
+
+.taketextmb{
+
+    margin-top: 7%;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10vw;
+    color: #104E71;
+    text-align: center;
+
+}
+.bxlast{
+    float: left;
+    width: 100%;
+    margin-top: 2%;
+}
+.bxtxt1{
+    margin-left: 5%;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-size: 8vw;
+    font-weight: 400;
+    color: #104E71;
+}
+.bxtxt2{
+    margin-top: -3.4%;
+    margin-left: 5%;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-size: 3.8vw;
+    font-weight: 400;
+    color: #104D73;
+}
+.bxlast2{
+    float: left;
+    width: 100%;
+    margin-top: 2%;
+}
+.bxtxt1a{
+    margin-left: 0%;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-size: 0vw;
+    font-weight: 400;
+    color: #104D73;
+}
+.bxtxt1amb{
+    margin-left: 5%;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-size: 8vw;
+    font-weight: 400;
+    color: #104D73;
+    margin-top: -7%;
+}
+.bxtxt2b{
+    margin-top: -3.4%;
+    margin-left: 5%;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-size: 3.8vw;
+    font-weight: 400;
+    color: #104D73;
+}
+.bxtxt1c{
+    margin-left: 5%;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-size: 8vw;
+    font-weight: 400;
+    color: #104D73;
+}
+.bxtxt2d{
+    margin-top: -3.4%;
+    margin-left: 5%;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-size: 3.8vw;
+    font-weight: 400;
+    color: #104D73;
+}
+.phonefirstmb222{
+    position: absolute;
+    width: 25%;
+    margin-left: 37%;
+    margin-top: 5.5%;
+}
 }

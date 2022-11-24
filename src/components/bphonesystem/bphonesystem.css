@@ -31,7 +31,7 @@ margin-right: 4%;
     text-transform: uppercase;
     color: #104E71;
     margin-left: 8%;
-    margin-top: -3%;
+    margin-top: -2%;
 }
 .bpstext3m
 {
@@ -40,7 +40,7 @@ margin-right: 4%;
     font-size: 1.1vw;
      color: black;
     margin-left: 8%;
-    margin-top: -4.4%;
+    margin-top: -1.2%;
 }
 .bpsbtn1{
     margin-left: 8%;
@@ -56,6 +56,7 @@ margin-right: 4%;
    text-align: center;
    padding: .4%;
    cursor: pointer;
+
 }
 .bpsbtn2{
     position: absolute;
@@ -97,4 +98,106 @@ position: absolute;
     margin-top: 5%;
     border: 1px solid #077F8D;
     width: 90%;
+}
+
+@media only screen and (max-width: 750px) {
+ 
+    .logodarkblue{
+        float: left;
+    margin-left: 6%;
+    width: 7%;
+    margin-top: -.1%;
+    }
+    .skylogo3{
+        float: right;
+    width: 6%;
+    margin-top: 2%;
+    margin-right: 4%;
+    }
+    .bpsmain{
+    
+    }
+    .bpstext1m
+    {
+        font-family: 'Oswald';
+        font-weight: 500;
+        font-size: 4.5vw;
+        text-transform: uppercase;
+        color: #104E71;
+        margin-left: 5%;
+        margin-top: 0%;
+    }
+    .bpstext2m
+    {
+        font-family: 'Oswald';
+        font-weight: 500;
+        font-size: 9vw;
+        text-transform: uppercase;
+        color: #104E71;
+        margin-left: 5%;
+        margin-top: -5.2%;
+    }
+    .bpstext3m
+    {
+        display: none;
+
+    }
+ 
+    .bpstext3mmb
+    {
+        font-family: 'Oswald';
+        font-weight: 400;
+        font-size: 3.5vw;
+         color: black;
+        margin-left: 5%;
+
+    }
+    .bpsbtn1{
+        margin-left: 5%;
+        margin-top: 1.5%;
+        font-family: 'Oswald';
+        font-weight: 500;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        font-size: 3vw;
+        background: #077F8D;
+        border-radius: 10px;
+       width: 25%;
+       text-align: center;
+       padding: 1.5%;
+       cursor: pointer;
+    }
+    .bpsbtn2{
+        position: absolute;
+    margin-left: 35.4%;
+        margin-top: -7.6%;
+        font-family: 'Oswald';
+        font-weight: 500;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        font-size: 3vw;
+        background: #077F8D;
+        border-radius: 10px;
+       width: 27%;
+       text-align: center;
+       padding: 1.5%;
+    cursor: pointer;
+    }
+    .bpsarrow{
+    position: absolute;
+        width: 18%;
+        margin-top: 2%;
+        margin-left: 1.5%;
+    
+    }
+    .bpscircle1{
+   display: none; }
+    .bpsgirl1{
+        display: none;  }
+    .line1bps{
+        margin-top: 2.5%;
+        border: 1px solid #077F8D;
+        width: 90%;
+    }
+       
 }

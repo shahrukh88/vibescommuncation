@@ -3,30 +3,30 @@ body{
     overflow-x: hidden;
 
 }
-.contactheader{
+.contactheader2{
     position: relative;
 }
-.threephones{
+.threephones2{
  width: 100%;
 }
-.rectangleblue{
+.rectangleblue2{
     position: absolute;
     width: 108%;
-   margin-left: -100%;
+   margin-left: -99%;
    opacity: 0.5;    
 }
-.elpseleft{
+.elpseleft2{
     position: absolute;
     margin-left: -13%;
     width: 13%;
 }
-.elpseright{
+.elpseright2{
     position: absolute;
     margin-top: -4%;
     margin-left: -100%;
     width: 20%;
 }
-.gettouch{
+.gettouch2{
     position: absolute;
    margin-top: -17%;
     margin-left:38.3%;
@@ -37,7 +37,7 @@ body{
     text-align: center;
     color: #FFFFFF;
 }
-.querytext{
+.querytext2{
    font-family: 'Oswald';
     font-weight: 500;
     font-size: 2.3vw;
@@ -46,16 +46,16 @@ body{
    margin-top: 5%;
     color: #104E71;
  }
- .contactform{
+ .contactform2{
     margin-top: 5%;
     
  }
- .leftsideform{
+ .leftsideform2{
     float: left;
     margin-left: 5%;
     width: 45%;
  }
- .formtext1{
+ .formtext12{
     font-family: 'Oswald';
     font-weight: 500;
     font-size: 1vw;
@@ -64,7 +64,7 @@ body{
    color: #AB98BA;
    margin-top: 5%;
  }
- .inp{
+ .inp2{
     width: 70%;
     background: #FFFFFF;
     border-radius: 5px;
@@ -74,7 +74,7 @@ body{
  }
  
  
- .inp:hover{
+ .inp2:hover{
     border: 1px solid rgba(171, 152, 186, 1);
     
   }
@@ -85,12 +85,12 @@ body{
 }
   
   
- .rightsideform{
+ .rightsideform2{
     float: left;
     margin-left: 0%;
     width: 45%;
  }
- .formcontrol{
+ .formcontrol2{
 
     margin-top: 7.5% !important;     
     background: #FFFFFF !important;
@@ -104,22 +104,22 @@ body{
      color: #AB98BA !important;
      width: 100%;
 }
-.formcontrol:focus {
+.formcontrol2:focus {
     border: 2px solid rgba(171, 152, 186, 1) !important;
     outline: none !important;
 
 }
-.formcontrol:hover{
+.formcontrol2:hover{
     border: 2px solid rgba(171, 152, 186, 1);
     
   }
  
-.placeholder{
+.placeholder2{
     color: #AB98BA ;
 
 
 }
-.submitbtn{
+.submitbtn2{
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 1.2vw;
@@ -135,22 +135,22 @@ body{
  margin-top: 2%;
 
 }
-.contactlast{
+.contactlast2{
     margin-top: 4%;
 }
-.conlastleft{
+.conlastleft2{
     float: left;
     width: 40%;
 
 }
-.conltext1{
+.conltext12{
     font-family: 'Oswald';
     font-weight: 500;
     font-size: 2vw;
     text-align: center;
     color: #104E71;
 }
-.address{
+.address2{
     font-family: 'Oswald';
     font-weight: 400;
     font-size: 1.2vw;
@@ -160,35 +160,36 @@ body{
 
 }
 
-hr.conline{
+hr.conline2{
     border: 1px solid #104E71;
     width: 7%;
 }
-.conlastright{
+.conlastright2{
     float: left;
     width: 60%;
 }
 
-.followtext{
+.followtext2{
     margin-left: 62.5%;
     font-family: 'Oswald';
     font-weight: 500;
     font-size:2vw;
     color: #104E71;
 }
-.mapcon{
+.mapcon2{
     margin-left: 17%;
     width: 75%;
     height: 50vh;
+    margin-bottom: 10%;
 }
-.querytextmb{
+.querytextmb2{
     display: none;
 }
 @media (max-width:750px) {
-    .querytext{
+    .querytext2{
         display: none;
     }
-    .querytextmb{
+    .querytextmb2{
         font-family: 'Oswald';
          font-weight: 500;
          font-size: 5vw;
@@ -198,16 +199,16 @@ hr.conline{
          color: #104E71;
          display: block;
       }
-      .contactform{
+      .contactform2{
          margin-top: 0%;
          
       }
-      .leftsideform{
+      .leftsideform2{
          float: left;
          margin-left: 5%;
          width: 100%;
       }
-      .formtext1{
+      .formtext12{
          font-family: 'Oswald';
          font-weight: 500;
          font-size: 2.5vw;
@@ -215,21 +216,23 @@ hr.conline{
          text-align: center;
         color: #AB98BA;
         margin-top: 5%;
+        margin-left: -85%;
       }
-      .inp{
-         width: 90%;
+      .inp2{
+         width: 80%;
          background: #FFFFFF;
          border-radius: 5px;
          border: 1px solid rgba(171, 152, 186, 0.5);
          margin-top: -12%;
          padding: 1%;
+         margin-left: -16.5%;
       }
-      .rightsideform{
+      .rightsideform2{
          float: left;
-         margin-left: 0%;
-         width: 90%;
+         margin-left: 2.8%;
+         width: 80%;
       }
-      .formcontrol{
+      .formcontrol2{
      
          margin-top: 7.5% !important;     
          background: #FFFFFF !important;
@@ -242,11 +245,11 @@ hr.conline{
          font-style: normal;
           color: #AB98BA !important;
      }
-     .placeholder{
+     .placeholder2{
          color: #AB98BA ;
      
      }
-     .submitbtn{
+     .submitbtn2{
          font-family: 'Inter', sans-serif;
          font-weight: 500;
          font-size: 3vw;
@@ -257,27 +260,27 @@ hr.conline{
          border-radius: 10px;
          width: 25%;
          float: right;
-         margin-right: 5%;
+         margin-right: 38%;
       padding:1.5%;
       margin-top: 4%;
      
      }
-     .contactlast{
+     .contactlast2{
          margin-top: 4%;
      }
-     .conlastleft{
+     .conlastleft2{
          float: left;
          width: 100%;
      
      }
-     .conltext1{
+     .conltext12{
          font-family: 'Oswald';
          font-weight: 500;
          font-size: 5vw;
          text-align: center;
          color: #104E71;
      }
-     .address{
+     .address2{
          font-family: 'Oswald';
          font-weight: 400;
          font-size: 3vw;
@@ -288,25 +291,64 @@ hr.conline{
      
      }
      
-     hr.conline{
+     hr.conline2{
          border: 1px solid #104E71;
          width: 7%;
      }
-     .conlastright{
+     .conlastright2{
          float: left;
          width: 100%;
+         margin-bottom: 5%;
+         margin-left: -2%;
      }
      
-     .followtext{
+     .followtext2{
          margin-left: 62.5%;
          font-family: 'Oswald';
          font-weight: 500;
          font-size:2vw;
          color: #104E71;
      }
-     .mapcon{
-        margin-left: 5%;
-        width: 90%;
+     .mapcon2{
+        margin-left: 0%;
+        width: 80%;
         height: 50vh;
     }
+    .rectangleblue2{
+        position: absolute;
+        width: 100%;
+       margin-left: -90%;
+       opacity: 0.5;    
+    }
+    .threephones2{
+        width: 0%;
+       }
+       .rectangleblue2{
+           position: absolute;
+           width: 0%;
+          margin-left: -99%;
+          opacity: 0.5;    
+       }
+       .elpseleft2{
+           position: absolute;
+           margin-left: -13%;
+           width: 0%;
+       }
+       .elpseright2{
+           position: absolute;
+           margin-top: -4%;
+           margin-left: -100%;
+           width: 0%;
+       }
+       .gettouch2{
+           position: absolute;
+          margin-top: -17%;
+           margin-left:38.3%;
+           font-family: 'Oswald';
+           font-weight: 400;
+           font-size: 4.3vw;
+           font-style: normal;
+           text-align: center;
+           color: #FFFFFF;
+       }
 }

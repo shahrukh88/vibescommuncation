@@ -1,8 +1,13 @@
+body{
+    
+    overflow-X: hidden;
+}
 .footer{
     padding-top: 2%;
     padding-bottom: 2%;
     margin-top: 3%;
     background: #F7F7F7;
+    width: 100%;
 }
 .footerlogo{
 width: 10%;
@@ -11,9 +16,10 @@ margin-left: 8%;
 .footertext1{
     font-family: 'Oswald';
     font-weight: 400;
-    font-size: 1.19vw;
+    font-size: 1.3vw;
     color: #888889;
     margin-left: 8%;
+    margin-top: 1.3%;
 }
 .flink{
     position: absolute;
@@ -50,11 +56,218 @@ margin-left: 8%;
     font-size: 1.1vw;
     color: #6F6C90;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 3.5%;
 }
 .footerscircle{
     position: absolute;
     width: 1.5%;
-    margin-left: 75.5%;
+    margin-left: 69.2%;
     margin-top: 3%;
+}
+.footerscircle2{
+    position: absolute;
+    width: 1.5%;
+    margin-left: 71.4%;
+    margin-top: 3%;
+}
+.footerscircle3{
+    position: absolute;
+    width: 1.5%;
+    margin-left: 73.6%;
+    margin-top: 3%;
+}
+.footerscircle4{
+    position: absolute;
+    width: 1.5%;
+    margin-left: 75.9%;
+    margin-top: 3%;
+}
+#social1{
+position: absolute ;
+font-size: 1vw;
+margin-left: 69.7%;
+color:#104E71;
+margin-top: 3.4%;
+}
+#social2{
+    position: absolute ;
+    font-size: 1vw;
+    margin-left: 71.7%;
+    color:#104E71;
+    margin-top: 3.4%;
+    }
+    #social3{
+        position: absolute ;
+        font-size: 1vw;
+        margin-left: 73.9%;
+        color:#104E71;
+        margin-top: 3.4%;
+        }
+        #social4{
+            position: absolute ;
+            font-size: 1vw;
+            margin-left: 76.2%;
+            color:#104E71;
+            margin-top: 3.3%;
+            }
+.flinkmb{
+ display: none; }
+  .flinkmb2{
+      display: none; }
+      .icon02mb,.icon01mb,.icon03mb{
+display: none;
+      }
+ 
+@media (max-width:750px) {
+    .footer{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-top: 3%;
+        background: #F7F7F7;
+    }
+    .footerlogo{
+    width: 25%;
+    margin-left: 8%;
+    }
+    .footertext1{
+        font-family: 'Oswald';
+        font-weight: 400;
+        font-size: 3.5vw;
+        color: #888889;
+        margin-left: 8%;
+        margin-top: 1.3%;
+    }
+    .flink{
+        display: none;
+    }
+    .flinkmb{
+        display: block;
+      float: left;
+        text-decoration: none;
+        font-family: 'Oswald';
+        font-weight: 400;
+        font-size: 5vw;
+        text-transform: uppercase;
+        color: #888789;
+        margin-left: 8%;
+        margin-top: 6.4%;
+        width: 100%;
+    }
+    .flinkmb2{
+        display: block;
+        position: absolute;
+        text-decoration: none;
+        font-family: 'Oswald';
+        font-weight: 400;
+        font-size: 3vw;
+        text-transform: uppercase;
+        color: #888789;
+        margin-left: 25%;
+        margin-top: 7%;
+    }
+    .icon01mb{
+display: block;
+        position: absolute;
+        margin-left: 43%;
+        margin-top: 10.4%;
+        width: 5%;
+    }
+    
+    .icon02mb{
+        display: block;
+        position: absolute;
+        margin-left: 43%;
+        margin-top: 31%;
+        width: 5%;
+    }
+    
+    .icon03mb{
+        display: block;
+        position: absolute;
+        margin-left: 43%;
+        margin-top: 53.5%;
+        width: 5%;
+    }
+    .icon01{
+        display: none;
+        position: absolute;
+        margin-left: 12%;
+        margin-top: 74.4%;
+        width: 5%;
+    }
+    .icon02{
+        display: none;
+        position: absolute;
+        margin-left: 12%;
+        margin-top: 95%;
+        width: 5%;
+    }
+    .icon03{
+     display: none;
+        position: absolute;
+        margin-left: 12%;
+        margin-top: 116.4%;
+        width: 5%;
+    }
+    .copyright{
+        font-family: 'Oswald';
+        font-weight: 400;
+        font-size: 3.3vw;
+        color: #6F6C90;
+        text-align: center;
+        margin-top:80%;
+    }
+    .footerscircle{
+        position: absolute;
+        width: 5%;
+        margin-left: 55%;
+        margin-top: 7%;
+    }
+    .footerscircle2{
+        position: absolute;
+        width: 5%;
+        margin-left: 65%;
+        margin-top: 7%;
+    }
+    .footerscircle3{
+        position: absolute;
+        width: 5%;
+        margin-left: 75%;
+        margin-top: 7%;
+    }
+    .footerscircle4{
+        position: absolute;
+        width: 5%;
+        margin-left: 85%;
+        margin-top: 7%;
+    }
+    #social1{
+    position: absolute ;
+    font-size: 3.5vw;
+    margin-left: 56.5%;
+    color:#104E71;
+    margin-top: 8%;
+    }
+    #social2{
+        position: absolute ;
+        font-size: 3.5vw;
+        margin-left: 65.9%;
+        color:#104E71;
+        margin-top: 8%;
+        }
+        #social3{
+            position: absolute ;
+            font-size: 3.5vw;
+            margin-left: 76%;
+            color:#104E71;
+            margin-top: 8%;
+            }
+            #social4{
+                position: absolute ;
+                font-size: 3.5vw;
+                margin-left: 86.2%;
+                color:#104E71;
+                margin-top: 7.8%;
+                }
+    
 }

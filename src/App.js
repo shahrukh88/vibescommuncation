@@ -15,6 +15,10 @@ import Whyvibes from './components/whyvibes/whyvibes';
 import Sbs from './components/smallbusniessolution/sbs';
 import Productmessging from './components/productmessging/productmessging';
 import Startup from './components/startups/startup';
+import Blogs from './components/blogs/Blogs';
+import Articles from './components/article/article';
+import Privacy from './components/privacy/privacy';
+import Term from './components/Termandcondition/term';
 
 function App() {
   return (
@@ -24,12 +28,19 @@ function App() {
       <Switch>
       <Route exact path="/" component={main} />
       <Route exact path="/contact" component={contact} /> 
-      <Route exact path="/bphonesystem" component={bphonesystem} /> 
-      <Route exact path="/esolution" component={esolution} /> 
+      <Route exact path="/business+phone+system" component={bphonesystem} /> 
+      <Route exact path="/solutions" component={esolution} /> 
       <Route exact path="/whyvibes" component={Whyvibes} /> 
-      <Route exact path="/sbs" component={Sbs} /> 
-      <Route exact path="/productmessging" component={Productmessging} /> 
+      <Route exact path="/small+business+solution" component={Sbs} /> 
+      <Route exact path="/team+chat+system" component={Productmessging} /> 
        <Route exact path="/startup" component={Startup} /> 
+       <Route exact path="/blogs" component={Blogs} /> 
+       <Route exact path="/articles" component={Articles} /> 
+       <Route exact path="/privacy&policy" component={Privacy} /> 
+       <Route exact path="/term&condoitions" component={Term} /> 
+        
+        
+       
        <Redirect to="/" />
       </Switch>
     </Router>

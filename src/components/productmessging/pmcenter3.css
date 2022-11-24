@@ -25,10 +25,32 @@ padding-bottom: 5%;
 .pmbox1{
     padding: 1%;
     margin-left: 9%;
-    margin-top: 5%;
+    margin-top: 3.4%;
     border: 2px solid #104E71;
     border-radius: 25px;
-    width: 21%;
+    width: 23%;
+    align-items: center;
+text-align: center;
+}
+.pmbox2{
+    position: absolute;
+    padding: 1%;
+    margin-left: 39%;
+    margin-top: 2.2%;
+    border: 2px solid #104E71;
+    border-radius: 25px;
+    width: 23%;
+    align-items: center;
+text-align: center;
+}
+.pmbox3{
+    position: absolute;
+    padding: 1%;
+    margin-left: 68%;
+    margin-top: 2.2%;
+    border: 2px solid #104E71;
+    border-radius: 25px;
+    width: 23%;
     align-items: center;
 text-align: center;
 }
@@ -43,4 +65,165 @@ text-align: center;
     text-align: center;
     text-transform: uppercase;
     color: #077F8D;
+}
+.escen3bx2tx1pm{
+    position: absolute;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 1.2vw;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 27%;
+    margin-top: 2.5%;
+}
+.escen3bx2tx1pmmb,.pmcenter3trimb{
+    display: none;
+}
+
+hr.pmc1line2mb{
+
+    width: 0%;
+    border: 0px solid #104E71;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+@media only screen and (max-width: 750px) {
+    .pmcenter3{
+        margin-top: 6%;
+        }
+        .pmcenter3tri{
+            display: none;
+        }
+        .pmcenter3trimb{
+            display: block;
+            background: #104E71;
+            text-align: center; 
+            color: white;
+            font-size: 4vw;
+         align-items: center;
+            font-family: 'Oswald';
+            font-weight: 400;
+            text-transform: uppercase;
+        padding-top: 6%;
+        padding-bottom: 6%;
+        }
+        .pmc3txt1{
+            font-family: 'Oswald';
+            font-weight: 500;
+            font-size: 7vw;
+            text-align: center;
+            text-transform: uppercase;
+            color: #077F8D;
+            margin-top: 5%;
+        }
+        .pmbox1{
+            padding: 1.2%;
+            margin-left: 10%;
+            margin-top: 5%;
+            border: 2px solid #104E71;
+            border-radius: 25px;
+            width: 80%;
+            align-items: center;
+        text-align: center;
+        }
+        .pmbox2{
+            position: relative;
+            padding: 1%;
+            margin-left: 10%;
+            margin-top: 2.2%;
+            border: 2px solid #104E71;
+            border-radius: 25px;
+            width: 80%;
+            align-items: center;
+        text-align: center;
+        }
+        .pmbox3{
+            position: relative;
+            padding: 1%;
+            margin-left: 10%;
+            margin-top: 5%;
+            border: 2px solid #104E71;
+            border-radius: 25px;
+            width: 80%;
+            align-items: center;
+        text-align: center;
+        }
+        .handsphone{
+            width: 30%;
+            margin-top: 2%;
+        }
+        .pmc3txt2{
+        
+            font-family: 'Oswald';
+            font-weight: 400;
+            font-size: 4vw;
+            text-align: center;
+            text-transform: uppercase;
+            color: #077F8D;
+            margin-top: 3%;
+        
+    }
+    .escen3bx2tx1pm{
+        display: none;
+    }
+        .escen3bx2tx1pmmb{
+            padding-top: 7%;
+            display: block;
+            position: relative;
+            font-family: 'Oswald';
+            font-weight: 400;
+            font-size: 5vw;
+            text-align: center;
+            text-transform: uppercase;
+            color: white;
+            margin-left:0%;
+            margin-top: 2.5%;
+        }
+        .bpsc3pic1mb{
+            position: absolute;
+           width: 34%;
+            margin-left: 5%;
+            display: block;
+        }
+        .bpsc3pic1amb{
+            position: absolute;
+            width: 34%;
+            margin-left: 61%;
+            
+            display: block;
+        }
+        .bpsc3pic1bmb{
+            position: absolute;
+            width: 34%;
+            margin-left: 5%;
+            margin-top: 78%;
+            
+            display: block;
+        }
+        .bpsc3pic1cmb{
+            position: absolute;
+            width: 34%;
+            margin-left: 61%;
+            margin-top: 78%;
+            
+            display: block;
+        }
+        .bpsc3pic1dmb{
+            position: absolute;
+            width: 34%;
+            margin-left: 5%;
+            margin-top: 158%;
+            
+            display: block;
+        }
+        .bpsc3pic1emb{
+            position: absolute;
+            width: 34%;
+            margin-left: 61%;
+            margin-top: 158%;
+       
+            display: block; 
+        }
 }

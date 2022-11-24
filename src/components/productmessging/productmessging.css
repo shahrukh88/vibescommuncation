@@ -1,5 +1,9 @@
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
 .pmcenter1{
-margin-top: -2%;
+margin-top: 0%;
 }
 .pmc1txt1{
     font-family: 'Oswald';
@@ -39,4 +43,66 @@ hr.pmc1line2{
     margin-top: 5%;
     margin-left: 5%;
 
+}
+.pmc1txt2mb,.pmc1txt3mb{
+display: none;
+}
+
+hr.pmc1line2mbb{
+
+    width: 0%;
+    border: 0px solid #104E71;
+    margin-top: 0%;
+    margin-left: 0%;
+
+}
+
+@media only screen and (max-width: 750px) {
+.pmc1txt2,.pmc1txt3{
+    display: none;
+}
+hr.pmc1line1{
+display: none;
+
+}
+
+.pmc1txt1{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 9.5vw;
+    color: #104E71;
+    text-align: center;
+}
+.pmc1txt2mb{
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 4,5vw;
+    color: #104E71;
+    text-align: center;
+    display: block;
+    }
+.pmc1txt3mb{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 3vw;
+    color: #077F8D;
+    text-align: center;
+    display: block;
+}
+hr.pmc1line2mbb{
+
+    width: 90%;
+    border: 1px solid #104E71;
+    margin-top: 5%;
+    margin-left: 5%;
+    display: block;
+}
+hr.pmc1line2{
+
+    width: 100%;
+    border: 1px solid #104E71;
+    margin-top: 5%;
+    margin-left: 0%;
+
+}
 }

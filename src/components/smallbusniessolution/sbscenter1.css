@@ -18,6 +18,33 @@
      margin-top: 4.2%;
     margin-left: 17.3%;
 }
+
+.sbsbcircle1c1{
+    width: 6%;
+    margin-top: 3%;
+    margin-left: 24%;
+}
+.sbsbc1log1
+{  
+    position: absolute;
+    width: 3.3%;
+     margin-top: 4.2%;
+    margin-left: 25.4%;
+}
+
+.sbsccircle1c1{
+    width: 6%;
+    margin-top: 3%;
+    margin-left: 24%;
+}
+.sbscc1log1
+{  
+    position: absolute;
+    width: 3.3%;
+     margin-top: 4.2%;
+    margin-left: 25.3%;
+}
+
 .sbslineformid1{
     position: absolute;
     margin-top: 6%;
@@ -30,6 +57,7 @@
     font-size: 1.4vw;
     color: #104E71; 
     margin-left: 9.5%;  
+    margin-top: 1.5%;
 }
 .sbsc1txt3{
     font-family: 'Oswald';
@@ -40,11 +68,39 @@
     color: #077F8D;
     margin-right: 61%;
 }
+.sbsc1txt2mb,.sbsc1txt1mb{
+    position: absolute;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 0vw;
+    color: #104E71; 
+    text-align: center;  
+}
+.sbsc1txt3mb{
+    
+    position: absolute;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0vw;
+    text-align: center;
+    color: #077F8D;
+    margin-right: 0%;
+    width: 0%;
+}
 .sbsc2fem1{
     position: absolute;
     width: 15.5%;
     margin-top: -2.03%;
     margin-left: 9.4%;
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%;
+}
+.sbsc2fem1startup{
+    position: absolute;
+    width: 15.5%;
+    margin-top: -1.3%;
+    margin-left: 9.1%;
     border-bottom-left-radius: 45%;
     border-bottom-right-radius: 45%;
 }
@@ -55,4 +111,130 @@
     margin-left: 66.3%;
     border-bottom-left-radius: 46%;
     border-bottom-right-radius: 43%;
+}
+@media (max-width:750px) {
+    .sbsc1txt1{
+        margin-top: 0%;
+        font-family: 'Oswald';
+        font-weight: 400;
+        font-size: 0vw;
+        color: #104E71;
+        text-align: center;
+    }
+    .sbsc1txt1mb{
+        position: relative;
+        margin-top: 4%;
+        font-family: 'Oswald';
+        font-weight: 400;
+        font-size: 5vw;
+        color: #104E71;
+        text-align: center;
+    }
+    .sbscircle1c1{
+        width: 26%;
+        margin-top: 3%;
+        margin-left: 35.5%;
+    }
+    .sbsc1log1
+    {  
+        position: absolute;
+        width: 12%;
+         margin-top: 10.2%;
+        margin-left: 42.5%;
+    }
+    .sbsc1txt2mb{
+        position: relative;
+        font-family: 'Oswald';
+        font-weight: 500;
+        font-size: 5vw;
+        color: #104E71; 
+        text-align: center; 
+        margin-top: 4%; 
+    }
+    .sbsc1txt3mb{
+        position: relative;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 4vw;
+        text-align: center;
+        color: #077F8D;
+        margin-right: 61%;
+        width: 100%;
+    }
+    .sbsbcircle1c1{
+        width: 26%;
+        margin-top: 3%;
+        margin-left: 35.5%;
+        
+    }
+    .sbsbc1log1
+    {  
+        position: absolute;
+        width: 12%;
+         margin-top: 10.2%;
+        margin-left: 42.6%;
+    }
+    
+    .sbsccircle1c1{
+        width: 26%;
+        margin-top: 3%;
+        margin-left: 35.5%;
+    }
+    .sbscc1log1
+    {  
+        position: absolute;
+        width: 12%;
+         margin-top: 10.2%;
+        margin-left: 42.2%;
+    }   .sbslineformid1{
+        position: absolute;
+        margin-top: 6%;
+        margin-left: 22%;
+        width: 0%;
+    }
+    .sbsc1txt2{
+        font-family: 'Oswald';
+        font-weight: 500;
+        font-size: 0vw;
+        color: #104E71; 
+        margin-left:0%;  
+    }
+    .sbsc1txt3{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0vw;
+        text-align: center;
+        color: #077F8D;
+        margin-right: 0%;
+        width: 00%;
+    }
+    .sbsc2fem1{
+        position: absolute;
+        width: 65%;
+        margin-top: -5.2%;
+        margin-left: -72%;
+        border-bottom-left-radius: 44%;
+        border-bottom-right-radius:42%;
+    }
+    .sbsc2fem1startup{
+        position: absolute;
+        width: 66%;
+        margin-top: -3.2%;
+        margin-left: -72.7%;
+        border-bottom-left-radius: 39%;
+        border-bottom-right-radius: 44%;
+    }
+    .sbsc2fem2{
+        position: absolute;
+        width: 69%;
+        margin-top: 4.8%;
+        margin-left: -74%;
+        border-bottom-left-radius: 46%;
+        border-bottom-right-radius: 45%;
+    }
+    #margin{
+        margin-top: 10%;
+    }
 }

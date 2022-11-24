@@ -7,12 +7,12 @@ text-align: center;
 padding-bottom: 4%;
 
 }
-.esright1{
+.esright1es{
     float: right;
     width: 6%;
     margin-top: 1.8%; 
 }
-.esleft1{
+.esleft1es{
     float: left;
     width: 6%;
     margin-top: 13.5%; 
@@ -51,7 +51,7 @@ padding-bottom: 4%;
     text-transform: uppercase;
     color: #104E71;
     margin-left: 41%;
-    margin-top: 2.4%;
+    margin-top: 2.%;
     cursor: pointer;
 }
 .escenter3{
@@ -166,7 +166,7 @@ margin-top: 7%;
     font-family: 'Oswald';
     font-weight: 300;
     font-size: 1.2vw;
-    margin-top: -1.5%;
+    margin-top: -1%;
     margin-left: 8%;
     color: #000000;
     text-transform: uppercase;
@@ -184,7 +184,11 @@ margin-top: 7%;
     text-transform: uppercase;
     color: #FFFFFF;
     margin-left: 32%;
-    margin-top: 5%;
+    margin-top: 4%;
+}
+.esc2tx2mb1,.esc2tx1mb1,.escen3bx2tx1mb,.esc3tx5mb,.escen3bx2tx1mb,.esc3tx4mb,.esc3tx3mb,.esc3tx2mb,.esc3tx1mb,.esc2tx2mb,.esc2tx1mb{
+    font-size: 0vw;
+    
 }
 .eslastv{
 padding-top: 1%;
@@ -194,14 +198,14 @@ margin-left: 8%;
 }
 .escen3btnbx{
     position: absolute;
-    width: 10%;
+    width: 15%;
     padding: .7%;
     font-family: 'Oswald';
     text-align: center;
     text-transform: uppercase;
     font-size: 1.3vw;
-    margin-left: 44%;
-    margin-top: 9.5%;
+    margin-left: 41.4%;
+    margin-top: 8%;
     border-radius: 10px;
     background: #88F2E8;
     color: #104E71;
@@ -209,6 +213,325 @@ margin-left: 8%;
 .esfem3{
     float: right;
     width: 13.2%;
-    margin-top: -2.1%;
+    margin-top: -2.4%;
     margin-right: 8%;
+}
+
+@media (max-width:750px) {
+    
+    .esright1es{
+        float: right;
+        position: absolute;
+        width: 12%;
+        margin-top: 3%;
+        margin-left: 38%; 
+    }
+    .esleft1es{
+        float: left;
+        position: absolute;
+        width: 12%;
+        margin-top: 68%; 
+        margin-left: -50.5%;
+    }
+    .escenter2{
+        margin-top: -10%;
+        }
+        .esc2box1{
+        background: #104E71;
+        text-align: center;
+        padding-bottom: 8%;
+        
+        }
+        .esright1{
+            float: right;
+            width: 6%;
+            margin-top: 1.8%; 
+        }
+        .esleft1{
+            float: left;
+            width: 6%;
+            margin-top: 13.5%; 
+        }
+        .esc2tx1{
+            margin-right: 0%;
+            text-align: center;
+           padding-top: 0%;
+            font-family: 'Oswald';
+            font-weight: 400;
+            font-size: 0vw;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        .esc2tx1mb1{
+            margin-right: 2%;
+            text-align: center;
+           padding-top: 0%;
+            font-family: 'Oswald';
+            font-weight: 400;
+            font-size: 7vw;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            margin-top: 5%;
+        }
+        .esc2tx2{   
+        
+            margin-top: 0%;
+            font-family: 'Oswald';
+            font-weight: 400;
+            font-size: 0vw;
+            width: 0%;
+            margin-left: 0%;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        .esc2tx2mb1{   
+        
+            margin-top: -3%;
+            font-family: 'Oswald';
+            font-weight: 400;
+            font-size: 3.8vw;
+            width: 100%;
+
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        .esc2btn1{
+            width: 40%;
+            padding: 3%;
+            font-style: normal;
+
+            background: #88F2E8;
+            border-radius: 10px;
+            font-family: 'Oswald';
+            font-weight: 500;
+            font-size: 4vw;
+            text-align: center;
+            text-transform: uppercase;
+            color: #104E71;
+            margin-left: 29.4%;
+            margin-top: 6%;
+            cursor: pointer;
+        }
+        .escenter3{
+            margin-top: 7%;
+            }
+            .esc3circle1{
+                position: relative;
+                width: 80%;
+                margin-left: 9%;
+            }
+            .esc3circle4{
+                position: absolute;
+                width: 70%;
+                margin-left: -74.6%;
+                margin-top: 4.7%;
+            }
+            .esfem1{
+                position: absolute;
+                width: 69%;
+                margin-top: -4%;
+                margin-left: -73.6%;
+                border-bottom-left-radius: 40%;
+                border-bottom-right-radius: 40%;
+            }
+            .esc3tx1{
+                font-family: 'Oswald';
+                font-weight: 400;
+                font-size: 0vw;
+                text-transform: uppercase;
+                color: #104E71;
+                margin-left: 5%;
+            }
+            .esc3tx1mb{
+                font-family: 'Oswald';
+                font-weight: 500;
+                font-size: 7vw;
+                text-transform: uppercase;
+                color: #104E71;
+                margin-left: 5%;
+            }
+            .esc3tx2{
+                font-family: 'Oswald';
+                font-weight: 300;
+                font-size: 0vw;
+                color: #000000;
+                margin-left: 0%;
+                margin-top: 0%;
+            }
+            .esc3tx2mb{
+                font-family: 'Oswald';
+                font-weight: 300;
+                font-size: 5.7vw;
+                color: #000000;
+                margin-left: 5%;
+                margin-top: -4%;
+            }    
+            .esline2{
+                margin-top: 9%;
+                border: 1px solid #077F8D;
+                width: 90%;
+            }
+            .esc3circle1f{
+                position: relative;
+                width: 80%;
+                margin-left: 9%;
+                margin-top: 9%;
+            }
+            .esc3circle4f{
+                position: absolute;
+                width: 70%;
+                margin-left: -74.6%;
+                margin-top: 14%;
+            }
+            .esfem1f{
+                position: absolute;
+                width: 70%;
+                margin-top: 3.5%;
+                margin-left: -75%;
+                border-bottom-left-radius: 43%;
+                border-bottom-right-radius: 43%;
+            }
+            
+            
+            .esc3tx3{
+                font-family: 'Oswald';
+                font-weight: 400;
+                font-size: 0vw;
+                color: #000000;
+                margin-left: 0%;
+                margin-top: 0%;
+                color: #077F8D;
+                text-transform: uppercase;
+            
+            }
+            .esc3tx3mb{
+                font-family: 'Oswald';
+                font-weight: 400;
+                font-size: 4.3vw;
+                color: #000000;
+                margin-left: 5%;
+                margin-top: 5%;
+                color: #077F8D;
+                text-transform: uppercase;
+            
+            }
+            .esc3tx4{
+                font-family: 'Oswald';
+                font-weight: 500;
+                font-size: 0vw;
+                margin-left: 0%;
+                margin-top: 0%;
+                color: #104E71;
+                text-transform: uppercase;
+            }
+            .esc3tx4mb{
+                font-family: 'Oswald';
+                font-weight: 500;
+                font-size: 7vw;
+                margin-left: 5%;
+                margin-top: -2.2%;
+                color: #104E71;
+                text-transform: uppercase;
+            }
+            .esc3tx5{
+                font-family: 'Oswald';
+                font-weight: 300;
+                font-size: 0vw;
+                margin-left: 0%;
+                margin-top: 0%;
+                color: #000000;
+                text-transform: uppercase;
+            }
+            .esc3tx5mb{
+                font-family: 'Oswald';
+                font-weight: 300;
+                font-size: 3.7vw;
+                margin-left: 5%;
+                margin-top: -5.5%;
+                color: #000000;
+                text-transform: uppercase;
+            }
+            .esline3{
+                margin-top: 1%;
+                border: 0.5px solid #077F8D;
+                width: 40%;
+                margin-left: 5%;
+            }
+            .esc3tx6{
+                font-family: 'Oswald';
+                font-weight: 500;
+                font-size: 5vw;
+                margin-left: 5%;
+                color: #077F8D;
+                text-transform: uppercase;
+              margin-top: .5%;
+            }
+            .esc3tx7{
+                font-family: 'Oswald';
+                font-weight: 300;
+                font-size: 3.3vw;
+                margin-top: -3%;
+                margin-left: 5%;
+                color: #000000;
+                text-transform: uppercase;
+            }
+            .escen3bx2{
+                background: #104E71;
+                margin-top: 5%;
+               text-align: center;
+            }
+            .escen3bx2tx1{
+                position: relative;
+                font-family: 'Oswald';
+                font-weight: 400;
+                text-align: center;
+                font-size: 0vw;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                margin-left: 0%;
+                margin-top: 0%;
+            }
+            .escen3bx2tx1mb{
+                position: relative;
+                font-family: 'Oswald';
+                font-weight: 400;
+                text-align: center;
+                font-size: 5vw;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                margin-left: -4%;
+                margin-top: 8%;
+            }
+            .eslastv{
+            padding-top: 1%;
+            padding-bottom: 1%;
+            width: 0%;
+            margin-left: 8%;
+            }
+            .escen3btnbx{
+                position: relative;
+                width: 30%;
+                padding: 1%;
+                font-family: 'Oswald';
+                text-align: center;
+                text-transform: uppercase;
+                font-size: 3vw;
+                margin-left: 33.5%;
+                 border-radius: 10px;
+                background: #88F2E8;
+                color: #104E71;
+                margin-top: 2.5%;
+                margin-bottom: 2%;
+                font-weight: 500;
+            cursor: pointer !important;
+            }
+            .esfem3{
+                float: right;
+                width: 0%;
+                margin-top: 0%;
+                margin-right: 0%;
+            }
+            
 }

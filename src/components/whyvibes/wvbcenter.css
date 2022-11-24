@@ -10,7 +10,7 @@
 }
 .wvbctxt2
 {
-    margin-top: -2.5%;
+    margin-top: 0%;
     margin-left: 30%;
     font-family: 'Oswald';
     font-weight: 400;
@@ -30,4 +30,95 @@
     width: 13.8%;
     margin-left: 8.74%;
     border-radius: 50%;
+}
+.wvbcircle2{
+    position: absolute;
+    margin-top: 5%;
+    width: 15.3%;
+    margin-left: 8%;
+}
+.wvbbs2{
+    position: absolute;
+    margin-top: 5.80%;
+    width: 13.8%;
+    margin-left: 8.74%;
+    border-radius: 50%;
+}
+.wvbcircle3{
+    position: absolute;
+    margin-top:5%;
+    width: 15.3%;
+    margin-left: 8%;
+}
+.wvbbs3{
+    position: absolute;
+    margin-top: 5.80%;
+    width: 13.8%;
+    margin-left: 8.74%;
+    border-radius: 50%;
+}
+.wvbctxt2mb{
+    display: none;
+}
+@media only screen and (max-width: 750px) {
+    .wvbctxt1
+    {
+        margin-top: 4%;
+        margin-left: 5%;
+        font-family: 'Oswald';
+        font-weight: 500;
+        font-size:8vw;
+        text-transform: uppercase;
+        color: #104E71;
+    }
+    .wvbctxt2{
+        display: none;
+    }
+    .wvbctxt2mb
+    {    position: relative;
+        margin-top: -3%;
+        margin-left: 5%;
+        font-family: 'Oswald';
+        font-weight: 400;
+        font-size: 3.3vw;
+        text-transform: uppercase;
+        color: black;
+        display: block;
+    }
+    .wvbcircle1{
+        position: relative;
+        margin-top: 5%;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .wvbbs1{      
+         position: absolute;
+        margin-top: 8.8%;
+        width: 73%;
+        margin-left: -76.5%;
+        border-radius: 50%;
+    }
+    .wvbcircle2{
+        position: relative;
+        margin-top: 5%;
+        width: 80%;
+        margin-left: 10%;    }
+    .wvbbs2{
+        position: absolute;
+        margin-top: 8.8%;
+        width: 73%;
+        margin-left: -76.5%;
+        border-radius: 50%; }
+    .wvbcircle3{
+        position: relative;
+        margin-top: 5%;
+        width: 80%;
+        margin-left: 10%;    }
+    .wvbbs3{
+        position: absolute;
+        margin-top: 8.8%;
+        width: 73%;
+        margin-left: -76.5%;
+        border-radius: 50%;
+    }
 }

@@ -1,5 +1,5 @@
 .bpsclast{
-    margin-top: 4%;
+    margin-top: 5%;
 }
 
 .bpsbanner{
@@ -34,7 +34,7 @@
 .bpsgirl2{
     float: right;
     width: 17.1%;
-    margin-top: -5.3%;
+    margin-top: -5.6%;
     margin-right: 8%;
 }
 .bpslasptxt1{
@@ -44,6 +44,7 @@
     font-size: 3.1vw;
     text-transform: uppercase;
     color: #077F8D;
+    margin-top: 3.5%;
 }
 .bpslastpcircle1
 {
@@ -54,7 +55,7 @@
     padding: .3%;
     width: 22%;
     margin-left: 8%;
-
+margin-top: 2.5%;
 }
 .bpssecure{
     width: 30%;
@@ -68,4 +69,88 @@
     text-align: center;
     text-transform: uppercase;
     color: #104E71;
+}
+@media only screen and (max-width: 750px) {
+    .bpsclast{
+        margin-top: 5%;
+    }
+    
+    .bpsbanner{
+        width: 100%;
+        background: #104E71;
+        text-align: center;
+        padding: 2%;
+    }
+    .bpslogocenter{
+display: none;
+    }
+    .bpsclasttxt1{
+        position: relative;
+        font-family: 'Oswald';
+        font-weight: 500;
+        font-size: 6vw;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-left: 0%;
+    }
+    .bpsclasttxt2{
+        display: none;
+    }
+    .bpsclasttxt2mb{
+        position: relative;
+        font-family: 'Oswald';
+        font-weight: 300;
+        font-size: 4.4vw;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-left: 0%;
+        text-align: center;
+        display: block;
+    }
+    .bpsgirl2{
+display: none;
+    }
+    .bpslasptxt1{
+        text-align: center;
+        font-family: 'Oswald';
+        font-weight: 500;
+        font-size: 7vw;
+        text-transform: uppercase;
+        color: #077F8D;
+        margin-top:6%;
+    }
+    .bpslastpcircle1
+    {
+        float: left;
+        text-align: center;
+        border: 2px solid #104E71;
+        border-radius: 25px;
+        padding: .3%;
+        width: 80%;
+        margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    }
+    .bpssecure{
+        width: 30%;
+        margin-top: 8%;
+    }
+    .bpssecuret1{
+        margin-top: -1%;
+        font-family: 'Oswald';
+        font-weight: 400;
+        font-size: 2vw;
+        text-align: center;
+        text-transform: uppercase;
+        color: #104E71;
+    }
+    .bpssecuret1{
+        margin-top: 1%;
+        font-family: 'Oswald';
+        font-weight: 400;
+        font-size: 7vw;
+        text-align: center;
+        text-transform: uppercase;
+        color: #104E71;
+    }
 }
