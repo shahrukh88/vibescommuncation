@@ -4,7 +4,7 @@ margin-top: 4%;
 .esc2box1{
 background: #104E71;
 text-align: center;
-padding-bottom: 4%;
+padding-bottom: 5%;
 
 }
 .esright1es{
@@ -33,8 +33,9 @@ padding-bottom: 4%;
     font-family: 'Oswald';
     font-weight: 400;
     font-size: 1.3vw;
-    width: 90%;
-    margin-left: 2.5%;
+    width: 100%;
+    padding-left: 18%;
+    padding-right: 18%;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -220,19 +221,10 @@ margin-left: 8%;
 @media (max-width:750px) {
     
     .esright1es{
-        float: right;
-        position: absolute;
-        width: 12%;
-        margin-top: 3%;
-        margin-left: 38%; 
+display: none; 
     }
     .esleft1es{
-        float: left;
-        position: absolute;
-        width: 12%;
-        margin-top: 68%; 
-        margin-left: -50.5%;
-    }
+        display: none;     }
     .escenter2{
         margin-top: -10%;
         }
@@ -273,29 +265,20 @@ margin-left: 8%;
             color: #FFFFFF;
             margin-top: 5%;
         }
+       
         .esc2tx2{   
-        
-            margin-top: 0%;
-            font-family: 'Oswald';
-            font-weight: 400;
-            font-size: 0vw;
-            width: 0%;
-            margin-left: 0%;
-            text-align: center;
-            text-transform: uppercase;
-            color: #FFFFFF;
-        }
-        .esc2tx2mb1{   
-        
-            margin-top: -3%;
+          
+            margin-top: 10%;
             font-family: 'Oswald';
             font-weight: 400;
             font-size: 3.8vw;
             width: 100%;
-
+           padding-left: 10%;
+           padding-right: 10%;
             text-align: center;
             text-transform: uppercase;
             color: #FFFFFF;
+          
         }
         .esc2btn1{
             width: 40%;

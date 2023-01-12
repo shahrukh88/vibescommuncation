@@ -29,17 +29,29 @@ import esfem3 from '../images/esolutiions/esfem3.png'
 import Footer from '../footer/footer';
 import Headermb from '../header/Headermb';
 import Contact2 from '../contact/contact2';
+import Discount from '../header/Discountoffer';
 
 function Productmessging() {
   
-   useEffect(() => {   
+   useEffect(() => { 
+    (function(d, w, c) {
+      w.ChatraID = 'td9DTmwopwxBzfMBw';
+      var s = d.createElement('script');
+      w[c] = w[c] || function() {
+          (w[c].q = w[c].q || []).push(arguments);
+      };
+      s.async = true;
+      s.src = 'https://call.chatra.io/chatra.js';
+      if (d.head) d.head.appendChild(s);
+  })(document, window, 'Chatra');
+
     }, []);
 
 
   return (
     <div>
          <Helmet>
-          <title>Business SMS & MMS messaging | Team Chat | Vibes </title>
+          <title>Business SMS & MMS messaging | Team Chat | Vibes</title>
           <meta name="description" content="Boost your business performance with SMS & MMS text messages from your device or computer with Vibes. Learn how you can speed up your texting workflow, Team Chat, and more."/>
 
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
@@ -52,6 +64,8 @@ function Productmessging() {
        </Helmet>
      
 <div>
+<Discount/>
+
   <Headermb/>
     <Header/>
     <div className='main'> 
@@ -61,8 +75,8 @@ function Productmessging() {
         <i className="fa fa-caret-down"></i>
   </div>
   <div className="dropdown-contentb" style={{marginLeft:"13%",marginTop:"3.38%"}}>
-  <a href="/business+phone+system" style={{color:"#104E71",fontWeight:"400"}}>BUSINESS PHONE SYSTEM</a>
-  <a href="/team+chat+system" style={{color:"#104E71",fontWeight:"400"}}>TEAM CHAT SYSTEM</a>
+  <a href="/business-phone-system" style={{color:"#104E71",fontWeight:"400"}}>BUSINESS PHONE SYSTEM</a>
+  <a href="/team-chat-system" style={{color:"#104E71",fontWeight:"400"}}>TEAM CHAT SYSTEM</a>
   </div>
 </div>
    <div className="dropdown">
@@ -72,13 +86,13 @@ function Productmessging() {
   <div className="dropdown-content">
   <a   style={{color:"#104E71",fontWeight:"500",marginLeft:"0%",marginTop:"4%"}}>BY AUDIENCE</a>
   <a href="/solutions" style={{color:"#104E71",fontWeight:"400"}}>CORPORATIONS	</a>
-  <a href="/small+business+solution" style={{color:"#104E71",fontWeight:"400"}}>SMALL BUSINESSES </a>
+  <a href="/small-business-solution" style={{color:"#104E71",fontWeight:"400"}}>SMALL BUSINESSES </a>
   <a href="/startup" style={{color:"#104E71",fontWeight:"400"}}>STARTUPS</a>
   </div>
 </div>
 
     <a href='/whyvibes' className='nbartext'>WHY VIBES &nbsp;?</a>
-    <a href='/blogs' className='nbartext'>BLOGS</a>
+    <a href='/blogs' className='nbartext'>BLOG</a>
     <a href='/contact' className='nbartext'>CONTACT US</a>
 
    <img className='logodarkblue' src={logodarkblue} alt='circle1'/> 
@@ -91,9 +105,9 @@ function Productmessging() {
 <div className='esmain'>
 <img className='ecircle1' src={ecircle1} alt='ecircle1'/> 
 <img className='esmale1' src={esmale1} alt='esmale1'/> 
-<p className='esmaintx1' style={{fontSize:"4.2vw",marginTop:"6%"}}>Messaging and <br/> collaboration for the<br/> modern workplace</p>
-<p className='esmaintx4' style={{marginTop:"-.5%",marginBottom:"-2%"}}>Vibes provides team chat and messaging app for the modern workplace. With features like<br/> file sharing and collaboration, it's easy to stay organized and get work done.</p>
-<p className='esmaintx4mb' style={{marginTop:"2%"}} >Vibes provides team chat and messaging app for the modern<br/> workplace. With features like file sharing and collaboration,<br/> it's easy to stay organized and get work done.</p>
+<h1 className='esmaintx1' style={{fontSize:"4.2vw",marginTop:"6%"}}>Messaging and <br/> collaboration for the<br/> modern workplace</h1>
+<p className='esmaintx4' style={{}}>Vibes provides team chat and messaging app for the modern workplace. With features like<br/> file sharing and collaboration, it's easy to stay organized and get work done.</p>
+<p className='esmaintx4mb' style={{}} >Vibes provides team chat and messaging app for the modern<br/> workplace. With features like file sharing and collaboration,<br/> it's easy to stay organized and get work done.</p>
 </div>
 <hr className='esline1'/>
 <div className='pmcenter1'>
@@ -228,6 +242,10 @@ streamlined and<br/> organized, so you can focus on the<br/> conversations that 
 <img className='esfem3' src={esfem3} alt='ecircle2'/> 
 
 </div>  
+<div id="fb-root"></div>
+
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
 
 <Footer/>
 </div>

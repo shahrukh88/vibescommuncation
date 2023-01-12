@@ -25,10 +25,22 @@ import esfem3 from '../images/esolutiions/esfem3.png'
 import Footer from '../footer/footer';
 import Headermb from '../header/Headermb';
 import Contact2 from '../contact/contact2';
+import Discount from '../header/Discountoffer';
 
-function Sbs() {
+function Smallbusinesssolution() {
   
    useEffect(() => {   
+    (function(d, w, c) {
+      w.ChatraID = 'td9DTmwopwxBzfMBw';
+      var s = d.createElement('script');
+      w[c] = w[c] || function() {
+          (w[c].q = w[c].q || []).push(arguments);
+      };
+      s.async = true;
+      s.src = 'https://call.chatra.io/chatra.js';
+      if (d.head) d.head.appendChild(s);
+  })(document, window, 'Chatra');
+
     }, []);
 
 
@@ -38,10 +50,11 @@ function Sbs() {
           <title>Solution for Small Business Phone Systems | Vibes </title>
           <meta name="description" content="Solution for small business phone systems can improve your business communication including VoIP service, sales CRM, video, and more manage your small business with Vibes!"/>
 
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+<meta charset="UTF-8"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
           <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-<meta charset="UTF-8"/>
      <link rel="stylesheet" href="style.css"/>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
@@ -54,6 +67,8 @@ function Sbs() {
        </Helmet>
      
 <div>
+<Discount/>
+
   <Headermb/>
     <Header/>
     <div className='main'> 
@@ -63,8 +78,8 @@ function Sbs() {
         <i className="fa fa-caret-down"></i>
   </div>
   <div className="dropdown-contentb" style={{marginLeft:"13%",marginTop:"3.38%"}}>
-  <a href="/business+phone+system" style={{color:"#104E71",fontWeight:"400"}}>BUSINESS PHONE SYSTEM</a>
-  <a href="/team+chat+system" style={{color:"#104E71",fontWeight:"400"}}>TEAM CHAT SYSTEM</a>
+  <a href="/business-phone-system" style={{color:"#104E71",fontWeight:"400"}}>BUSINESS PHONE SYSTEM</a>
+  <a href="/team-chat-system" style={{color:"#104E71",fontWeight:"400"}}>TEAM CHAT SYSTEM</a>
   </div>
 </div>
    <div className="dropdown">
@@ -74,13 +89,13 @@ function Sbs() {
   <div className="dropdown-content">
   <a   style={{color:"#104E71",fontWeight:"500",marginLeft:"0%",marginTop:"4%"}}>BY AUDIENCE</a>
   <a href="/solutions" style={{color:"#104E71",fontWeight:"400"}}>CORPORATIONS	</a>
-  <a href="/small+business+solution" style={{color:"#104E71",fontWeight:"400"}}>SMALL BUSINESSES </a>
+  <a href="/small-business-solution" style={{color:"#104E71",fontWeight:"400"}}>SMALL BUSINESSES </a>
   <a href="/startup" style={{color:"#104E71",fontWeight:"400"}}>STARTUPS</a>
   </div>
 </div>
 
     <a href='/whyvibes' className='nbartext'>WHY VIBES &nbsp;?</a>
-    <a href='/blogs' className='nbartext'>BLOGS</a>
+    <a href='/blogs' className='nbartext'>BLOG</a>
     <a href='/contact' className='nbartext'>CONTACT US</a>
 
    <img className='logodarkblue' src={logodarkblue} alt='circle1'/> 
@@ -94,11 +109,11 @@ function Sbs() {
   <div className='startmargin'/>
 <img className='ecircle1' src={ecircle1} alt='ecircle1'/> 
 <img className='esmale1' src={esmale1} alt='esmale1'/> 
-<p className='esmaintx1'>Small<br/>
+<h1 className='esmaintx1'>Small<br/>
 Business <br/>
-Solutions</p>
+Solutions</h1>
 <p className='esmaintx4' >Complete communication apparatus with video and messaging for small businesses.</p>
-<p className='esmaintx4mb' style={{marginTop:"-5%"}}>Complete communication apparatus with video and<br/> messaging for small businesses.</p>
+<p className='esmaintx4mb' style={{}}>Complete communication apparatus with video and<br/> messaging for small businesses.</p>
 
 </div>
 <hr className='esline1'/>
@@ -143,12 +158,17 @@ Solutions</p>
     <img className='esright1es' src={esright1} alt='ecircle2'/> 
     <img className='esleft1es'  src={esleft1} alt='ecircle2'/> 
     <p className='esc2tx1'>Work From Anywhere</p>
-    <p className='esc2tx1mb1'>Work From<br/> Anywhere</p>
-    <p className='esc2tx2' >Our phone services don't use landlines; instead, they use the internet. Even when on a call, both onsite<br/> and remote employees can easily move between their desk and mobile devices. It’s easy to setup and<br/> requires no IT staff.</p>
-    <p className='esc2tx2mb1' >Our phone services don't use landlines; instead, they use <br/>the internet. Even when on a call, both onsite and remote<br/> employees can easily move between their desk and mobile <br/>devices. It’s easy to setup and requires no IT staff.</p>
-    
-    <div className='esc2btn1'>Schedule a call</div>
+    <p className='esc2tx2' >Our phone services don't use landlines; instead, they use the internet. Even when on a call, both onsite and remote employees can easily move between their desk and mobile devices. It’s easy to setup and requires no IT staff.</p>
+    <div className='esc2btn1' style={{cursor:"pointer"}} data-toggle="modal" data-target="#myModal">Schedule a call</div>
+<div class="modal fade" id="myModal">
+    <div className="modal-dialog modal-xl" >
+      <div class="modal-content" >
+      <Contact2/> 
+      </div>
     </div>
+  </div>
+    </div>
+    
 
     <div className='escenter3'>
     <img className='esc3circle1' src={ecircle1} alt='ecircle2'/> 
@@ -196,10 +216,11 @@ Solutions</p>
 </div>
 
 </div>
+
 <Footer/>
 </div>
 
   );
 }
 
-export default Sbs;
+export default Smallbusinesssolution;

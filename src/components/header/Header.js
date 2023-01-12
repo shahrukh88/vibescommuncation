@@ -17,9 +17,11 @@ function Header() {
 <div className=''>
 
 <div className='headermain'>
-<img className='headerlogo' src={headerlogo} alt='headerlogo'/> 
-<p className='loginbtn'>LOGIN</p>
-<div className='gstartbtn'>GET STARTED</div>
+  <a href='/'>
+<img className='headerlogo' src={headerlogo} alt='headerlogo'/>
+</a> 
+<a href="tel:346-500-6555" className='pnumber' >Call Us : 346-500-6555</a>
+<div className='gstartbtn' style={{visibility:"hidden"}}>GET STARTED</div>
 </div>
 </div>
 

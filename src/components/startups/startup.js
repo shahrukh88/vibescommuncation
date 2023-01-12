@@ -24,10 +24,22 @@ import startupc2pic3 from '../images/esolutiions/startupc2pic3.png'
 import Footer from '../footer/footer';
 import Headermb from '../header/Headermb';
 import Contact2 from '../contact/contact2';
+import Discount from '../header/Discountoffer';
 
 function Startup() {
   
-   useEffect(() => {   
+   useEffect(() => {  
+    (function(d, w, c) {
+      w.ChatraID = 'td9DTmwopwxBzfMBw';
+      var s = d.createElement('script');
+      w[c] = w[c] || function() {
+          (w[c].q = w[c].q || []).push(arguments);
+      };
+      s.async = true;
+      s.src = 'https://call.chatra.io/chatra.js';
+      if (d.head) d.head.appendChild(s);
+  })(document, window, 'Chatra');
+
     }, []);
 
 
@@ -53,6 +65,8 @@ function Startup() {
        </Helmet>
      
 <div>
+<Discount/>
+
   <Headermb/>
     <Header/>
     <div className='main'> 
@@ -62,8 +76,8 @@ function Startup() {
         <i className="fa fa-caret-down"></i>
   </div>
   <div className="dropdown-contentb" style={{marginLeft:"13%",marginTop:"3.38%"}}>
-  <a href="/business+phone+system" style={{color:"#104E71",fontWeight:"400"}}>BUSINESS PHONE SYSTEM</a>
-  <a href="/team+chat+system" style={{color:"#104E71",fontWeight:"400"}}>TEAM CHAT SYSTEM</a>
+  <a href="/business-phone-system" style={{color:"#104E71",fontWeight:"400"}}>BUSINESS PHONE SYSTEM</a>
+  <a href="/team-chat-system" style={{color:"#104E71",fontWeight:"400"}}>TEAM CHAT SYSTEM</a>
   </div>
 </div>
    <div className="dropdown">
@@ -73,13 +87,13 @@ function Startup() {
   <div className="dropdown-content">
   <a   style={{color:"#104E71",fontWeight:"500",marginLeft:"0%",marginTop:"4%"}}>BY AUDIENCE</a>
   <a href="/solutions" style={{color:"#104E71",fontWeight:"400"}}>CORPORATIONS	</a>
-  <a href="/small+business+solution" style={{color:"#104E71",fontWeight:"400"}}>SMALL BUSINESSES </a>
+  <a href="/small-business-solution" style={{color:"#104E71",fontWeight:"400"}}>SMALL BUSINESSES </a>
   <a href="/startup" style={{color:"#104E71",fontWeight:"400"}}>STARTUPS</a>
   </div>
 </div>
 
     <a href='/whyvibes' className='nbartext'>WHY VIBES &nbsp;?</a>
-    <a href='/blogs' className='nbartext'>BLOGS</a>
+    <a href='/blogs' className='nbartext'>BLOG</a>
     <a href='/contact' className='nbartext'>CONTACT US</a>
 
    <img className='logodarkblue' src={logodarkblue} alt='circle1'/> 
@@ -94,8 +108,8 @@ function Startup() {
 <img className='ecircle1' src={ecircle1} alt='ecircle1'/> 
 <img className='esmale1' src={esmale1} alt='esmale1'/> 
 
-<p className='startupmaintex1'  >VIBES</p>
-<p className='startupmaintex2' >KEEP YOUR TEAM Connected</p>
+<h1 className='startupmaintex1'  >VIBES</h1>
+<h3 className='startupmaintex2' >KEEP YOUR TEAM Connected</h3>
 <p className='startupmaintex3' >Vibes provides team chat and messaging app for the modern workplace. With features like<br/> file sharing and collaboration, it's easy to stay organized and get work done.</p>
 <p className='startupmaintex3mb' >Vibes provides team chat and messaging app for the modern workplace. With features like file sharing and collaboration, <br/> it's easy to stay organized and get work done.</p>
 
@@ -107,10 +121,10 @@ function Startup() {
 
 </div>
 <div className='startupc2'>
-    <p className='startupc2tex1'>Plan for the future with Vibes.</p>
-    <p className='startupc2tex1mb'>Plan for the future<br/> with Vibes.</p>
-    <p className='startupc2tex2'>Vibes is designed to bring people together and innovate faster.</p>
-    <p className='startupc2tex2mb'>Vibes is designed to bring people together and <br/>innovate faster.</p>
+    <h1 className='startupc2tex1'>Plan for the future with Vibes.</h1>
+    <h1 className='startupc2tex1mb'>Plan for the future<br/> with Vibes.</h1>
+    <h2 className='startupc2tex2'>Vibes is designed to bring people together and innovate faster.</h2>
+    <h2 className='startupc2tex2mb'>Vibes is designed to bring people together and <br/>innovate faster.</h2>
     
     
     <p className='startupc2tex3'>Do more with less</p>
@@ -134,7 +148,7 @@ function Startup() {
 </div>
 <br/>
 <br/>
-<br/>
+<br/>                    
 
 <div className='escenter2'>
     
@@ -142,10 +156,16 @@ function Startup() {
     <img className='esright1es' src={esright1} alt='ecircle2'/> 
     <img className='esleft1es' src={esleft1} alt='ecircle2'/> 
     <p className='esc2tx1'>Innovate & Grow your Startup</p>
-    <p className='esc2tx1mb1'>Innovate & Grow<br/> your Startup</p>
-    <p className='esc2tx2' >We assist you in streamlining your organization by offering a dependable, user-friendly, and secure<br/> phone service. With our business phone system, you won't have any downtime and you will receive the <br/>assistance you require without delay.</p>
-    <p className='esc2tx2mb1' >We assist you in streamlining your organization by <br/>offering a dependable, user-friendly, and secure phone<br/> service. With our business phone system, you won't have <br/>any downtime and you will receive the assistance you <br/>require without delay.</p>
-    <div className='esc2btn1'>Schedule a call</div>
+     <p className='esc2tx2' >We assist you in streamlining your organization by offering a dependable, user-friendly, and secure phone service. With our business phone system, you won't have any downtime and you will receive the assistance you require without delay.</p>
+     <div className='esc2btn1' style={{cursor:"pointer"}} data-toggle="modal" data-target="#myModal">Schedule a call</div>
+<div class="modal fade" id="myModal">
+    <div className="modal-dialog modal-xl" >
+      <div class="modal-content" >
+      <Contact2/> 
+      </div>
+    </div>
+  </div>
+
     </div>
 
     <div className='escenter3'>
@@ -194,7 +214,10 @@ function Startup() {
 </div>
 
 </div>
+<div id="fb-root"></div>
 
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
 <Footer/>
 </div>
 

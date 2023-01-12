@@ -17,23 +17,36 @@ import eslastv from '../images/esolutiions/eslastv.png'
 import esfem3 from '../images/esolutiions/esfem3.png'
 import Headermb from '../header/Headermb';
 import Contact2 from '../contact/contact2';
+import Discount from '../header/Discountoffer';
+import Contact3 from '../contact/contact3';
 
 function Articles() {
   
    useEffect(() => {   
-    
+    (function(d, w, c) {
+      w.ChatraID = 'td9DTmwopwxBzfMBw';
+      var s = d.createElement('script');
+      w[c] = w[c] || function() {
+          (w[c].q = w[c].q || []).push(arguments);
+      };
+      s.async = true;
+      s.src = 'https://call.chatra.io/chatra.js';
+      if (d.head) d.head.appendChild(s);
+  })(document, window, 'Chatra');
+
     }, []);
 
 
   return (
     <div>
          <Helmet>
-          <title>Articles | vibes</title>
-          
-
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+          <title>Common Misconceptions About VOIP (Busted) - Vibes</title>
+          <meta name="description" content="Managing your VoIP service is supposed to be a smooth process. However, before deciding, you might feel overwhelmed with all the misinformation) about how VoIP works."/>
           < meta name="viewport" content="width=device-width, initial-scale=1.0"/>
      <meta charset="UTF-8"/>
+    
+
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
      <link rel="stylesheet" href="style.css"/>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
@@ -47,6 +60,8 @@ function Articles() {
        </Helmet>
      
 <div>
+<Discount/>
+
   <Headermb/>
     <Header/>
     <div className='main'> 
@@ -57,8 +72,8 @@ function Articles() {
         <i className="fa fa-caret-down"></i>
   </div>
   <div className="dropdown-contentb" style={{marginLeft:"13%",marginTop:"3.38%"}}>
-  <a href="/business+phone+system" style={{color:"#104E71",fontWeight:"400"}}>BUSINESS PHONE SYSTEM</a>
-  <a href="/team+chat+system" style={{color:"#104E71",fontWeight:"400"}}>TEAM CHAT SYSTEM</a>
+  <a href="/business-phone-system" style={{color:"#104E71",fontWeight:"400"}}>BUSINESS PHONE SYSTEM</a>
+  <a href="/team-chat-system" style={{color:"#104E71",fontWeight:"400"}}>TEAM CHAT SYSTEM</a>
   </div>
 </div>
    <div className="dropdown">
@@ -68,13 +83,13 @@ function Articles() {
   <div className="dropdown-content">
   <a   style={{color:"#104E71",fontWeight:"500",marginLeft:"0%",marginTop:"4%"}}>BY AUDIENCE</a>
   <a href="/solutions" style={{color:"#104E71",fontWeight:"400"}}>CORPORATIONS	</a>
-  <a href="/small+business+solution" style={{color:"#104E71",fontWeight:"400"}}>SMALL BUSINESSES </a>
+  <a href="/small-business-solution" style={{color:"#104E71",fontWeight:"400"}}>SMALL BUSINESSES </a>
   <a href="/startup" style={{color:"#104E71",fontWeight:"400"}}>STARTUPS</a>
   </div>
 </div>
 
     <a href='/whyvibes' className='nbartext'>WHY VIBES &nbsp;?</a>
-    <a href='/blogs' className='nbartext'>BLOGS</a>
+    <a href='/blogs' className='nbartext'>BLOG</a>
     <a href='/contact' className='nbartext'>CONTACT US</a>
 
 
@@ -86,15 +101,15 @@ function Articles() {
 <div className='clearfloat'>
 </div>
 <div className='mainarticle'>
-<p className='arttext1'>Common Misconceptions <br/>about VoIP (Busted)</p>
+<h1 className='arttext1'>Common Misconceptions <br/>about VoIP (Busted)</h1>
 <p className='arttext2'>In this VoIP myth debunking guide, we explain everything you need to know and dispel some common <br/>misconceptions that are often heard.</p>
 <p className='arttext2mb'>In this VoIP myth debunking guide, we explain everything <br/>you need to know and dispel some common misconceptions<br/> that are often heard.</p>
 
 <hr className='artline1'/>
 <img className='articlepic1' src={articlepic1} alt='circle2'/> 
-<p className='arttext3'>Managing your VoIP service is supposed to be a smooth process. However, before deciding, you might feel overwhelmed with all the new information (and misinformation) about how<br/> VoIP works.<br/>
+<p className='arttext3'>Managing your VoIP service is supposed to be a smooth process. However, before deciding, you might feel overwhelmed with all the new<br/> information (and misinformation) about how VoIP works.<br/>
 <br/>
-In this VoIP myth debunking guide, we explain everything you need to know and dispel some common misconceptions that are often heard. Whether you're new to the concept or <br/>already know what it is and are wondering how to use it in your workplace, this is the right place to find all the answers you've been looking for.<br/>
+In this VoIP myth debunking guide, we explain everything you need to know and dispel some common misconceptions that are often heard.<br/> Whether you're new to the concept or already know what it is and are wondering how to use it in your workplace, this is the right place to find all<br/> the answers you've been looking for.
 So, let's jump right in!
 </p>
 <p className='arttext3mb'>Managing your VoIP service is supposed to be a smooth<br/> process. However, before deciding, you might feel <br/>overwhelmed with all the new information (and <br/>misinformation) about how VoIP works. <br/><br/>
@@ -103,11 +118,11 @@ In this VoIP myth debunking guide, we explain everything <br/>you need to know a
 <p className='arttext4'>What exactly is a VoIP service?</p>
 <p className='arttext4mb'>What exactly is a VoIP<br/> service?</p>
 
-<p className='arttext5'>Voice over Internet Protocol (VoIP) is a digital telephone system that allows users to make and receive phone calls over the internet instead of the traditional landline.<br/>
+<p className='arttext5'>Voice over Internet Protocol (VoIP) is a digital telephone system that allows users to make and receive phone calls over the internet instead of the<br/> traditional landline.<br/><br/>
 
-You might know it as virtual telephony, a cloud-based phone system, IP telephony, or virtual calling software. Regardless of what you call it, it works the same way. VoIP services allow<br/> you to make voice calls over the Internet instead of using a landline phone.<br/><br/>
+You might know it as virtual telephony, a cloud-based phone system, IP telephony, or virtual calling software. Regardless of what you call it, it<br/> works the same way. VoIP services allow you to make voice calls over the Internet instead of using a landline phone.<br/><br/>
 
-The current digital landscape has evolved well enough that landlines are no longer functional unless it's for business corporations. And even corporations are evolving their<br/> communication through VoIP services instead of traditional landlines. The reasons are simple:<br/><br/>
+The current digital landscape has evolved well enough that landlines are no longer functional unless it's for business corporations. And even <br/>corporations are evolving their communication through VoIP services instead of traditional landlines. The reasons are simple:<br/><br/>
 
 &#183; &nbsp;It's more affordable and scalable than landlines<br/>
 &#183; &nbsp;There are more advanced features than standard business phone services<br/>
@@ -132,7 +147,7 @@ The current digital landscape has evolved well enough that landlines are no long
 <p className='arttext5'>
 The first question that pops up is, usually, do I need a special phone for VoIP?<br/>
 No, you don't. <br/>
-VoIP can be used without any special devices or phones. While IP phones are often preferred, the key advantage of using VoIP is that you can use any phone device to operate your<br/> calls. You may have already invested significant money in your current PSTN telephones and can continue using them for VoIP if you have an ATA card.
+VoIP can be used without any special devices or phones. While IP phones are often preferred, the key advantage of using VoIP is that you can use <br/>any phone device to operate your calls. You may have already invested significant money in your current PSTN telephones and can continue using<br/> them for VoIP if you have an ATA card.
 </p>
 <p className='arttext5mb'>The first question that pops up is, usually, do I need a special <br/>phone for VoIP?
 <br/>No, you don't. <br/>
@@ -149,9 +164,9 @@ Even if you see a 5-step guide to set up your VoIP, think<br/> twice before impl
 </p>
 <p className='arttext5'>
 Can you set up your own VoIP service? <br/>
-It's more complex than that. While you can set up VoIP systems yourself, you should consult professionals to make it effective. Whether you have a lot of employees, a small team, or<br/> remote employees, it's always better to ask for professional help.<br/><br/>
+It's more complex than that. While you can set up VoIP systems yourself, you should consult professionals to make it effective. Whether you have a<br/> lot of employees, a small team, or remote employees, it's always better to ask for professional help.<br/><br/>
 
-If you need to implement VoIP on a large scale, you will likely need to employ more intricate steps than if you only need to handle a small subset of calls. Regardless of the scope of<br/> your setup, the equipment, connections, and software management is better done by experts to avoid downtime and technical issues in the future. <br/>
+If you need to implement VoIP on a large scale, you will likely need to employ more intricate steps than if you only need to handle a small subset<br/> of calls. Regardless of the scope of your setup, the equipment, connections, and software management is better done by experts to avoid<br/> downtime and technical issues in the future. <br/>
 Even if you see a 5-step guide to set up your VoIP, think twice before implementing!
 
 </p>
@@ -159,8 +174,8 @@ Even if you see a 5-step guide to set up your VoIP, think twice before implement
 <p className='arttext6'>3. Emergency services can track VoIP</p>
 <p className='arttext6mb'>3. Emergency services can track VoIP</p>
 <p className='arttext5'>Individuals and businesses value their privacy much more in today's time. So you might be wondering, can emergency service track VoIP? <br/>
-Calls from traditional landlines give away information about an address, name, and callback number quite readily. However, VoIP services are designed to change that. You can rest<br/> assured that nobody (including emergency services) can track a VoIP caller. <br/><br/>
-We suggest never using VoIP for emergency calls. Still, if you're using VoIP through a smart device, your chipset's GPS function will easily allow emergency services to track your call.
+Calls from traditional landlines give away information about an address, name, and callback number quite readily. However, VoIP services are<br/> designed to change that. You can rest assured that nobody (including emergency services) can track a VoIP caller. <br/><br/>
+We suggest never using VoIP for emergency calls. Still, if you're using VoIP through a smart device, your chipset's GPS function will easily allow<br/> emergency services to track your call.
 </p>
 <p className='arttext5mb'>Individuals and businesses value their privacy much more in <br/>today's time. So you might be wondering, can emergency<br/> service track VoIP? <br/>
 Calls from traditional landlines give away information about<br/> an address, name, and callback number quite readily. <br/> However, VoIP services are designed to change that. You can<br/> rest assured that nobody (including emergency services) can <br/>track a VoIP caller. <br/><br/>
@@ -171,8 +186,8 @@ We suggest never using VoIP for emergency calls. Still, if<br/> you're using VoI
 <p className='arttext6mb'>4. You need a standard phone service provider with <br/>VoIP</p>
 <p className='arttext5'>You don't need a standard phone service provider with VoIP. But does VoIP require a service provider at all?<br/>
 Yes. <br/>
-You need a VoIP service provider to manage calls from external sources. You can only make and receive internal calls within your organization's network if you don't have a SIP VoIP <br/>service provider. <br/>
-You also need a VoIP host to unlock advanced VoIP capabilities. Cloud VoIP providers offer a wide range of features not available on traditional phone services.
+You need a VoIP service provider to manage calls from external sources. You can only make and receive internal calls within your organization's<br/> network if you don't have a SIP VoIP service provider. <br/>
+You also need a VoIP host to unlock advanced VoIP capabilities. Cloud VoIP providers offer a wide range of features not available on traditional <br/>phone services.
 </p>
 <p className='arttext5mb'>You don't need a standard phone service provider with VoIP. <br/>But does VoIP require a service provider at all? <br/>
 Yes. <br/>
@@ -184,9 +199,9 @@ You also need a VoIP host to unlock advanced VoIP<br/> capabilities. Cloud VoIP 
 <p className='arttext6mb'>5. VoIP services aren’t secure</p>
 <p className='arttext5'>The most frequently asked question is, are VoIP phones secure? <br/><br/>
 
-Every business needs to ensure its security to protect its data and assets. There is no difference between having a large organization and a small business. A disruption to your phone<br/> system could be quite catastrophic. <br/><br/>
+Every business needs to ensure its security to protect its data and assets. There is no difference between having a large organization and a small<br/> business. A disruption to your phone system could be quite catastrophic. <br/><br/>
 
-The good news is that VoIP is quite secure. Reputable VoIP providers maintain military-grade security. The providers use Session Border Controllers (SBCs) for optimal security and<br/> performance. An SBC acts as a firewall that helps to maintain performance and logical call routing. Rest assured, you can sleep soundly at night knowing your VoIP calls are secure!
+The good news is that VoIP is quite secure. Reputable VoIP providers maintain military-grade security. The providers use Session Border<br/> Controllers (SBCs) for optimal security and performance. An SBC acts as a firewall that helps to maintain performance and logical call routing.<br/> Rest assured, you can sleep soundly at night knowing your VoIP calls are secure!
 
 </p>
 <p className='arttext5mb'>The most frequently asked question is, are VoIP phones <br/>secure? <br/><br/>
@@ -198,7 +213,7 @@ The good news is that VoIP is quite secure. Reputable VoIP<br/> providers mainta
 <p className='arttext6'>6. VoIP services don’t work with unlocked phones</p>
 <p className='arttext6mb'>6. VoIP services don’t work with unlocked phones</p>
 <p className='arttext5'>
-Users of smartphones and cell phones can use VoIP services to communicate with others. The VoIP phone service provider helps you install the app to support the system. Some <br/>providers give you a SIM card, an app, and an unlocked handset. You can usually just use your current data plan without worrying about unlocking it.
+Users of smartphones and cell phones can use VoIP services to communicate with others. The VoIP phone service provider helps you install the <br/>app to support the system. Some providers give you a SIM card, an app, and an unlocked handset. You can usually just use your current data plan<br/> without worrying about unlocking it.
 </p>
 <p className='arttext5mb'>Users of smartphones and cell phones can use VoIP services<br/> to communicate with others. The VoIP phone service<br/> provider helps you install the app to support the system. <br/> Some providers give you a SIM card, an app, and an unlocked<br/> handset. You can usually just use your current data plan<br/> without worrying about unlocking it.
 </p>
@@ -207,9 +222,9 @@ Users of smartphones and cell phones can use VoIP services to communicate with o
 <p className='arttext5'>
 
 
-You have used a phone number for years, and many people recognize you or your company through it. You wish to switch to VoIP but don't want to go with a new number either.<br/> Switching to VoIP means choosing a new phone service provider, but can you continue using your existing landline phone number with your new VoIP service? <br/><br/>
+You have used a phone number for years, and many people recognize you or your company through it. You wish to switch to VoIP but don't want to<br/> go with a new number either. Switching to VoIP means choosing a new phone service provider, but can you continue using your existing landline<br/> phone number with your new VoIP service? <br/><br/>
 
-The misconception that you can't link your old number to a VoIP service seems unreasonable because providers understand why you would want to keep it. <br/>
+The misconception that you can't link your old number to a VoIP service seems unreasonable because providers understand why you would want to<br/> keep it. <br/>
 So yes, you can bring your existing phone 
 </p>
 <p className='arttext5mb'>You have used a phone number for years, and many people<br/> recognize you or your company through it. You wish to<br/> switch to VoIP but don't want to go with a new number<br/> either. Switching to VoIP means choosing a new phone<br/> service provider, but can you continue using your existing<br/> landline phone number with your new VoIP service?
@@ -222,12 +237,12 @@ So yes, you can bring your existing phone number to the new<br/> VoIP service by
 <p className='arttext6mb'>8. All phones are VoIP compatible</p>
 <p className='arttext5'>
 
-This isn't exactly a misconception but more of a misunderstanding. VoIP can work on any device, including IP phones, smartphones, cellphones, softphones, tablets, and IP handsets.<br/> However, VoIP service isn't compatible with traditional landlines. <br/><br/>
+This isn't exactly a misconception but more of a misunderstanding. VoIP can work on any device, including IP phones, smartphones, cellphones,<br/> softphones, tablets, and IP handsets. However, VoIP service isn't compatible with traditional landlines. <br/><br/>
 
 So the answer to the question “Are all phones VoIP compatible?” is a clear no. <br/>
 But, if you’re wondering if you can use a normal phone with VoIP, then the answer is yes. <br/><br/>
 
-This means that while traditional landlines aren't compatible with VoIP, you can still use them for VoIP services. You'll only need to connect a special Analog Telephone Adaptor (ATA) to<br/> make a standard telephone work for VoIP.
+This means that while traditional landlines aren't compatible with VoIP, you can still use them for VoIP services. You'll only need to connect a<br/> special Analog Telephone Adaptor (ATA) to make a standard telephone work for VoIP.
 </p>
 <p className='arttext5mb'>
 This isn't exactly a misconception but more of a<br/> misunderstanding. VoIP can work on any device, including IP<br/> phones, smartphones, cellphones, softphones, tablets, and IP <br/>handsets. However, VoIP service isn't compatible with<br/> traditional landlines.
@@ -241,9 +256,9 @@ This means that while traditional landlines aren't compatible <br/>with VoIP, yo
 9. VoIP phones work without the internet
 </p>
 <p className='arttext5'>No, they don't.<br/>
-VoIP is not possible without an internet connection. VoIP phone calls are made over the internet rather than over phone lines. If the internet connection is lost or goes down, you won't<br/> be able to make phone calls. <br/><br/>
+VoIP is not possible without an internet connection. VoIP phone calls are made over the internet rather than over phone lines. If the internet<br/> connection is lost or goes down, you won't be able to make phone calls. <br/><br/>
 
-VoIP ultimately depends on your internet connection. So if you're facing internet downtime, you'll also face VoIP downtime. This is why you need to test your internet speed and <br/>connection reliability before switching to VoIP.
+VoIP ultimately depends on your internet connection. So if you're facing internet downtime, you'll also face VoIP downtime. This is why you need to<br/> test your internet speed and connection reliability before switching to VoIP.
 </p>
 <p className='arttext5mb'>
 No, they don't. <br/>
@@ -255,11 +270,11 @@ VoIP ultimately depends on your internet connection. So if<br/> you're facing in
 <p className='arttext6mb'>
 10. Business VoIP is the same as CVP
 </p>
-<p className='arttext5'>Consumer VoIP (CVP) is a technology that allows people to communicate over the internet using voice and text. Apps like Skype, Facetime, and Viber are examples of CVP. These apps<br/> let you call others for free over the internet. <br/><br/>
+<p className='arttext5'>Consumer VoIP (CVP) is a technology that allows people to communicate over the internet using voice and text. Apps like Skype, Facetime, and<br/> Viber are examples of CVP. These apps let you call others for free over the internet. <br/><br/>
 
-Business VoIP is not designed for individuals but for business corporations. It offers features such as call routing, Bring Your Own Device (BYOD), and enterprise CRM sales enablement <br/>that you can't access through CVP. <br/><br/>
+Business VoIP is not designed for individuals but for business corporations. It offers features such as call routing, Bring Your Own Device (BYOD),<br/> and enterprise CRM sales enablement that you can't access through CVP. <br/><br/>
 
-Business VoIP also offers a higher level of security, more advanced features, and room for customization to meet your business's needs. Fundamentally, both are different applications <br/>of VoIP, but they work differently based on user criteria.
+Business VoIP also offers a higher level of security, more advanced features, and room for customization to meet your business's needs.<br/> Fundamentally, both are different applications of VoIP, but they work differently based on user criteria.
 </p>
 <p className='arttext5mb'>
 Consumer VoIP (CVP) is a technology that allows people to <br/>communicate over the internet using voice and text. Apps<br/> like Skype, FaceTime, and Viber are examples of CVP. These<br/> apps let you call others for free over the internet. <br/><br/>
@@ -273,9 +288,9 @@ Business VoIP also offers a higher level of security, more <br/>advanced feature
 11. Calling through a VoIP is not reliable
 </p>
 <p className='arttext5'>This myth takes root from the early days of VoIP. <br/>
-Back then, the call quality was low because the internet speed was low. As internet bandwidth increased, VoIP call quality improved dramatically. The sound quality of VoIP calls is<br/> better than that using a landline phone. <br/><br/>
+Back then, the call quality was low because the internet speed was low. As internet bandwidth increased, VoIP call quality improved dramatically.<br/> The sound quality of VoIP calls is better than that using a landline phone. <br/><br/>
 
-However, the reliability of your VoIP service will depend on your internet service provider. The SIP protocol provides error-correction capabilities, such as TCP or UDP. So your VoIP call<br/> is just as good as your internet connection. But we don't have to worry about it anymore, right? <br/><br/>
+However, the reliability of your VoIP service will depend on your internet service provider. The SIP protocol provides error-correction capabilities,<br/> such as TCP or UDP. So your VoIP call is just as good as your internet connection. But we don't have to worry about it anymore, right? <br/><br/>
 
 High-speed internet is everywhere, and so is reliable VoIP calling!
 
@@ -292,7 +307,7 @@ High-speed internet is everywhere, and so is reliable VoIP<br/> calling!
 <p className='arttext6mb'>
 12. VoIP is only an application software
 </p>
-<p className='arttext5'>VoIP itself is not limited to application software. Still, a mobile app is definitely a benefit of VoIP because you can take and make calls from anywhere without being bound to your desk <br/>phone. <br/>
+<p className='arttext5'>VoIP itself is not limited to application software. Still, a mobile app is definitely a benefit of VoIP because you can take and make calls from<br/> anywhere without being bound to your desk phone. <br/>
 VoIP is versatile because it allows the option of having a hard phone, a software-based phone, or both at once!
 </p>
 <p className='arttext5mb'>
@@ -304,9 +319,9 @@ VoIP is versatile because it allows the option of having a<br/> hard phone, a so
 13. VoIP numbers can’t receive text messages
 
 </p>
-<p className='arttext5'>Texting is essential for your business as it allows you to communicate with customers and clients quickly and easily. You have a VoIP phone system that can securely handle all your <br/>voice communication. But can VoIP numbers receive text messages? <br/>
+<p className='arttext5'>Texting is essential for your business as it allows you to communicate with customers and clients quickly and easily. You have a VoIP phone<br/> system that can securely handle all your voice communication. But can VoIP numbers receive text messages? <br/>
 The answer is yes! <br/>
-Just as VoIP lets you make calls over the internet to any landline, mobile, or VoIP phone, it can do the same for texts. VoIP texting uses a virtual number to send and receive text <br/>messages. To use this service, you only need a VoIP app that supports SMS and MMS messaging.
+Just as VoIP lets you make calls over the internet to any landline, mobile, or VoIP phone, it can do the same for texts. VoIP texting uses a virtual<br/> number to send and receive text messages. To use this service, you only need a VoIP app that supports SMS and MMS messaging.
 </p>
 <p className='arttext5mb'>Texting is essential for your business as it allows you to<br/> communicate with customers and clients quickly and easily. <br/> You have a VoIP phone system that can securely handle all<br/> your voice communication. But can VoIP numbers receive <br/>text messages? <br/>The answer is yes! <br/>
 Just as VoIP lets you make calls over the internet to any <br/>landline, mobile, or VoIP phone, it can do the same for texts. <br/> VoIP texting uses a virtual number to send and receive text<br/> messages. To use this service, you only need a VoIP app that<br/> supports SMS and MMS messaging.
@@ -322,7 +337,7 @@ Vibes is the most advanced solution for VoIP services with top-tier security, co
 
 Ready to get your VoIP running? Book a Demo with the world's leading brand and experience quality communication! <br/><br/>
 
-Meta description: VoIP service is the next big wave in business. Find out the answers to frequently asked questions and typical misconceptions regarding VoIP services.
+Meta description: VoIP service is the next big wave in business. Find out the answers to frequently asked questions and typical misconceptions <br/>regarding VoIP services.
 </p>
 <p className='arttext5mb'>Vibes helps brands connect and activate their consumer<br/> experiences across the global enterprise scale's marketing, <br/> loyalty, and servicing lifecycle. <br/><br/>
 
@@ -343,7 +358,7 @@ Meta description: VoIP service is the next big wave in<br/> business. Find out t
 <div class="modal fade" id="myModal">
     <div className="modal-dialog modal-xl" >
       <div class="modal-content" >
-      <Contact2/> 
+      <Contact3/> 
       </div>
     </div>
   </div>
@@ -352,7 +367,10 @@ Meta description: VoIP service is the next big wave in<br/> business. Find out t
 
 </div>  
 <div className='clearfloat'/>
+<div id="fb-root"></div>
 
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
 <Footer/>
 </div>
 

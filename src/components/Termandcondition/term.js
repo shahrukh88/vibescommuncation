@@ -13,10 +13,24 @@ import Footer from '../footer/footer';
 import eslastv from '../images/esolutiions/eslastv.png'
 import esfem3 from '../images/esolutiions/esfem3.png'
 import Headermb from '../header/Headermb';
+import Contact2 from '../contact/contact2';
+import Discount from '../header/Discountoffer';
 
 function Term() {
   
    useEffect(() => {   
+    (function(d, w, c) {
+      w.ChatraID = 'td9DTmwopwxBzfMBw';
+      var s = d.createElement('script');
+      w[c] = w[c] || function() {
+          (w[c].q = w[c].q || []).push(arguments);
+      };
+      s.async = true;
+      s.src = 'https://call.chatra.io/chatra.js';
+      if (d.head) d.head.appendChild(s);
+  })(document, window, 'Chatra');
+
+
     }, []);
 
 
@@ -34,6 +48,8 @@ function Term() {
        </Helmet>
      
 <div>
+<Discount/>
+
   <Headermb/>
     <Header/>
     <div className='main'> 
@@ -44,8 +60,8 @@ function Term() {
         <i className="fa fa-caret-down"></i>
   </div>
   <div className="dropdown-contentb" style={{marginLeft:"13%",marginTop:"3.38%"}}>
-  <a href="/business+phone+system" style={{color:"#104E71",fontWeight:"400"}}>BUSINESS PHONE SYSTEM</a>
-  <a href="/team+chat+system" style={{color:"#104E71",fontWeight:"400"}}>TEAM CHAT SYSTEM</a>
+  <a href="/business-phone-system" style={{color:"#104E71",fontWeight:"400"}}>BUSINESS PHONE SYSTEM</a>
+  <a href="/team-chat-system" style={{color:"#104E71",fontWeight:"400"}}>TEAM CHAT SYSTEM</a>
   </div>
 </div>
    <div className="dropdown">
@@ -55,13 +71,13 @@ function Term() {
   <div className="dropdown-content">
   <a   style={{color:"#104E71",fontWeight:"500",marginLeft:"0%",marginTop:"4%"}}>BY AUDIENCE</a>
   <a href="/solutions" style={{color:"#104E71",fontWeight:"400"}}>CORPORATIONS	</a>
-  <a href="/small+business+solution" style={{color:"#104E71",fontWeight:"400"}}>SMALL BUSINESSES </a>
+  <a href="/small-business-solution" style={{color:"#104E71",fontWeight:"400"}}>SMALL BUSINESSES </a>
   <a href="/startup" style={{color:"#104E71",fontWeight:"400"}}>STARTUPS</a>
   </div>
 </div>
 
     <a href='/whyvibes' className='nbartext'>WHY VIBES &nbsp;?</a>
-    <a href='/blogs' className='nbartext'>BLOGS</a>
+    <a href='/blogs' className='nbartext'>BLOG</a>
     <a href='/contact' className='nbartext'>CONTACT US</a>
     
    <img className='logodarkblue' src={logodarkblue} alt='circle1'/> 
@@ -77,7 +93,7 @@ function Term() {
 
 
 <p className='wvbtext1' style={{visibility:"hidden"}}>Why</p>
-<p className='wvbtext2bb'>TERMS OF SERVICE</p>
+<h1 className='wvbtext2bb' style={{marginTop:"-2%"}}>TERMS OF SERVICE</h1>
 <p className='wvbtext4'>These Terms contain exclusions, disclaimers, and limitations of liability. Please read these Terms carefully. </p>
 <p className='wvbtext4mb'>These Terms contain exclusions, disclaimers, and limitations<br/> of liability. Please read these Terms carefully.</p>
 <p className='wvbtext2bb'style={{visibility:"hidden"}}>PRIVACY POLICY</p>
@@ -153,7 +169,7 @@ We may add to, modify, suspend, or discontinue, all or parts of the Services at 
 <p className='privacyt4mb'>
 
 We may allow you to purchase products from the<br/> Services. The price for each product will be described on <br/>the product page and in your checkout process. By<br/> purchasing a product, you are authorizing us to charge<br/> your supplied payment method for the amounts described <br/>in your checkout process. Except as provided in these<br/> Terms, all payments for products must be paid in advance, <br/> are non-cancelable, and non-refundable.
-
+                                                                                                                             
 </p>
 <p className='privacyt4'>We may allow you to purchase products from the Services. The price for each product will be described on the product page and in your checkout process. By purchasing a<br/> product, you are authorizing us to charge your supplied payment method for the amounts described in your checkout process. Except as provided in these Terms, all payments <br/>for products must be paid in advance, are non-cancelable, and non-refundable.
 </p>
@@ -394,12 +410,24 @@ We may amend these Terms any time, for any reason, with<br/> or without notice t
 <p className='privacyconmb'  style={{fontSize:"7vw",fontWeight:"300"}}>Unless otherwise required by<br/> these Terms or by law, you <br/>  may contact us
 
 </p>
-<div className='escen3btnbx'>CONTACT US NOW</div>
+
+<div className='escen3btnbx' style={{cursor:"pointer"}} data-toggle="modal" data-target="#myModal">CONTACT US NOW</div>
+<div class="modal fade" id="myModal">
+    <div className="modal-dialog modal-xl" >
+      <div class="modal-content" >
+      <Contact2/> 
+      </div>
+    </div>
+  </div>
 <img className='eslastv' src={eslastv} alt='ecircle2'/> 
 <img className='esfem3' src={esfem3} alt='ecircle2'/> 
 
 </div>  
 <div className='clearfloat'/>
+<div id="fb-root"></div>
+
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
 <Footer/>
 </div>
   );

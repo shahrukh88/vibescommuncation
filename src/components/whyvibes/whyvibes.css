@@ -18,7 +18,7 @@ body{
     text-transform: uppercase;
     color: #104E71;
     margin-left: 8%;
-    margin-top: -3%;
+
 
 }
 .wvbtext3{
@@ -28,7 +28,6 @@ body{
     text-transform: uppercase;
     color: #104E71;
     margin-left: 8%;
-    margin-top: -2.9%;
 
 }
 .wvbtext4{
@@ -37,7 +36,6 @@ body{
     font-size: 1.2vw;
     color: #000000;
     margin-left: 8%;
-    margin-top: -1.2%;
 
 }
 .line1wvb{
@@ -56,7 +54,7 @@ body{
         text-transform: uppercase;
         color: #104E71;
         margin-left: 5%;
-        margin-top: 2%;
+        margin-top: 5%;
     
     }
     .wvbtext2bb{
@@ -66,7 +64,7 @@ body{
         text-transform: uppercase;
         color: #104E71;
         margin-left: 5%;
-        margin-top: -7%;
+
     
     }
     .wvbtext3{
@@ -76,7 +74,6 @@ body{
         text-transform: uppercase;
         color: #104E71;
         margin-left: 5%;
-        margin-top: -6%;
     
     }
     .wvbtext4{
@@ -88,7 +85,6 @@ body{
         font-size: 3.3vw;
         color: #000000;
         margin-left: 5%;
-        margin-top: -3%;
     display: block;
     }
     .line1wvb{

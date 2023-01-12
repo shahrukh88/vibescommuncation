@@ -31,7 +31,7 @@ margin-right: 4%;
     text-transform: uppercase;
     color: #104E71;
     margin-left: 8%;
-    margin-top: -2%;
+
 }
 .bpstext3m
 {
@@ -40,7 +40,7 @@ margin-right: 4%;
     font-size: 1.1vw;
      color: black;
     margin-left: 8%;
-    margin-top: -1.2%;
+
 }
 .bpsbtn1{
     margin-left: 8%;
@@ -125,7 +125,7 @@ position: absolute;
         text-transform: uppercase;
         color: #104E71;
         margin-left: 5%;
-        margin-top: 0%;
+        margin-top: 2%;
     }
     .bpstext2m
     {
@@ -135,7 +135,7 @@ position: absolute;
         text-transform: uppercase;
         color: #104E71;
         margin-left: 5%;
-        margin-top: -5.2%;
+
     }
     .bpstext3m
     {
@@ -154,7 +154,7 @@ position: absolute;
     }
     .bpsbtn1{
         margin-left: 5%;
-        margin-top: 1.5%;
+        margin-top: 3%;
         font-family: 'Oswald';
         font-weight: 500;
         color: #FFFFFF;

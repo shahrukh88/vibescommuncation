@@ -27,10 +27,23 @@ import Footer from '../footer/footer';
 import Headermb from '../header/Headermb';
 import Contact from '../contact/contact';
 import Contact2 from '../contact/contact2';
+import Discount from '../header/Discountoffer';
 
 function Esolution() {
   
    useEffect(() => {   
+    (function(d, w, c) {
+      w.ChatraID = 'td9DTmwopwxBzfMBw';
+      var s = d.createElement('script');
+      w[c] = w[c] || function() {
+          (w[c].q = w[c].q || []).push(arguments);
+      };
+      s.async = true;
+      s.src = 'https://call.chatra.io/chatra.js';
+      if (d.head) d.head.appendChild(s);
+  })(document, window, 'Chatra');
+
+
     }, []);
 
 
@@ -55,6 +68,8 @@ function Esolution() {
           </Helmet>
      
 <div>
+<Discount/>
+
 <Headermb/>  
     <Header/>
     <div className='main'> 
@@ -64,8 +79,8 @@ function Esolution() {
         <i className="fa fa-caret-down"></i>
   </div>
   <div className="dropdown-contentb" style={{marginLeft:"13%",marginTop:"3.38%"}}>
-  <a href="/business+phone+system" style={{color:"#104E71",fontWeight:"400"}}>BUSINESS PHONE SYSTEM</a>
-  <a href="/team+chat+system" style={{color:"#104E71",fontWeight:"400"}}>TEAM CHAT SYSTEM</a>
+  <a href="/business-phone-system" style={{color:"#104E71",fontWeight:"400"}}>BUSINESS PHONE SYSTEM</a>
+  <a href="/team-chat-system" style={{color:"#104E71",fontWeight:"400"}}>TEAM CHAT SYSTEM</a>
   </div>
 </div>
    <div className="dropdown">
@@ -75,13 +90,13 @@ function Esolution() {
   <div className="dropdown-content">
   <a   style={{color:"#104E71",fontWeight:"500",marginLeft:"0%",marginTop:"4%"}}>BY AUDIENCE</a>
   <a href="/solutions" style={{color:"#104E71",fontWeight:"400"}}>CORPORATIONS	</a>
-  <a href="/small+business+solution" style={{color:"#104E71",fontWeight:"400"}}>SMALL BUSINESSES </a>
+  <a href="/small-business-solution" style={{color:"#104E71",fontWeight:"400"}}>SMALL BUSINESSES </a>
   <a href="/startup" style={{color:"#104E71",fontWeight:"400"}}>STARTUPS</a>
   </div>
 </div>
 
     <a href='/whyvibes' className='nbartext'>WHY VIBES &nbsp;?</a>
-    <a href='/blogs' className='nbartext'>BLOGS</a>
+    <a href='/blogs' className='nbartext'>BLOG</a>
     <a href='/contact' className='nbartext'>CONTACT US</a>
 
    <img className='logodarkblue' src={logodarkblue} alt='circle1'/> 
@@ -95,8 +110,8 @@ function Esolution() {
 <img className='ecircle1' src={ecircle1} alt='ecircle1'/> 
 <img className='esmale1' src={esmale1} alt='esmale1'/> 
 
-<p className='esmaintx1' style={{marginTop:"5%"}}>VOIP<span className='esmaintx2'>Communications </span></p>
-<p className='esmaintx3'>Solutions for Modern<br/> Enterprises</p>
+<h1 className='esmaintx1' style={{marginTop:"5%"}}>VOIP<span className='esmaintx2'>Communications </span></h1>
+<h1 className='esmaintx3'>Solutions for Modern<br/> Enterprises</h1>
 <p className='esmaintx4'>Switch to a more dependable and secure Business VoIP system designed for 21st century’s <br/>enterprises. </p>
 <p className='esmaintx4mb'>Switch to a more dependable and secure Business VoIP <br/>system designed for 21st century’s enterprises. </p>
 
@@ -129,10 +144,8 @@ function Esolution() {
     <img className='esleft1es' src={esleft1} alt='ecircle2'/> 
 
     <p className='esc2tx1'>Get tranquility of mind with Vibes</p>
-    <p className='esc2tx1mb1'>Get tranquility of<br/> mind with Vibes</p>
 
-    <p className='esc2tx2'>When all teams—not just those that are customer-facing—communicate effectively, your organization is operating <br/>at its best. Use Vibes Communications, a business phone system built on a cloud platform, to reduce costs, unify <br/>technologies and increase business agility across your entire business.</p>
-    <p className='esc2tx2mb1'>When all teams—not just those that are customer-facing<br/>—communicate effectively, your organization is operating <br/>at its best. Use Vibes Communications, a business phone<br/> system built on a cloud platform, to reduce costs, unify <br/>technologies and increase business agility across your <br/>entire business.</p>
+    <p className='esc2tx2'>When all teams—not just those that are customer-facing—communicate effectively, your organization is operating at its best. Use Vibes Communications, a business phone system built on a cloud platform, to reduce costs, unify technologies and increase business agility across your entire business.</p>
 
     <div className='esc2btn1' style={{cursor:"pointer"}} data-toggle="modal" data-target="#myModal">Talk to an Expert Now</div>
 <div class="modal fade" id="myModal">
@@ -192,6 +205,10 @@ function Esolution() {
 </div>
 </div>
 
+</div>
+<div id="fb-root"></div>
+
+<div id="fb-customer-chat" class="fb-customerchat">
 </div>
 <Footer/>
 </div>

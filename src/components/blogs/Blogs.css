@@ -1,6 +1,9 @@
 body{
     overflow-x: hidden;
 }
+.blogctext1a a,.blogctext2a a,.blogctext1 a,.blogctext2 a,.blogctext1b a,.blogctext2b a{
+    color: #104E71  !important;
+}
 .blogtext1{
     font-family: 'Oswald';
     font-weight: 500;
@@ -28,7 +31,7 @@ body{
     font-size: 1.2vw;
     color: #000000;
     margin-left: 8%;
-    margin-top: -2%;
+
 
 }
 
@@ -50,6 +53,9 @@ body{
 .blogcentermargin{
     margin-top: 50%;
 }
+.blogcenter2{
+    margin-top: 45%;
+}
 .blogctext1{
     position: absolute;
     font-family: 'Oswald';
@@ -66,10 +72,10 @@ body{
     font-family: 'Oswald';
     font-weight: 400;
     font-size: 1.2vw;
-    text-transform: uppercase;
     color: #000000;
-    margin-left: 6%;
-    margin-top: 34%;  
+    margin-left: 8%;
+    margin-top: 34%; 
+    text-align: center; 
 }
 .artbtn1{
     position: relative;
@@ -79,7 +85,23 @@ body{
     text-align: center;
     text-transform: uppercase;
     font-size: 1.3vw;
-    margin-left: 27%;
+    margin-left: 28.5%;
+     border-radius: 10px;
+    background: #88F2E8;
+    color: #104E71;
+    margin-top: 8% ;
+ cursor: pointer;
+    font-weight: 500;
+}
+.artbtn2{
+    position: relative;
+    width:55% ;
+    padding: 1.3%;
+    font-family: 'Oswald';
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.3vw;
+    margin-left: 23.5%;
      border-radius: 10px;
     background: #88F2E8;
     color: #104E71;
@@ -109,17 +131,17 @@ body{
     text-align: center;
     text-transform: uppercase;
     color: #000000;
-    margin-left: 48%;
+    margin-left: 40%;
     margin-top: 26.5%;  
 }
 .blogctext2a{
     position: absolute;
+    text-align: center;
     font-family: 'Oswald';
     font-weight: 400;
     font-size: 1.2vw;
-    text-transform: uppercase;
     color: #000000;
-    margin-left: 38%;
+    margin-left: 39.6%;
     margin-top: 34%;  
 }
 .blogcircle1b{
@@ -143,23 +165,41 @@ body{
     font-size: 2vw;
     text-transform: uppercase;
     color: #000000;
-    margin-left: 80%;
+    margin-left: 74.3%;
     margin-top: 26.5%;  
     text-align: center;
 }
 .blogctext2b{
     position: absolute;
     font-family: 'Oswald';
-
+text-align: center;
     font-weight: 400;
     font-size: 1.2vw;
-    text-transform: uppercase;
     color: #000000;
-    margin-left: 70.3%;
+    margin-left: 74.7%;
     margin-top: 34%;  
 }
 .blogtext2mb{
     visibility: hidden;
+}
+#bmargin{
+    margin-top: 97%;
+}
+#bmargin2{
+    margin-left: 8.5%;
+
+}
+#bmargin3{
+    margin-left: 7.5%;
+
+}
+#bmargin4{
+    margin-left: 42.7%;
+
+}
+#bmargin5{
+    margin-left: 39%;
+
 }
 @media only screen and (max-width: 750px) {
     .blogtext1{
@@ -182,7 +222,7 @@ body{
         font-size: 3.6vw;
         color: #000000;
         margin-left: 5%;
-        margin-top: -3%;
+
     margin-bottom: -4%;
     visibility:visible
 
@@ -221,8 +261,7 @@ body{
         font-family: 'Oswald';
         font-weight: 400;
         font-size: 3vw;
-        text-transform: uppercase;
-        color: #000000;
+         color: #000000;
         margin-left: 0%;
         text-align: center;
         margin-top: 3%;  
@@ -257,7 +296,6 @@ body{
         font-family: 'Oswald';
         font-weight: 400;
         font-size: 3vw;
-        text-transform: uppercase;
         color: #000000;
         margin-left: 0%;
         text-align: center;
@@ -293,7 +331,6 @@ body{
         font-family: 'Oswald';
         font-weight: 400;
         font-size: 3vw;
-        text-transform: uppercase;
         color: #000000;
         margin-left: 0%;
         text-align: center;
@@ -314,5 +351,43 @@ body{
         margin-top: 6% ;
      cursor: pointer;
         font-weight: 500;
+    }
+    .artbtn2{
+        position: relative;
+        width: 40% ;
+        padding: 1.3%;
+        font-family: 'Oswald';
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 3vw;
+        margin-left: 29%;
+         border-radius: 10px;
+        background: #88F2E8;
+        color: #104E71;
+        margin-top: 6% ;
+     cursor: pointer;
+        font-weight: 500;
+    }
+    .blogcenter2{
+        margin-top: 5%;
+    }
+    #bmargin{
+        margin-top: 0%;
+    }
+    #bmargin2{
+        margin-left: 0%;
+    
+    }
+    #bmargin3{
+        margin-left: 0%;
+    
+    }
+    #bmargin4{
+        margin-left: 0%;
+    
+    }
+    #bmargin5{
+        margin-left: 0%;
+    
     }
 }

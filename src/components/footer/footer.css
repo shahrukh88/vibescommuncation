@@ -12,6 +12,8 @@ body{
 .footerlogo{
 width: 10%;
 margin-left: 8%;
+height: auto;
+
 }
 .footertext1{
     font-family: 'Oswald';
@@ -112,7 +114,7 @@ margin-top: 3.4%;
             }
 .flinkmb{
  display: none; }
-  .flinkmb2{
+  .flinkmb2,.flinkmb3{
       display: none; }
       .icon02mb,.icon01mb,.icon03mb{
 display: none;
@@ -128,6 +130,7 @@ display: none;
     .footerlogo{
     width: 25%;
     margin-left: 8%;
+    height: 1%;
     }
     .footertext1{
         font-family: 'Oswald';
@@ -146,12 +149,15 @@ display: none;
         text-decoration: none;
         font-family: 'Oswald';
         font-weight: 400;
-        font-size: 5vw;
+        font-size: 3vw;
         text-transform: uppercase;
         color: #888789;
         margin-left: 8%;
         margin-top: 6.4%;
         width: 100%;
+    }
+    .flinkmb:hover{
+       color: #888889 !important;
     }
     .flinkmb2{
         display: block;
@@ -165,11 +171,27 @@ display: none;
         margin-left: 25%;
         margin-top: 7%;
     }
+    .flinkmb2:hover{
+        color: #888889 !important;
+     }
+     .flinkmb3{
+        display: block;
+      float: left;
+        text-decoration: none;
+        font-family: 'Oswald';
+        font-weight: 400;
+        font-size: 3vw;
+        text-transform: uppercase;
+        color:#000000;        ;
+        margin-left: 8%;
+        margin-top: 6.4%;
+        width: 100%;
+    }
     .icon01mb{
 display: block;
         position: absolute;
         margin-left: 43%;
-        margin-top: 10.4%;
+        margin-top: 20.4%;
         width: 5%;
     }
     
@@ -177,7 +199,7 @@ display: block;
         display: block;
         position: absolute;
         margin-left: 43%;
-        margin-top: 31%;
+        margin-top: 35%;
         width: 5%;
     }
     
@@ -185,7 +207,7 @@ display: block;
         display: block;
         position: absolute;
         margin-left: 43%;
-        margin-top: 53.5%;
+        margin-top: 52.3%;
         width: 5%;
     }
     .icon01{

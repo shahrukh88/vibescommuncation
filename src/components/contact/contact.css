@@ -133,6 +133,7 @@ body{
     margin-right: 5%;
  padding:.8%;
  margin-top: 2%;
+ cursor: pointer;
 
 }
 .contactlast{
@@ -158,6 +159,15 @@ body{
     color: #104E71;
     text-transform: uppercase;
 
+}
+.address3{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 1.2vw;
+    text-align: center;
+    color: #104E71;
+    text-transform: uppercase;
+  
 }
 
 hr.conline{
@@ -285,9 +295,20 @@ hr.conline{
          color: #104E71;
          margin-top: -2%;
          text-transform: uppercase;
+         margin-bottom: -.1%;
      
      }
-     
+     .address3{
+        font-family: 'Oswald';
+        font-weight: 400;
+        font-size: 3vw;
+        text-align: center;
+        color: #104E71;
+
+        text-transform: uppercase;
+    
+    }
+    
      hr.conline{
          border: 1px solid #104E71;
          width: 7%;
@@ -308,5 +329,6 @@ hr.conline{
         margin-left: 5%;
         width: 90%;
         height: 50vh;
+        margin-top: 3%;
     }
 }

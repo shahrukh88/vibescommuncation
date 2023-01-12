@@ -8,6 +8,16 @@
     color: #104E71;
     margin-top: 1%;
 }
+.arttext1c{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4.6vw;
+    text-align: center;
+    text-transform: uppercase;
+    color: #104E71;
+    margin-top: 1%;
+}
 .arttext2{
     font-family: 'Oswald';
     font-style: normal;
@@ -24,8 +34,9 @@ hr.artline1{
     margin-top: 3%;  
 }
 .articlepic1{
- width: 100%;
- margin-top: 3%;   
+ width: 69%;
+ margin-top: 3%;
+ margin-left: 16%;  
 }
 .arttext3{
     font-family: 'Oswald';
@@ -34,17 +45,17 @@ hr.artline1{
     font-size: 1.3vw;
     color: #000000;
     margin-top: 5%;
-    margin-left: 8%;
+    margin-left: 16%;
 }
 .arttext4{
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 500;
     font-size: 2.8vw;
-margin-left: 8%;
+
     text-transform: uppercase;
     color: #104E71;
-
+    margin-left: 16%;
 }
 .arttext5{
     font-family: 'Oswald';
@@ -53,11 +64,14 @@ margin-left: 8%;
     font-size: 1.3vw;
     color: #000000;
     margin-top: 0%;
-    margin-left: 8%;
+    margin-left: 16%;
 }
 .articlepic2{
-    width: 102%;
-   }
+    width: 69%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: 16%;   
+}
    .arttext6{
     font-family: 'Oswald';
     font-style: normal;
@@ -65,19 +79,25 @@ margin-left: 8%;
     font-size: 1.6vw;
     color: #104E71;
     margin-top: 0%;
-    margin-left: 8%;
+    margin-left: 16%;
 }
 .arttext7{
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 500;
     font-size: 2.8vw;
-margin-left: 8%;
+    margin-left: 16%;
     text-transform: uppercase;
     color: #104E71;
 margin-top: 4%;
 }
+.arttext6mb1,.arttext6mba{
+    font-size: 0px;
+}
 .arttext7mb,.arttext2mb,.arttext3mb,.arttext4mb,.arttext5mb,.arttext6mb,.arttext7mb{
+    display: none;
+}
+.arttext7mbc,.arttext2mbc,.arttext3mbc,.arttext4mbc,.arttext5mbc,.arttext6mbc,.arttext7mbc{
     display: none;
 }
 @media only screen and (max-width: 750px) {
@@ -90,7 +110,20 @@ margin-top: 4%;
         text-transform: uppercase;
         color: #104E71;
         margin-top: -2%;
-        margin-left: 5%;
+        margin-left: 6%;
+
+    }
+    .arttext1c{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 8vw;
+        text-align: left;
+        text-transform: uppercase;
+        color: #104E71;
+        margin-top: -2%;
+        margin-left: 8%;
+       margin-right: 8%;
     }
     .arttext2{
         display: none;
@@ -103,18 +136,19 @@ margin-top: 4%;
         text-align: left;
         color: #000000;
         margin-top: 1%;
-        margin-left: 5%;
+        margin-left: 6%;
         display: block;
     }
     hr.artline1{
       
         border: 1px solid #077F8D;
         width: 80%;
-        margin-top: 3%;  
+        margin-top: 8%;  
     }
     .articlepic1{
      width: 100%;
-     margin-top: 1%;   
+
+     margin-left: 0%;   
     }
     .arttext3{
    display: none;
@@ -127,7 +161,7 @@ margin-top: 4%;
         text-align: left;
         color: #000000;
         margin-top: 5%;
-        margin-left: 5%;
+        margin-left: 6%;
         display: block;
     }
     .arttext4{
@@ -139,7 +173,7 @@ margin-top: 4%;
         font-style: normal;
         font-weight: 500;
         font-size: 9vw;
-    margin-left: 5%;
+    margin-left: 6%;
         text-transform: uppercase;
         color: #104E71;
     
@@ -155,11 +189,13 @@ margin-top: 4%;
         font-size: 4vw;
         color: #000000;
         margin-top: 0%;
-        margin-left: 5%;
+        margin-left: 6%;
     }
     .articlepic2{
         width: 102%;
-        margin-top: -2%;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        margin-left: 0%;
        }
        .arttext6{
         display: none;
@@ -171,7 +207,25 @@ margin-top: 4%;
         font-size: 5vw;
         color: #104E71;
         margin-top: 0%;
-        margin-left: 5%;
+        margin-left: 6%;
+    }
+    .arttext6mba{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 5vw;
+        color: #104E71;
+        margin-top: 0%;
+        margin-left: 6%;
+    }
+    .arttext6mb1{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 5vw;
+        color: #104E71;
+        margin-top: 0%;
+        margin-left: 6%;
     }
     .arttext7{
         display: none;
@@ -182,7 +236,101 @@ margin-top: 4%;
         font-style: normal;
         font-weight: 500;
         font-size: 9vw;
-    margin-left: 5%;
+    margin-left: 6%;
+
+        text-transform: uppercase;
+        color: #104E71;
+    margin-top: 4%;
+    }
+
+    .arttext2mbc{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size:4vw;
+        text-align: left;
+        color: #000000;
+        margin-top: 1%;
+        margin-left: 8%;
+        margin-right: 8%;
+        display: block;
+    }
+
+    .arttext3mbc{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size:4vw;
+        text-align: left;
+        color: #000000;
+        margin-top: 5%;
+        margin-left: 8%;
+        margin-right: 8%;
+        display: block;
+    }
+
+    .arttext4mbc{
+        display: block;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 9vw;
+    margin-left: 8%;
+    margin-right: 8%;
+        text-transform: uppercase;
+        color: #104E71;
+    
+    }
+ 
+    .arttext5mbc{
+        display: block;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 4vw;
+        color: #000000;
+        margin-top: 0%;
+        margin-right: 8%;
+        margin-left: 8%;
+    }
+       .arttext6mbc{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 5vw;
+        color: #104E71;
+        margin-top: 0%;
+        margin-right: 8%;
+        margin-left: 8%;
+    }
+    .arttext6mbac{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 5vw;
+        color: #104E71;
+        margin-top: 0%;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    .arttext6mb1c{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 5vw;
+        color: #104E71;
+        margin-top: 0%;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    .arttext7mbc{
+        display: block;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 9vw;
+    margin-left: 8%;
+    margin-right: 8%;
         text-transform: uppercase;
         color: #104E71;
     margin-top: 4%;

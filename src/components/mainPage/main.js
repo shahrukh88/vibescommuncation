@@ -23,30 +23,25 @@ import phonefirst from '../images/mainpageimg/phonefisrt.png'
 import ticklogo from '../images/mainpageimg/ticklogo.png'
 import Footer from '../footer/footer';
 import Headermb from '../header/Headermb';
+import Discount from '../header/Discountoffer';
 
 function Mainpage() {
   
    useEffect(() => {   
    
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "111386693821280");
-      chatbox.setAttribute("attribution", "biz_inbox");
-   
-      window.fbAsyncInit = function() {
-       window.FB.init({
-          xfbml            : true,
-          version          : 'v15.0'
-        });
+    (function(d, w, c) {
+      w.ChatraID = 'td9DTmwopwxBzfMBw';
+      var s = d.createElement('script');
+      w[c] = w[c] || function() {
+          (w[c].q = w[c].q || []).push(arguments);
       };
+      s.async = true;
+      s.src = 'https://call.chatra.io/chatra.js';
+      if (d.head) d.head.appendChild(s);
+  })(document, window, 'Chatra');
 
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-   
+
+
     }, []);
 
 
@@ -62,16 +57,16 @@ function Mainpage() {
      
      <link rel="stylesheet" href="style.css"/>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
           <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+           <script async src="https://www.googletagmanager.com/gtag/js?id=G-S02P0Z99FS"></script>
 
        </Helmet>
      
 <div>
+  <Discount/>
   <Headermb/>
     <Header/>
     <div className='main'> 
@@ -81,8 +76,8 @@ function Mainpage() {
         <i className="fa fa-caret-down"></i>
   </div>
   <div className="dropdown-contentb" style={{marginLeft:"13%",marginTop:"3.38%"}}>
-  <a href="/business+phone+system" style={{color:"#104E71",fontWeight:"400"}}>BUSINESS PHONE SYSTEM</a>
-  <a href="/team+chat+system" style={{color:"#104E71",fontWeight:"400"}}>TEAM CHAT SYSTEM</a>
+  <a href="/business-phone-system" style={{color:"#104E71",fontWeight:"400"}}>BUSINESS PHONE SYSTEM</a>
+  <a href="/team-chat-system" style={{color:"#104E71",fontWeight:"400"}}>TEAM CHAT SYSTEM</a>
   </div>
 </div>
    <div className="dropdown">
@@ -92,13 +87,13 @@ function Mainpage() {
   <div className="dropdown-content">
   <a   style={{color:"#104E71",fontWeight:"500",marginLeft:"0%",marginTop:"4%"}}>BY AUDIENCE</a>
   <a href="/solutions" style={{color:"#104E71",fontWeight:"400"}}>CORPORATIONS	</a>
-  <a href="/small+business+solution" style={{color:"#104E71",fontWeight:"400"}}>SMALL BUSINESSES </a>
+  <a href="/small-business-solution" style={{color:"#104E71",fontWeight:"400"}}>SMALL BUSINESSES </a>
   <a href="/startup" style={{color:"#104E71",fontWeight:"400"}}>STARTUPS</a>
   </div>
 </div>
 
     <a href='/whyvibes' className='nbartext'>WHY VIBES &nbsp;?</a>
-    <a href='/blogs' className='nbartext'>BLOGS</a>
+    <a href='/blogs' className='nbartext'>BLOG</a>
     <a href='/contact' className='nbartext'>CONTACT US</a>
     
 
@@ -110,8 +105,8 @@ function Mainpage() {
 
 <div className='main2'>
 
-    <p className='allonetext'>The all in one</p>
-    <p className='phonetext'>VOIP System </p>
+    <h2 className='allonetext'>The all in one</h2>
+    <h1 className='phonetext'>VOIP System </h1>
     <p className='prgtext'>A user-friendly solution for managing all discussions and interactions<br/> with customers and colleagues. </p>
     <img className='mainimage' src={mainimage} alt='mainimage'/> 
 
@@ -140,16 +135,16 @@ function Mainpage() {
 <p className='technologytext1'>Technology Inovation</p>
 <p className='technologytext2'>One app for everything</p>
 <p className='loretext2'>Vibes Communications is the only app you need for all your small business communication needs. <br/>From calling and messaging to faxing and texting, Vibes has you covered.</p>
-<p className='seetext'>See what’s new</p>
-<hr  className='linemain1'/>
+<p className='seetext' style={{visibility:"hidden"}}>See what’s new</p>
+<hr  className='linemain1' style={{visibility:"hidden"}}/>
 
 <img className='phonefirstmb' src={phonefirst} alt='logodarkblue'/> 
 <img className='skylogomb' src={skylogo3} alt='logodarkblue'/> 
 <p className='technologytext1mb'>One app for everything</p>
 <p className='technologytext2mb'>One app for everything</p>
 <p className='loretext2mb'>Vibes Communications is the only app you need for all your small business<br/> communication needs. From calling and messaging to faxing and texting,<br/> Vibes has you covered.</p>
-<p className='seetextmb'>See what’s new</p>
-<hr  className='linemain1mb'/>
+<p className='seetextmb' style={{visibility:"hidden"}}>See what’s new</p>
+<hr  className='linemain1mb' style={{visibility:"hidden"}}/>
 
 
 <img className='phonefirstmb222' src={phone1}  alt='logodarkblue'/> 
@@ -157,8 +152,8 @@ function Mainpage() {
 <p className='technologytext1mb' style={{textAlign:"right",marginRight:"5%"}}>Global reliability</p>
 <p className='technologytext2mb'>One app for everything</p>
 <p className='loretext2mb'  style={{textAlign:"right",marginRight:"5%"}}>Our cloud-based phone system has a 99.99% uptime SLA, which guarantees<br/> that your business will never experience more than 0.01% downtime in a year.</p>
-<p className='seetextmb'  style={{textAlign:"right",marginRight:"5%"}}>See what’s new</p>
-<hr  className='linemain1mb'  style={{marginLeft:"77.8%"}}/>
+<p className='seetextmb'  style={{textAlign:"right",marginRight:"5%",visibility:"hidden"}}>See what’s new</p>
+<hr  className='linemain1mb'  style={{marginLeft:"77.8%",visibility:"hidden"}}/>
 
 
 
@@ -168,8 +163,8 @@ function Mainpage() {
 <p className='technologytext1mb'>Expand in minutes</p>
 <p className='technologytext2mb'>One app for everything</p>
 <p className='loretext2mb'> Expanding our phone system is now easier than ever. You can simply set up a <br/>new line and add users without any hassle. Scale your business quickly and <br/>efficiently.</p>
-<p className='seetextmb'>See what’s new</p>
-<hr  className='linemain1mb'/>
+<p className='seetextmb' style={{visibility:"hidden"}}>See what’s new</p>
+<hr  className='linemain1mb' style={{visibility:"hidden"}}/>
 
 
 <img className='circleblue' src={circleblue} alt='logodarkblue'/> 
@@ -177,14 +172,14 @@ function Mainpage() {
 <img className='phone1' src={phone1} alt='logodarkblue'/> 
 <p className='geartext'>Global reliability</p>
 <p className='loretext3'>Our cloud-based phone system has a 99.99% uptime SLA, which guarantees that your<br/> business will never experience more than 0.01% downtime in a year.</p>
-<p className='dealtext'>Get the deal <span className='arrow1'>&#8594;</span>	</p>
-<hr  className='linemain2'/>
+<p className='dealtext' style={{visibility:"hidden"}}>Get the deal <span className='arrow1'>&#8594;</span>	</p>
+<hr  className='linemain2' style={{visibility:"hidden"}}/>
 <img className='logodarkblue2' src={logodarkblue} alt='logodarkblue'/> 
 
 <div className='paragraphs'>
 <p className='context1'>Expand in minutes</p>
 <p className='lorecon'> Expanding our phone system is now easier than ever. You can simply set up a new line and <br/>add users without any hassle. Scale your business quickly and efficiently.</p>
-<div className='startedbutton'>Get Started</div>
+<div className='startedbutton' style={{visibility:"hidden"}}>Get Started</div>
 <img className='circleblue2' src={circleblue} alt='logodarkblue'/> 
 
 </div>
@@ -331,5 +326,5 @@ on!</p>
 
   );
 }
-
+ 
 export default Mainpage;

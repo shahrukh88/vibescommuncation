@@ -51,9 +51,12 @@ jsArrow.onclick = function() {
 <div className=''>
 <nav>
     <div className="navbar">
-    <img className='headerlogomb' src={headerlogo} alt='headerlogo'/> 
-<p className='hmbgetstart'>Get Started</p>
-<p className='hmblogin'>Login</p>
+    
+<img className='headerlogomb' src={headerlogo} alt='headerlogo'/>
+
+<p className='hmbgetstart'style={{visibility:"hidden"}}>Get Started</p>
+<p className='hmblogin' style={{visibility:"hidden"}}>Login</p>
+<a href="tel:346-500-6555" className='pnumbermb' >Call Us : 346-500-6555</a>
 
       <i className='bx bx-menu' ></i>
 
@@ -67,8 +70,8 @@ jsArrow.onclick = function() {
             <a href="#">PRODUCTS</a>
             <i className='bx bxs-chevron-down js-arrow arrow '></i>
             <ul className="js-sub-menu sub-menu">
-              <li><a href="/business+phone+system">BUSINESS PHONE SYSTEM</a></li>
-              <li><a href="/team+chat+system">TEAM CHAT SYSTEM</a></li>
+              <li><a href="/business-phone-system">BUSINESS PHONE SYSTEM</a></li>
+              <li><a href="/team-chat-system">TEAM CHAT SYSTEM</a></li>
             </ul>
           </li>
         
@@ -77,16 +80,16 @@ jsArrow.onclick = function() {
             <i className='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
             <ul className="htmlCss-sub-menu sub-menu">
               <li><a href="/solutions">CORPORATIONS	</a></li>
-              <li><a href="/small+business+solution">SMALL BUSINESSES</a></li>
+              <li><a href="/small-business-solution">SMALL BUSINESSES</a></li>
               <li><a href="/startup">STARTUPS</a></li>
              
             </ul>
           </li>
             <li><a href="/whyvibes">WHY VIBES &nbsp;?</a></li>
-          <li><a href="/blogs">BLOGS</a></li>
+          <li><a href="/blogs">BLOG</a></li>
           <li><a href="/contact">CONTACT US</a></li>
-          <li><a href="/privacy&policy">PRIVACY POLICY</a></li>
-          <li><a href="/term&condoitions">TERMS OF SERVICES</a></li>
+          <li><a href="/privacy-policy">PRIVACY POLICY</a></li>
+          <li><a href="/term-condoitions">TERMS OF SERVICES</a></li>
           
 
         </ul>

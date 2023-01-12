@@ -21,9 +21,10 @@ function Headermb() {
 <div className=''>
 <nav>
     <div className="navbar">
-    <img className='headerlogomb' src={headerlogo} alt='headerlogo'/> 
-<p className='hmbgetstart'>Get Started</p>
-<p className='hmblogin'>Login</p>
+    
+ <img className='headerlogomb' src={headerlogo} alt='headerlogo'/> 
+<p className='hmbgetstart'style={{visibility:"hidden"}}>Get Started</p>
+<p className='hmblogin'style={{visibility:"hidden"}}>Login</p>
 
 <button type="button" class="close" id='closebtn' data-dismiss="modal">&times;</button>
 

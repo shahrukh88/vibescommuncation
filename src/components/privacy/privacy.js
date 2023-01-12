@@ -16,17 +16,30 @@ import Footer from '../footer/footer';
 import eslastv from '../images/esolutiions/eslastv.png'
 import esfem3 from '../images/esolutiions/esfem3.png'
 import Headermb from '../header/Headermb';
+import Contact2 from '../contact/contact2';
+import Discount from '../header/Discountoffer';
 
 function Privacy() {
   
    useEffect(() => {   
+    (function(d, w, c) {
+      w.ChatraID = 'td9DTmwopwxBzfMBw';
+      var s = d.createElement('script');
+      w[c] = w[c] || function() {
+          (w[c].q = w[c].q || []).push(arguments);
+      };
+      s.async = true;
+      s.src = 'https://call.chatra.io/chatra.js';
+      if (d.head) d.head.appendChild(s);
+  })(document, window, 'Chatra');
+
     }, []);
 
 
   return (
     <div>
          <Helmet>
-          <title>Privacy Policy| Vibes</title>
+          <title>Privacy Policy | Vibes</title>
           <meta name="description" content="Vibes is best in class Communications Cloud that connects employees, customers, and applications to make people more productive."/>
 
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
@@ -38,6 +51,8 @@ function Privacy() {
        </Helmet>
      
 <div>
+<Discount/>
+
   <Headermb/>
     <Header/>
     <div className='main'> 
@@ -48,8 +63,8 @@ function Privacy() {
         <i className="fa fa-caret-down"></i>
   </div>
   <div className="dropdown-contentb" style={{marginLeft:"13%",marginTop:"3.38%"}}>
-  <a href="/business+phone+system" style={{color:"#104E71",fontWeight:"400"}}>BUSINESS PHONE SYSTEM</a>
-  <a href="/team+chat+system" style={{color:"#104E71",fontWeight:"400"}}>TEAM CHAT SYSTEM</a>
+  <a href="/business-phone-system" style={{color:"#104E71",fontWeight:"400"}}>BUSINESS PHONE SYSTEM</a>
+  <a href="/team-chat-system" style={{color:"#104E71",fontWeight:"400"}}>TEAM CHAT SYSTEM</a>
   </div>
 </div>
    <div className="dropdown">
@@ -59,13 +74,13 @@ function Privacy() {
   <div className="dropdown-content">
   <a   style={{color:"#104E71",fontWeight:"500",marginLeft:"0%",marginTop:"4%"}}>BY AUDIENCE</a>
   <a href="/solutions" style={{color:"#104E71",fontWeight:"400"}}>CORPORATIONS	</a>
-  <a href="/small+business+solution" style={{color:"#104E71",fontWeight:"400"}}>SMALL BUSINESSES </a>
+  <a href="/small-business-solution" style={{color:"#104E71",fontWeight:"400"}}>SMALL BUSINESSES </a>
   <a href="/startup" style={{color:"#104E71",fontWeight:"400"}}>STARTUPS</a>
   </div>
 </div>
 
     <a href='/whyvibes' className='nbartext'>WHY VIBES &nbsp;?</a>
-    <a href='/blogs' className='nbartext'>BLOGS</a>
+    <a href='/blogs' className='nbartext'>BLOG</a>
     <a href='/contact' className='nbartext'>CONTACT US</a>
  
    <img className='logodarkblue' src={logodarkblue} alt='circle1'/> 
@@ -80,8 +95,8 @@ function Privacy() {
 <img className='bpsgirl1' src={bpsgirl1} alt='bpscircle1'/> 
 
 
-<p className='wvbtext1' style={{visibility:"hidden"}}>Why</p>
-<p className='wvbtext2bb'>PRIVACY POLICY</p>
+<h3 className='wvbtext1' style={{visibility:"hidden"}}>Why</h3>
+<h1 className='wvbtext2bb'>PRIVACY POLICY</h1>
 <p className='wvbtext4'>This Privacy Policy applies to your use of https://vibescommunications.com/ and all related apps and services.  </p>
 <p className='wvbtext4mb'>This Privacy Policy applies to your use of https<br/>://vibescommunications.com/ and all related apps and<br/> services.    </p>
 <p className='wvbtext2bb'style={{visibility:"hidden"}}>PRIVACY POLICY</p>
@@ -219,12 +234,23 @@ We use reasonable efforts to protect your information, <br/> especially your per
 <p className='privacytcent1'>If you have any questions or comments about this Privacy Policy, how we collect and use your <br/>information, or your choices and rights regarding the same, then you may contact us at:
 </p>
 <p className='privacyconmb' >If you have any questions or comments about this Privacy Policy,<br/> how we collect and use your information, or your choices and rights<br/> regarding the same, then you may contact us at:</p>
-<div className='escen3btnbx'>CONTACT US NOW</div>
+<div className='escen3btnbx' style={{cursor:"pointer"}} data-toggle="modal" data-target="#myModal">CONTACT US NOW</div>
+<div class="modal fade" id="myModal">
+    <div className="modal-dialog modal-xl" >
+      <div class="modal-content" >
+      <Contact2/> 
+      </div>
+    </div>
+  </div>
 <img className='eslastv' src={eslastv} alt='ecircle2'/> 
 <img className='esfem3' src={esfem3} alt='ecircle2'/> 
 
 </div>  
 <div className='clearfloat'/>
+<div id="fb-root"></div>
+
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
 <Footer/>
 </div>
   );

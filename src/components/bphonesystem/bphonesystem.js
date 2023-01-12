@@ -33,10 +33,22 @@ import bpsservice from '../images/mainpageimg/bpsservice.png'
 import bpssupport from '../images/mainpageimg/bpssupport.png'
 import Footer from '../footer/footer';
 import Headermb from '../header/Headermb';
+import Discount from '../header/Discountoffer';
 
 function Bphonesystem() {
   
    useEffect(() => {   
+    (function(d, w, c) {
+      w.ChatraID = 'td9DTmwopwxBzfMBw';
+      var s = d.createElement('script');
+      w[c] = w[c] || function() {
+          (w[c].q = w[c].q || []).push(arguments);
+      };
+      s.async = true;
+      s.src = 'https://call.chatra.io/chatra.js';
+      if (d.head) d.head.appendChild(s);
+  })(document, window, 'Chatra');
+
     }, []);
 
 
@@ -53,6 +65,8 @@ function Bphonesystem() {
        </Helmet>
      
 <div>
+<Discount/>
+
   <Headermb/>
     <Header/>
     <div className='main'> 
@@ -63,8 +77,8 @@ function Bphonesystem() {
         <i className="fa fa-caret-down"></i>
   </div>
   <div className="dropdown-contentb" style={{marginLeft:"13%",marginTop:"3.38%"}}>
-  <a href="/business+phone+system" style={{color:"#104E71",fontWeight:"400"}}>BUSINESS PHONE SYSTEM</a>
-  <a href="/team+chat+system" style={{color:"#104E71",fontWeight:"400"}}>TEAM CHAT SYSTEM</a>
+  <a href="/business-phone-system" style={{color:"#104E71",fontWeight:"400"}}>BUSINESS PHONE SYSTEM</a>
+  <a href="/team-chat-system" style={{color:"#104E71",fontWeight:"400"}}>TEAM CHAT SYSTEM</a>
   </div>
 </div>
    <div className="dropdown">
@@ -74,13 +88,13 @@ function Bphonesystem() {
   <div className="dropdown-content">
   <a   style={{color:"#104E71",fontWeight:"500",marginLeft:"0%",marginTop:"4%"}}>BY AUDIENCE</a>
   <a href="/solutions" style={{color:"#104E71",fontWeight:"400"}}>CORPORATIONS	</a>
-  <a href="/small+business+solution" style={{color:"#104E71",fontWeight:"400"}}>SMALL BUSINESSES </a>
+  <a href="/small-business-solution" style={{color:"#104E71",fontWeight:"400"}}>SMALL BUSINESSES </a>
   <a href="/startup" style={{color:"#104E71",fontWeight:"400"}}>STARTUPS</a>
   </div>
 </div>
 
     <a href='/whyvibes' className='nbartext'>WHY VIBES &nbsp;?</a>
-    <a href='/blogs' className='nbartext'>BLOGS</a>
+    <a href='/blogs' className='nbartext'>BLOG</a>
     <a href='/contact' className='nbartext'>CONTACT US</a>
    <img className='logodarkblue' src={logodarkblue} alt='circle1'/> 
     <img className='skylogo3' src={skylogo3} alt='circle2'/> 
@@ -93,8 +107,8 @@ function Bphonesystem() {
 <img className='bpscircle1' src={bpscircle1} alt='bpscircle1'/> 
 <img className='bpsgirl1' src={bpsgirl1} alt='bpscircle1'/> 
 
-<p className='bpstext1m'>The perfect VOIP</p>
-<p className='bpstext2m'>phone service</p>
+<h1 className='bpstext1m'>The perfect VOIP</h1>
+<h1 className='bpstext2m'>phone service</h1>
 <p className='bpstext3m'>We got you covered with Vibes. We believe that great connections make all the difference.<br/> We've created a VoIP system that you and your team can use to collaborate and<br/> communicate, on the go! 
  </p>
  <p className='bpstext3mmb'>We got you covered with Vibes. We believe that great<br/> connections make all the difference. We've created a <br/>VoIP system that you and your team can use to <br/>collaborate and communicate, on the go! 
@@ -190,7 +204,10 @@ between<br/> devices and stay connected while on the move.</p>
    
 </div>
 <div className='clearfloat'/>
+<div id="fb-root"></div>
 
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
 <Footer/>
 </div>
 

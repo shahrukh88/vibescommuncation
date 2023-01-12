@@ -21,7 +21,6 @@
     text-transform: uppercase;
     color: #104E71;
     margin-left: 8%;  
-    margin-top: -2%; 
 }
 .startupmaintex3{
     font-family: 'Oswald';
@@ -30,6 +29,7 @@
     color: #000000;
     margin-left: 8%;
     margin-top: 0%;
+    margin-bottom: 3%;
 
 }
 
@@ -110,7 +110,7 @@ hr.startupc2line1{
         text-transform: uppercase;
         color: #104E71;
         margin-left: 5%;
-        margin-top: -3.4%;
+
     }
     .startupmaintex3{
         font-family: 'Oswald';
@@ -127,7 +127,6 @@ hr.startupc2line1{
         font-size: 4vw;
         color: #000000;
         margin-left: 5%;
-        margin-top: -2%;
     
     }
     .startupc2tex1{

@@ -1,0 +1,517 @@
+.discount{
+   width: 100%; 
+   background: #104E71;
+   display: none;
+}
+.discountlogo{
+
+    width: 2.2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 10%;
+
+}
+.discounttext1{
+    position: absolute;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6vw;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 17%;
+    margin-top: 1%;
+}
+.discounttext2{
+    position: absolute;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6vw;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 34.7%;
+    margin-top: 1%;
+}
+.getnow{
+    position: absolute;
+    padding: .4%;
+    border: 1px solid #FFFFFF;
+width: 7%;
+border-radius: 8px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+font-weight: 500;
+font-style: normal;
+font-size: 1vw;
+margin-top: 1%;
+
+margin-left: 73%;
+font-family: 'Oswald';
+
+}
+.discountlogo2{
+
+    width: 2.2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 75%;
+
+}
+@media (max-width:500px) {
+    .discountlogo{
+
+        width: 3%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 10%;
+    
+    }
+    .discounttext1{
+        position: absolute;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.9vw;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-left: 17%;
+        margin-top: 1.3%;
+    }
+    .discounttext2{
+        position: absolute;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.9vw;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-left: 34.7%;
+        margin-top: 1.3%;
+    }
+    .getnow{
+        position: absolute;
+        padding: .4%;
+        border: 1px solid #FFFFFF;
+    width: 9%;
+    border-radius: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.4vw;
+    margin-top: 1.3%;
+    margin-left: 73%;
+    font-family: 'Oswald';
+    
+    }
+    .discountlogo2{
+    
+        width: 3%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 75%;
+    
+    }
+}
+@media (max-width:430px) {
+    .discountlogo{
+
+        width: 3%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-left: 10%;
+    
+    }
+    .discounttext1{
+        position: absolute;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.9vw;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-left: 17%;
+        margin-top: 2%;
+    }
+    .discounttext2{
+        position: absolute;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.9vw;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-left: 34.7%;
+        margin-top: 2%;
+    }
+    .getnow{
+        position: absolute;
+        padding: .7%;
+        border: 1px solid #FFFFFF;
+    width: 9%;
+    border-radius: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.4vw;
+    margin-top: 1.3%;
+    margin-left: 73%;
+    font-family: 'Oswald';
+    
+    }
+    .discountlogo2{
+    
+        width: 3%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-left: 75%;
+    
+    }
+}
+@media (max-width:350px) {
+    .discountlogo{
+
+        width: 3%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-left: 10%;
+    
+    }
+    .discounttext1{
+        position: absolute;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.9vw;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-left: 17%;
+        margin-top: 3%;
+    }
+    .discounttext2{
+        position: absolute;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.9vw;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-left: 34.7%;
+        margin-top: 3%;
+    }
+    .getnow{
+        position: absolute;
+        padding: .5%;
+        border: 1px solid #FFFFFF;
+    width: 10%;
+    border-radius: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.4vw;
+    margin-top: 1.8%;
+    margin-left: 73%;
+    font-family: 'Oswald';
+    
+    }
+    .discountlogo2{
+    
+        width: 3%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-left: 75%;
+    
+    }
+}
+@media (max-width:300px) {
+    .discountlogo{
+
+        width: 4%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-left: 10%;
+    
+    }
+    .discounttext1{
+        position: absolute;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.9vw;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-left: 17%;
+        margin-top: 3.5%;
+    }
+    .discounttext2{
+        position: absolute;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.9vw;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-left: 34.7%;
+        margin-top: 3.5%;
+    }
+    .getnow{
+        position: absolute;
+        padding: .7%;
+        border: 1px solid #FFFFFF;
+    width: 10%;
+    border-radius: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.4vw;
+    margin-top: 2.4%;
+    margin-left: 73%;
+    font-family: 'Oswald';
+    
+    }
+    .discountlogo2{
+    
+        width: 4%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-left: 75%;
+    
+    }
+}
+@media (max-width:250px) {
+    .discountlogo{
+
+        width: 4%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-left: 10%;
+    
+    }
+    .discounttext1{
+        position: absolute;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.9vw;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-left: 17%;
+        margin-top: 4.7%;
+    }
+    .discounttext2{
+        position: absolute;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.9vw;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-left: 34.7%;
+        margin-top: 4.7%;
+    }
+    .getnow{
+        position: absolute;
+        padding: .9%;
+        border: 1px solid #FFFFFF;
+    width: 10%;
+    border-radius: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.4vw;
+    margin-top: 3.2%;
+    margin-left: 73%;
+    font-family: 'Oswald';
+    
+    }
+    .discountlogo2{
+    
+        width: 4%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-left: 75%;
+    
+    }
+}
+@media (max-width:220px) {
+    .discountlogo{
+
+        width: 6%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-left: 10%;
+    
+    }
+    .discounttext1{
+        position: absolute;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2.4vw;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-left: 17%;
+        margin-top: 5.5%;
+    }
+    .discounttext2{
+        position: absolute;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2.4vw;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-left: 37.7%;
+        margin-top: 5.5%;
+    }
+    .getnow{
+        position: absolute;
+        padding: .9%;
+        border: 1px solid #FFFFFF;
+    width: 14%;
+    border-radius: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2vw;
+    margin-top: 4.2%;
+    margin-left: 70%;
+    font-family: 'Oswald';
+    
+    }
+    .discountlogo2{
+    
+        width: 6%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-left: 75%;
+    
+    }
+}
+@media (max-width:170px) {
+    .discountlogo{
+
+        width: 6%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-left: 10%;
+    
+    }
+    .discounttext1{
+        position: absolute;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2.4vw;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-left: 17%;
+        margin-top: 7%;
+    }
+    .discounttext2{
+        position: absolute;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2.4vw;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-left: 37.7%;
+        margin-top: 7%;
+    }
+    .getnow{
+        position: absolute;
+        padding: .4%;
+        border: 1px solid #FFFFFF;
+    width: 14.3%;
+    border-radius: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2vw;
+    margin-top: 6%;
+    margin-left: 70%;
+    font-family: 'Oswald';
+    
+    }
+    .discountlogo2{
+    
+        width: 6%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-left: 75%;
+    
+    }
+}
+@media (max-width:150px) {
+    .discountlogo{
+
+        width: 6%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-left: 10%;
+    
+    }
+    .discounttext1{
+        position: absolute;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2.4vw;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-left: 17%;
+        margin-top: 9%;
+    }
+    .discounttext2{
+        position: absolute;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2.4vw;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-left: 37.7%;
+        margin-top: 9%;
+    }
+    .getnow{
+        position: absolute;
+        padding: .1%;
+        border: 1px solid #FFFFFF;
+    width: 15%;
+    border-radius: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2vw;
+    margin-top: 8%;
+    margin-left: 70%;
+    font-family: 'Oswald';
+    
+    }
+    .discountlogo2{
+    
+        width: 6%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-left: 75%;
+    
+    }
+}
